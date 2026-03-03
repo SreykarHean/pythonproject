@@ -1,11 +1,6 @@
 from recommender import give_recommendation, summarize_competitors
+from data_loader import load_competitors   # supports CSV and API
 import pandas as pd
-
-# Pre-stored competitor datasets by industry
-industries = {
-    "coffee": "sample_data/compet_coffee.csv",
-    "skincare": "sample_data/compet_skincare.csv"
-}
 
 # Global variables
 user_data = None
@@ -18,8 +13,9 @@ recommendation_config = {
 }
 
 def choose_industry():
+    industries = ["coffee", "skincare"]
     print("\n--- Choose Industry ---")
-    for i, ind in enumerate(industries.keys(), start=1):
+    for i, ind in enumerate(industries, start=1):
         print(f"{i}. {ind.capitalize()}")
     print(f"{len(industries)+1}. Exit")
 
@@ -27,10 +23,9 @@ def choose_industry():
     try:
         choice = int(choice)
         if 1 <= choice <= len(industries):
-            industry = list(industries.keys())[choice-1]
-            competitor_file = industries[industry]
+            industry = industries[choice-1]
             print(f"✅ Industry selected: {industry}")
-            return competitor_file
+            return industry
         else:
             return None
     except ValueError:
@@ -90,15 +85,14 @@ def console_menu(role="user"):
     global user_data, competitors_data
 
     # Step 1: Industry selection
-    competitor_file = choose_industry()
-    if competitor_file is None:
+    industry = choose_industry()
+    if industry is None:
         print("Exiting...")
         return
-    try:
-        competitors_data = pd.read_csv(competitor_file).to_dict(orient="records")
-        print(f"✅ Competitor dataset loaded from {competitor_file}")
-    except Exception as e:
-        print("Error loading competitor dataset:", e)
+
+    # Load competitors (flip use_api=True to fetch from API)
+    competitors_data = load_competitors(industry, use_api=False)
+    if not competitors_data:
         return
 
     while True:
