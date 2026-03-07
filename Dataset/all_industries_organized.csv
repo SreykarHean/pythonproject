@@ -1,0 +1,1413 @@
+rank,source,product_name,brand,price,user_rating,user_reviews,category,price_band,rating_tier
+1,Coffee,Vanilla Latte (Or Other Flavoured Latte),Classic Espresso Drinks,250.0,150.0,35,2% Milk,Luxury ($101-250),
+2,Coffee,Caffè Latte,Classic Espresso Drinks,240.0,150.0,22,2% Milk,Luxury ($101-250),
+3,Coffee,Caffè Latte,Classic Espresso Drinks,190.0,150.0,17,2% Milk,Luxury ($101-250),
+4,Coffee,Cappuccino,Classic Espresso Drinks,150.0,150.0,14,2% Milk,Luxury ($101-250),
+5,Coffee,Cappuccino,Classic Espresso Drinks,120.0,150.0,10,2% Milk,Luxury ($101-250),
+6,Coffee,Caffè Mocha (Without Whipped Cream),Classic Espresso Drinks,200.0,95.0,26,2% Milk,Luxury ($101-250),
+7,Coffee,Caffè Mocha (Without Whipped Cream),Classic Espresso Drinks,130.0,85.0,17,2% Milk,Luxury ($101-250),
+8,Coffee,Vanilla Latte (Or Other Flavoured Latte),Classic Espresso Drinks,200.0,75.0,27,2% Milk,Luxury ($101-250),
+9,Coffee,Vanilla Latte (Or Other Flavoured Latte),Classic Espresso Drinks,130.0,75.0,17,2% Milk,Luxury ($101-250),
+10,Coffee,Caffè Latte,Classic Espresso Drinks,150.0,75.0,14,2% Milk,Luxury ($101-250),
+11,Coffee,Caffè Latte,Classic Espresso Drinks,100.0,75.0,9,2% Milk,Premium ($51-100),
+12,Coffee,Cappuccino,Classic Espresso Drinks,90.0,75.0,8,2% Milk,Premium ($51-100),
+13,Coffee,Cappuccino,Classic Espresso Drinks,80.0,75.0,7,2% Milk,Premium ($51-100),
+14,Coffee,Caffè Mocha (Without Whipped Cream),Classic Espresso Drinks,340.0,180.0,43,2% Milk,Ultra ($250+),
+15,Coffee,Caffè Mocha (Without Whipped Cream),Classic Espresso Drinks,260.0,175.0,34,2% Milk,Ultra ($250+),
+16,Coffee,Vanilla Latte (Or Other Flavoured Latte),Classic Espresso Drinks,320.0,150.0,44,2% Milk,Ultra ($250+),
+17,Coffee,Espresso,Classic Espresso Drinks,10.0,150.0,0,Doppio,Budget ($0-25),
+18,Coffee,Caffè Americano,Classic Espresso Drinks,15.0,225.0,0,Grande,Budget ($0-25),
+19,Coffee,Caffè Mocha (Without Whipped Cream),Classic Espresso Drinks,220.0,175.0,34,Grande Nonfat Milk,Luxury ($101-250),
+20,Coffee,Vanilla Latte (Or Other Flavoured Latte),Classic Espresso Drinks,200.0,150.0,35,Grande Nonfat Milk,Luxury ($101-250),
+21,Coffee,Caffè Latte,Classic Espresso Drinks,130.0,150.0,18,Grande Nonfat Milk,Luxury ($101-250),
+22,Coffee,Skinny Latte (Any Flavour),Classic Espresso Drinks,120.0,150.0,16,Grande Nonfat Milk,Luxury ($101-250),
+23,Coffee,Cappuccino,Classic Espresso Drinks,80.0,150.0,10,Grande Nonfat Milk,Premium ($51-100),
+24,Coffee,Caffè Americano,Classic Espresso Drinks,5.0,75.0,0,Short,Budget ($0-25),
+25,Coffee,Caffè Mocha (Without Whipped Cream),Classic Espresso Drinks,110.0,85.0,17,Short Nonfat Milk,Luxury ($101-250),
+26,Coffee,Cappuccino,Classic Espresso Drinks,50.0,75.0,7,Short Nonfat Milk,Mid ($26-50),
+27,Coffee,Vanilla Latte (Or Other Flavoured Latte),Classic Espresso Drinks,100.0,75.0,18,Short Nonfat Milk,Premium ($51-100),
+28,Coffee,Caffè Latte,Classic Espresso Drinks,70.0,75.0,9,Short Nonfat Milk,Premium ($51-100),
+29,Coffee,Skinny Latte (Any Flavour),Classic Espresso Drinks,60.0,75.0,8,Short Nonfat Milk,Premium ($51-100),
+30,Coffee,Espresso,Classic Espresso Drinks,5.0,75.0,0,Solo,Budget ($0-25),
+31,Coffee,Caffè Mocha (Without Whipped Cream),Classic Espresso Drinks,230.0,175.0,26,Soymilk,Luxury ($101-250),
+32,Coffee,Vanilla Latte (Or Other Flavoured Latte),Classic Espresso Drinks,210.0,150.0,26,Soymilk,Luxury ($101-250),
+33,Coffee,Caffè Latte,Classic Espresso Drinks,190.0,150.0,11,Soymilk,Luxury ($101-250),
+34,Coffee,Caffè Latte,Classic Espresso Drinks,150.0,150.0,8,Soymilk,Luxury ($101-250),
+35,Coffee,Cappuccino,Classic Espresso Drinks,120.0,150.0,7,Soymilk,Luxury ($101-250),
+36,Coffee,Caffè Mocha (Without Whipped Cream),Classic Espresso Drinks,180.0,95.0,20,Soymilk,Luxury ($101-250),
+37,Coffee,Caffè Mocha (Without Whipped Cream),Classic Espresso Drinks,110.0,85.0,13,Soymilk,Luxury ($101-250),
+38,Coffee,Vanilla Latte (Or Other Flavoured Latte),Classic Espresso Drinks,160.0,75.0,20,Soymilk,Luxury ($101-250),
+39,Coffee,Vanilla Latte (Or Other Flavoured Latte),Classic Espresso Drinks,110.0,75.0,13,Soymilk,Luxury ($101-250),
+40,Coffee,Caffè Latte,Classic Espresso Drinks,110.0,75.0,6,Soymilk,Luxury ($101-250),
+41,Coffee,Cappuccino,Classic Espresso Drinks,50.0,75.0,3,Soymilk,Mid ($26-50),
+42,Coffee,Cappuccino,Classic Espresso Drinks,100.0,150.0,5,Soymilk,Premium ($51-100),
+43,Coffee,Caffè Latte,Classic Espresso Drinks,70.0,75.0,4,Soymilk,Premium ($51-100),
+44,Coffee,Cappuccino,Classic Espresso Drinks,70.0,75.0,4,Soymilk,Premium ($51-100),
+45,Coffee,Caffè Mocha (Without Whipped Cream),Classic Espresso Drinks,290.0,180.0,33,Soymilk,Ultra ($250+),
+46,Coffee,Vanilla Latte (Or Other Flavoured Latte),Classic Espresso Drinks,270.0,150.0,33,Soymilk,Ultra ($250+),
+47,Coffee,Caffè Americano,Classic Espresso Drinks,10.0,150.0,0,Tall,Budget ($0-25),
+48,Coffee,Caffè Mocha (Without Whipped Cream),Classic Espresso Drinks,170.0,95.0,27,Tall Nonfat Milk,Luxury ($101-250),
+49,Coffee,Vanilla Latte (Or Other Flavoured Latte),Classic Espresso Drinks,150.0,75.0,27,Tall Nonfat Milk,Luxury ($101-250),
+50,Coffee,Caffè Latte,Classic Espresso Drinks,100.0,75.0,14,Tall Nonfat Milk,Premium ($51-100),
+51,Coffee,Skinny Latte (Any Flavour),Classic Espresso Drinks,100.0,75.0,13,Tall Nonfat Milk,Premium ($51-100),
+52,Coffee,Cappuccino,Classic Espresso Drinks,60.0,75.0,8,Tall Nonfat Milk,Premium ($51-100),
+53,Coffee,Caffè Americano,Classic Espresso Drinks,25.0,300.0,0,Venti,Budget ($0-25),
+54,Coffee,Vanilla Latte (Or Other Flavoured Latte),Classic Espresso Drinks,250.0,150.0,45,Venti Nonfat Milk,Luxury ($101-250),
+55,Coffee,Caffè Latte,Classic Espresso Drinks,170.0,150.0,23,Venti Nonfat Milk,Luxury ($101-250),
+56,Coffee,Skinny Latte (Any Flavour),Classic Espresso Drinks,160.0,150.0,21,Venti Nonfat Milk,Luxury ($101-250),
+57,Coffee,Cappuccino,Classic Espresso Drinks,110.0,150.0,14,Venti Nonfat Milk,Luxury ($101-250),
+58,Coffee,Caffè Mocha (Without Whipped Cream),Classic Espresso Drinks,280.0,180.0,44,Venti Nonfat Milk,Ultra ($250+),
+59,Coffee,Brewed Coffee,Coffee,5.0,330.0,0,Grande,Budget ($0-25),
+60,Coffee,Brewed Coffee,Coffee,3.0,175.0,0,Short,Budget ($0-25),
+61,Coffee,Brewed Coffee,Coffee,4.0,260.0,0,Tall,Budget ($0-25),
+62,Coffee,Brewed Coffee,Coffee,5.0,410.0,0,Venti,Budget ($0-25),
+63,Coffee,Coffee,Frappuccino® Blended Coffee,220.0,70.0,50,Grande Nonfat Milk,Luxury ($101-250),
+64,Coffee,Java Chip (Without Whipped Cream),Frappuccino® Blended Coffee,310.0,110.0,62,Grande Nonfat Milk,Ultra ($250+),
+65,Coffee,Mocha (Without Whipped Cream),Frappuccino® Blended Coffee,260.0,110.0,58,Grande Nonfat Milk,Ultra ($250+),
+66,Coffee,Caramel (Without Whipped Cream),Frappuccino® Blended Coffee,280.0,100.0,59,Grande Nonfat Milk,Ultra ($250+),
+67,Coffee,Coffee,Frappuccino® Blended Coffee,220.0,95.0,47,Soymilk,Luxury ($101-250),
+68,Coffee,Java Chip (Without Whipped Cream),Frappuccino® Blended Coffee,220.0,75.0,42,Soymilk,Luxury ($101-250),
+69,Coffee,Caramel (Without Whipped Cream),Frappuccino® Blended Coffee,180.0,70.0,39,Soymilk,Luxury ($101-250),
+70,Coffee,Mocha (Without Whipped Cream),Frappuccino® Blended Coffee,180.0,70.0,38,Soymilk,Luxury ($101-250),
+71,Coffee,Coffee,Frappuccino® Blended Coffee,160.0,70.0,34,Soymilk,Luxury ($101-250),
+72,Coffee,Java Chip (Without Whipped Cream),Frappuccino® Blended Coffee,430.0,145.0,80,Soymilk,Ultra ($250+),
+73,Coffee,Mocha (Without Whipped Cream),Frappuccino® Blended Coffee,350.0,140.0,73,Soymilk,Ultra ($250+),
+74,Coffee,Caramel (Without Whipped Cream),Frappuccino® Blended Coffee,340.0,130.0,73,Soymilk,Ultra ($250+),
+75,Coffee,Coffee,Frappuccino® Blended Coffee,310.0,130.0,66,Soymilk,Ultra ($250+),
+76,Coffee,Java Chip (Without Whipped Cream),Frappuccino® Blended Coffee,310.0,110.0,60,Soymilk,Ultra ($250+),
+77,Coffee,Mocha (Without Whipped Cream),Frappuccino® Blended Coffee,260.0,110.0,55,Soymilk,Ultra ($250+),
+78,Coffee,Caramel (Without Whipped Cream),Frappuccino® Blended Coffee,260.0,100.0,56,Soymilk,Ultra ($250+),
+79,Coffee,Mocha (Without Whipped Cream),Frappuccino® Blended Coffee,180.0,130.0,40,Tall Nonfat Milk,Luxury ($101-250),
+80,Coffee,Java Chip (Without Whipped Cream),Frappuccino® Blended Coffee,220.0,75.0,44,Tall Nonfat Milk,Luxury ($101-250),
+81,Coffee,Caramel (Without Whipped Cream),Frappuccino® Blended Coffee,180.0,70.0,41,Tall Nonfat Milk,Luxury ($101-250),
+82,Coffee,Coffee,Frappuccino® Blended Coffee,160.0,0.0,36,Tall Nonfat Milk,Luxury ($101-250),
+83,Coffee,Java Chip (Without Whipped Cream),Frappuccino® Blended Coffee,420.0,145.0,84,Venti Nonfat Milk,Ultra ($250+),
+84,Coffee,Mocha (Without Whipped Cream),Frappuccino® Blended Coffee,340.0,140.0,76,Venti Nonfat Milk,Ultra ($250+),
+85,Coffee,Caramel (Without Whipped Cream),Frappuccino® Blended Coffee,330.0,130.0,77,Venti Nonfat Milk,Ultra ($250+),
+86,Coffee,Coffee,Frappuccino® Blended Coffee,310.0,95.0,69,Venti Nonfat Milk,Ultra ($250+),
+87,Coffee,Coffee,Frappuccino® Blended Coffee,240.0,95.0,50,Whole Milk,Luxury ($101-250),
+88,Coffee,Java Chip (Without Whipped Cream),Frappuccino® Blended Coffee,240.0,75.0,44,Whole Milk,Luxury ($101-250),
+89,Coffee,Caramel (Without Whipped Cream),Frappuccino® Blended Coffee,200.0,70.0,41,Whole Milk,Luxury ($101-250),
+90,Coffee,Mocha (Without Whipped Cream),Frappuccino® Blended Coffee,200.0,70.0,40,Whole Milk,Luxury ($101-250),
+91,Coffee,Coffee,Frappuccino® Blended Coffee,180.0,70.0,36,Whole Milk,Luxury ($101-250),
+92,Coffee,Java Chip (Without Whipped Cream),Frappuccino® Blended Coffee,460.0,145.0,84,Whole Milk,Ultra ($250+),
+93,Coffee,Mocha (Without Whipped Cream),Frappuccino® Blended Coffee,390.0,140.0,76,Whole Milk,Ultra ($250+),
+94,Coffee,Caramel (Without Whipped Cream),Frappuccino® Blended Coffee,370.0,130.0,77,Whole Milk,Ultra ($250+),
+95,Coffee,Coffee,Frappuccino® Blended Coffee,350.0,130.0,69,Whole Milk,Ultra ($250+),
+96,Coffee,Java Chip (Without Whipped Cream),Frappuccino® Blended Coffee,340.0,110.0,62,Whole Milk,Ultra ($250+),
+97,Coffee,Mocha (Without Whipped Cream),Frappuccino® Blended Coffee,290.0,110.0,58,Whole Milk,Ultra ($250+),
+98,Coffee,Caramel (Without Whipped Cream),Frappuccino® Blended Coffee,280.0,100.0,59,Whole Milk,Ultra ($250+),
+99,Coffee,Vanilla Bean (Without Whipped Cream),Frappuccino® Blended Crème,240.0,0.0,55,Grande Nonfat Milk,Luxury ($101-250),
+100,Coffee,Strawberries & Crème (Without Whipped Cream),Frappuccino® Blended Crème,230.0,0.0,52,Grande Nonfat Milk,Luxury ($101-250),
+101,Coffee,Strawberries & Crème (Without Whipped Cream),Frappuccino® Blended Crème,240.0,0.0,49,Soymilk,Luxury ($101-250),
+102,Coffee,Strawberries & Crème (Without Whipped Cream),Frappuccino® Blended Crème,170.0,0.0,35,Soymilk,Luxury ($101-250),
+103,Coffee,Vanilla Bean (Without Whipped Cream),Frappuccino® Blended Crème,180.0,0.0,35,Soymilk,Luxury ($101-250),
+104,Coffee,Strawberries & Crème (Without Whipped Cream),Frappuccino® Blended Crème,320.0,0.0,64,Soymilk,Ultra ($250+),
+105,Coffee,Strawberries & Crème (Without Whipped Cream),Frappuccino® Blended Crème,170.0,0.0,38,Tall Nonfat Milk,Luxury ($101-250),
+106,Coffee,Vanilla Bean (Without Whipped Cream),Frappuccino® Blended Crème,170.0,0.0,38,Tall Nonfat Milk,Luxury ($101-250),
+107,Coffee,Strawberries & Crème (Without Whipped Cream),Frappuccino® Blended Crème,310.0,0.0,69,Venti Nonfat Milk,Ultra ($250+),
+108,Coffee,Vanilla Bean (Without Whipped Cream),Frappuccino® Blended Crème,200.0,0.0,38,Whole Milk,Luxury ($101-250),
+109,Coffee,Strawberries & Crème (Without Whipped Cream),Frappuccino® Blended Crème,190.0,0.0,37,Whole Milk,Luxury ($101-250),
+110,Coffee,Strawberries & Crème (Without Whipped Cream),Frappuccino® Blended Crème,350.0,0.0,68,Whole Milk,Ultra ($250+),
+111,Coffee,Strawberries & Crème (Without Whipped Cream),Frappuccino® Blended Crème,260.0,0.0,52,Whole Milk,Ultra ($250+),
+112,Coffee,Java Chip,Frappuccino® Light Blended Coffee,220.0,105.0,39,Grande Nonfat Milk,Luxury ($101-250),
+113,Coffee,Mocha,Frappuccino® Light Blended Coffee,150.0,95.0,30,Grande Nonfat Milk,Luxury ($101-250),
+114,Coffee,Coffee,Frappuccino® Light Blended Coffee,120.0,95.0,26,Grande Nonfat Milk,Luxury ($101-250),
+115,Coffee,Caramel,Frappuccino® Light Blended Coffee,150.0,90.0,32,Grande Nonfat Milk,Luxury ($101-250),
+116,Coffee,Java Chip,Frappuccino® Light Blended Coffee,150.0,70.0,27,Tall Nonfat Milk,Luxury ($101-250),
+117,Coffee,Mocha,Frappuccino® Light Blended Coffee,110.0,70.0,23,Tall Nonfat Milk,Luxury ($101-250),
+118,Coffee,Coffee,Frappuccino® Light Blended Coffee,90.0,70.0,19,Tall Nonfat Milk,Premium ($51-100),
+119,Coffee,Caramel,Frappuccino® Light Blended Coffee,100.0,65.0,23,Tall Nonfat Milk,Premium ($51-100),
+120,Coffee,Mocha,Frappuccino® Light Blended Coffee,210.0,130.0,42,Venti Nonfat Milk,Luxury ($101-250),
+121,Coffee,Caramel,Frappuccino® Light Blended Coffee,200.0,120.0,43,Venti Nonfat Milk,Luxury ($101-250),
+122,Coffee,Coffee,Frappuccino® Light Blended Coffee,160.0,120.0,33,Venti Nonfat Milk,Luxury ($101-250),
+123,Coffee,Java Chip,Frappuccino® Light Blended Coffee,290.0,165.0,52,Venti Nonfat Milk,Ultra ($250+),
+124,Coffee,Iced Brewed Coffee (With Milk & Classic Syrup),Shaken Iced Beverages,180.0,170.0,36,2% Milk,Luxury ($101-250),
+125,Coffee,Iced Brewed Coffee (With Milk & Classic Syrup),Shaken Iced Beverages,120.0,125.0,24,2% Milk,Luxury ($101-250),
+126,Coffee,Iced Brewed Coffee (With Classic Syrup),Shaken Iced Beverages,90.0,165.0,21,Grande,Premium ($51-100),
+127,Coffee,Iced Brewed Coffee (With Milk & Classic Syrup),Shaken Iced Beverages,110.0,90.0,24,Grande Nonfat Milk,Luxury ($101-250),
+128,Coffee,Iced Brewed Coffee (With Milk & Classic Syrup),Shaken Iced Beverages,170.0,170.0,33,Soymilk,Luxury ($101-250),
+129,Coffee,Iced Brewed Coffee (With Milk & Classic Syrup),Shaken Iced Beverages,110.0,125.0,22,Soymilk,Luxury ($101-250),
+130,Coffee,Iced Brewed Coffee (With Milk & Classic Syrup),Shaken Iced Beverages,80.0,90.0,17,Soymilk,Premium ($51-100),
+131,Coffee,Shaken Iced Tazo® Tea (With Classic Syrup),Shaken Iced Beverages,60.0,170.0,15,Tall,Premium ($51-100),
+132,Coffee,Iced Brewed Coffee (With Classic Syrup),Shaken Iced Beverages,60.0,120.0,15,Tall,Premium ($51-100),
+133,Coffee,Iced Brewed Coffee (With Milk & Classic Syrup),Shaken Iced Beverages,80.0,90.0,18,Tall Nonfat Milk,Premium ($51-100),
+134,Coffee,Iced Brewed Coffee (With Classic Syrup),Shaken Iced Beverages,130.0,235.0,31,Venti,Luxury ($101-250),
+135,Coffee,Iced Brewed Coffee (With Milk & Classic Syrup),Shaken Iced Beverages,160.0,125.0,36,Venti Nonfat Milk,Luxury ($101-250),
+136,Coffee,Caramel Macchiato,Signature Espresso Drinks,240.0,150.0,32,2% Milk,Luxury ($101-250),
+137,Coffee,White Chocolate Mocha (Without Whipped Cream),Signature Espresso Drinks,200.0,75.0,29,2% Milk,Luxury ($101-250),
+138,Coffee,Caramel Macchiato,Signature Espresso Drinks,180.0,75.0,23,2% Milk,Luxury ($101-250),
+139,Coffee,Caramel Macchiato,Signature Espresso Drinks,120.0,75.0,15,2% Milk,Luxury ($101-250),
+140,Coffee,Hot Chocolate (Without Whipped Cream),Signature Espresso Drinks,230.0,20.0,32,2% Milk,Luxury ($101-250),
+141,Coffee,Hot Chocolate (Without Whipped Cream),Signature Espresso Drinks,150.0,10.0,22,2% Milk,Luxury ($101-250),
+142,Coffee,White Chocolate Mocha (Without Whipped Cream),Signature Espresso Drinks,510.0,150.0,74,2% Milk,Ultra ($250+),
+143,Coffee,White Chocolate Mocha (Without Whipped Cream),Signature Espresso Drinks,400.0,150.0,58,2% Milk,Ultra ($250+),
+144,Coffee,Caramel Macchiato,Signature Espresso Drinks,300.0,150.0,40,2% Milk,Ultra ($250+),
+145,Coffee,White Chocolate Mocha (Without Whipped Cream),Signature Espresso Drinks,310.0,75.0,44,2% Milk,Ultra ($250+),
+146,Coffee,Hot Chocolate (Without Whipped Cream),Signature Espresso Drinks,380.0,30.0,54,2% Milk,Ultra ($250+),
+147,Coffee,Hot Chocolate (Without Whipped Cream),Signature Espresso Drinks,290.0,25.0,41,2% Milk,Ultra ($250+),
+148,Coffee,Caramel Apple Spice (Without Whipped Cream),Signature Espresso Drinks,280.0,0.0,65,Grande,Ultra ($250+),
+149,Coffee,Caramel Macchiato,Signature Espresso Drinks,190.0,150.0,32,Grande Nonfat Milk,Luxury ($101-250),
+150,Coffee,Hot Chocolate (Without Whipped Cream),Signature Espresso Drinks,240.0,25.0,41,Grande Nonfat Milk,Luxury ($101-250),
+151,Coffee,White Chocolate Mocha (Without Whipped Cream),Signature Espresso Drinks,350.0,150.0,58,Grande Nonfat Milk,Ultra ($250+),
+152,Coffee,Caramel Apple Spice (Without Whipped Cream),Signature Espresso Drinks,140.0,0.0,33,Short,Luxury ($101-250),
+153,Coffee,White Chocolate Mocha (Without Whipped Cream),Signature Espresso Drinks,180.0,75.0,29,Short Nonfat Milk,Luxury ($101-250),
+154,Coffee,Hot Chocolate (Without Whipped Cream),Signature Espresso Drinks,130.0,10.0,23,Short Nonfat Milk,Luxury ($101-250),
+155,Coffee,Caramel Macchiato,Signature Espresso Drinks,100.0,75.0,15,Short Nonfat Milk,Premium ($51-100),
+156,Coffee,Caramel Macchiato,Signature Espresso Drinks,250.0,150.0,31,Soymilk,Luxury ($101-250),
+157,Coffee,Caramel Macchiato,Signature Espresso Drinks,200.0,150.0,24,Soymilk,Luxury ($101-250),
+158,Coffee,White Chocolate Mocha (Without Whipped Cream),Signature Espresso Drinks,180.0,75.0,25,Soymilk,Luxury ($101-250),
+159,Coffee,Caramel Macchiato,Signature Espresso Drinks,150.0,75.0,17,Soymilk,Luxury ($101-250),
+160,Coffee,Hot Chocolate (Without Whipped Cream),Signature Espresso Drinks,250.0,25.0,32,Soymilk,Luxury ($101-250),
+161,Coffee,Hot Chocolate (Without Whipped Cream),Signature Espresso Drinks,200.0,20.0,25,Soymilk,Luxury ($101-250),
+162,Coffee,Hot Chocolate (Without Whipped Cream),Signature Espresso Drinks,130.0,10.0,18,Soymilk,Luxury ($101-250),
+163,Coffee,Caramel Macchiato,Signature Espresso Drinks,100.0,75.0,11,Soymilk,Premium ($51-100),
+164,Coffee,White Chocolate Mocha (Without Whipped Cream),Signature Espresso Drinks,460.0,150.0,64,Soymilk,Ultra ($250+),
+165,Coffee,White Chocolate Mocha (Without Whipped Cream),Signature Espresso Drinks,370.0,150.0,51,Soymilk,Ultra ($250+),
+166,Coffee,White Chocolate Mocha (Without Whipped Cream),Signature Espresso Drinks,280.0,75.0,39,Soymilk,Ultra ($250+),
+167,Coffee,Hot Chocolate (Without Whipped Cream),Signature Espresso Drinks,330.0,30.0,44,Soymilk,Ultra ($250+),
+168,Coffee,Caramel Apple Spice (Without Whipped Cream),Signature Espresso Drinks,210.0,0.0,49,Tall,Luxury ($101-250),
+169,Coffee,Caramel Macchiato,Signature Espresso Drinks,140.0,75.0,24,Tall Nonfat Milk,Luxury ($101-250),
+170,Coffee,Hot Chocolate (Without Whipped Cream),Signature Espresso Drinks,190.0,20.0,32,Tall Nonfat Milk,Luxury ($101-250),
+171,Coffee,White Chocolate Mocha (Without Whipped Cream),Signature Espresso Drinks,270.0,75.0,45,Tall Nonfat Milk,Ultra ($250+),
+172,Coffee,Caramel Apple Spice (Without Whipped Cream),Signature Espresso Drinks,360.0,0.0,83,Venti,Ultra ($250+),
+173,Coffee,Caramel Macchiato,Signature Espresso Drinks,240.0,150.0,41,Venti Nonfat Milk,Luxury ($101-250),
+174,Coffee,White Chocolate Mocha (Without Whipped Cream),Signature Espresso Drinks,450.0,150.0,74,Venti Nonfat Milk,Ultra ($250+),
+175,Coffee,Hot Chocolate (Without Whipped Cream),Signature Espresso Drinks,320.0,30.0,55,Venti Nonfat Milk,Ultra ($250+),
+176,Coffee,Banana Chocolate Smoothie,Smoothies,300.0,15.0,34,2% Milk,Ultra ($250+),
+177,Coffee,Strawberry Banana Smoothie,Smoothies,290.0,0.0,41,2% Milk,Ultra ($250+),
+178,Coffee,Orange Mango Banana Smoothie,Smoothies,270.0,0.0,37,2% Milk,Ultra ($250+),
+179,Coffee,Orange Mango Banana Smoothie,Smoothies,260.0,15.0,37,Grande Nonfat Milk,Ultra ($250+),
+180,Coffee,Strawberry Banana Smoothie,Smoothies,290.0,0.0,41,Grande Nonfat Milk,Ultra ($250+),
+181,Coffee,Banana Chocolate Smoothie,Smoothies,290.0,15.0,31,Soymilk,Ultra ($250+),
+182,Coffee,Strawberry Banana Smoothie,Smoothies,290.0,0.0,40,Soymilk,Ultra ($250+),
+183,Coffee,Orange Mango Banana Smoothie,Smoothies,270.0,0.0,36,Soymilk,Ultra ($250+),
+184,Coffee,Tazo® Chai Tea Latte,Tazo® Tea Drinks,240.0,95.0,42,2% Milk,Luxury ($101-250),
+185,Coffee,Tazo® Chai Tea Latte,Tazo® Tea Drinks,190.0,70.0,32,2% Milk,Luxury ($101-250),
+186,Coffee,Tazo® Chai Tea Latte,Tazo® Tea Drinks,120.0,50.0,21,2% Milk,Luxury ($101-250),
+187,Coffee,Tazo® Green Tea Latte,Tazo® Tea Drinks,170.0,25.0,25,2% Milk,Luxury ($101-250),
+188,Coffee,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Tazo® Tea Drinks,230.0,0.0,38,2% Milk,Luxury ($101-250),
+189,Coffee,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Tazo® Tea Drinks,190.0,0.0,30,2% Milk,Luxury ($101-250),
+190,Coffee,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Tazo® Tea Drinks,140.0,0.0,23,2% Milk,Luxury ($101-250),
+191,Coffee,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Tazo® Tea Drinks,90.0,0.0,15,2% Milk,Premium ($51-100),
+192,Coffee,Tazo® Chai Tea Latte,Tazo® Tea Drinks,310.0,120.0,53,2% Milk,Ultra ($250+),
+193,Coffee,Tazo® Green Tea Latte,Tazo® Tea Drinks,450.0,110.0,71,2% Milk,Ultra ($250+),
+194,Coffee,Tazo® Green Tea Latte,Tazo® Tea Drinks,350.0,80.0,55,2% Milk,Ultra ($250+),
+195,Coffee,Tazo® Green Tea Latte,Tazo® Tea Drinks,260.0,55.0,40,2% Milk,Ultra ($250+),
+196,Coffee,Tazo® Chai Tea Latte,Tazo® Tea Drinks,210.0,95.0,43,Grande Nonfat Milk,Luxury ($101-250),
+197,Coffee,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Tazo® Tea Drinks,150.0,0.0,31,Grande Nonfat Milk,Luxury ($101-250),
+198,Coffee,Tazo® Green Tea Latte,Tazo® Tea Drinks,290.0,80.0,56,Grande Nonfat Milk,Ultra ($250+),
+199,Coffee,Tazo® Green Tea Latte,Tazo® Tea Drinks,130.0,25.0,25,Short Nonfat Milk,Luxury ($101-250),
+200,Coffee,Tazo® Chai Tea Latte,Tazo® Tea Drinks,100.0,50.0,21,Short Nonfat Milk,Premium ($51-100),
+201,Coffee,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Tazo® Tea Drinks,80.0,0.0,16,Short Nonfat Milk,Premium ($51-100),
+202,Coffee,Tazo® Chai Tea Latte,Tazo® Tea Drinks,220.0,95.0,37,Soymilk,Luxury ($101-250),
+203,Coffee,Tazo® Chai Tea Latte,Tazo® Tea Drinks,160.0,70.0,28,Soymilk,Luxury ($101-250),
+204,Coffee,Tazo® Green Tea Latte,Tazo® Tea Drinks,230.0,55.0,33,Soymilk,Luxury ($101-250),
+205,Coffee,Tazo® Chai Tea Latte,Tazo® Tea Drinks,110.0,50.0,18,Soymilk,Luxury ($101-250),
+206,Coffee,Tazo® Green Tea Latte,Tazo® Tea Drinks,140.0,25.0,20,Soymilk,Luxury ($101-250),
+207,Coffee,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Tazo® Tea Drinks,210.0,0.0,32,Soymilk,Luxury ($101-250),
+208,Coffee,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Tazo® Tea Drinks,170.0,0.0,25,Soymilk,Luxury ($101-250),
+209,Coffee,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Tazo® Tea Drinks,130.0,0.0,19,Soymilk,Luxury ($101-250),
+210,Coffee,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Tazo® Tea Drinks,80.0,0.0,13,Soymilk,Premium ($51-100),
+211,Coffee,Tazo® Chai Tea Latte,Tazo® Tea Drinks,280.0,120.0,46,Soymilk,Ultra ($250+),
+212,Coffee,Tazo® Green Tea Latte,Tazo® Tea Drinks,390.0,110.0,58,Soymilk,Ultra ($250+),
+213,Coffee,Tazo® Green Tea Latte,Tazo® Tea Drinks,310.0,80.0,46,Soymilk,Ultra ($250+),
+214,Coffee,Tazo® Chai Tea Latte,Tazo® Tea Drinks,160.0,70.0,32,Tall Nonfat Milk,Luxury ($101-250),
+215,Coffee,Tazo® Green Tea Latte,Tazo® Tea Drinks,210.0,55.0,41,Tall Nonfat Milk,Luxury ($101-250),
+216,Coffee,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Tazo® Tea Drinks,120.0,0.0,23,Tall Nonfat Milk,Luxury ($101-250),
+217,Coffee,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),Tazo® Tea Drinks,190.0,0.0,39,Venti Nonfat Milk,Luxury ($101-250),
+218,Coffee,Tazo® Chai Tea Latte,Tazo® Tea Drinks,260.0,120.0,54,Venti Nonfat Milk,Ultra ($250+),
+219,Coffee,Tazo® Green Tea Latte,Tazo® Tea Drinks,370.0,110.0,71,Venti Nonfat Milk,Ultra ($250+),
+220,Foods,Hainanese Chicken Chop,Casual Dining,18.2325,64.0,0,Chinese,Budget ($0-25),
+221,Foods,Chee Cheong Fun,Casual Dining,14.96,33.0,0,Chinese,Budget ($0-25),
+222,Foods,Ang Ku Kueh,Casual Dining,5.59,23.0,0,Chinese,Budget ($0-25),
+223,Foods,Lor Bak,Casual Dining,24.582,23.0,0,Chinese,Budget ($0-25),
+224,Foods,Chai Tow Kway,Casual Dining,19.8475,22.0,0,Chinese,Budget ($0-25),
+225,Foods,Hakka Thunder Tea Rice,Casual Dining,8.316,17.0,0,Chinese,Budget ($0-25),
+226,Foods,Chai Tow Kway,Casual Dining,9.036,16.0,0,Chinese,Budget ($0-25),
+227,Foods,Fish Maw Soup,Casual Dining,18.414,16.0,0,Chinese,Budget ($0-25),
+228,Foods,Lor Bak,Casual Dining,11.358,13.0,0,Chinese,Budget ($0-25),
+229,Foods,Bak Kwa,Casual Dining,12.672,9.0,0,Chinese,Budget ($0-25),
+230,Foods,Hakka Thunder Tea Rice,Casual Dining,10.044,8.0,0,Chinese,Budget ($0-25),
+231,Foods,Braised Duck,Casual Dining,38.8875,31.0,0,Chinese,Mid ($26-50),
+232,Foods,Bak Kwa,Casual Dining,32.674,21.0,0,Chinese,Mid ($26-50),
+233,Foods,Fish Maw Soup,Casual Dining,28.523,10.0,0,Chinese,Mid ($26-50),
+234,Foods,Chettinad Chicken,Casual Dining,17.7055,63.0,0,Indian,Budget ($0-25),
+235,Foods,Chicken 65,Casual Dining,20.0345,31.0,0,Indian,Budget ($0-25),
+236,Foods,Chettinad Chicken,Casual Dining,23.7575,20.0,0,Indian,Budget ($0-25),
+237,Foods,Appam,Casual Dining,7.56,17.0,0,Indian,Budget ($0-25),
+238,Foods,Chicken 65,Casual Dining,12.834,15.0,0,Indian,Budget ($0-25),
+239,Foods,Idli Sambar,Casual Dining,6.966,15.0,0,Indian,Budget ($0-25),
+240,Foods,Chettinad Chicken,Casual Dining,11.754,13.0,0,Indian,Budget ($0-25),
+241,Foods,Appam,Casual Dining,5.616,7.0,0,Indian,Budget ($0-25),
+242,Foods,Fish Head Curry Tamil,Casual Dining,36.322,12.0,0,Indian,Mid ($26-50),
+243,Foods,Keropok Keping,Casual Dining,4.522,42.0,0,Malay,Budget ($0-25),
+244,Foods,Kuih Bahulu,Casual Dining,5.24,22.0,0,Malay,Budget ($0-25),
+245,Foods,Gulai Tempoyak Ikan,Casual Dining,24.4885,21.0,0,Malay,Budget ($0-25),
+246,Foods,Ikan Pekasam,Casual Dining,11.484,20.0,0,Malay,Budget ($0-25),
+247,Foods,Gulai Kawah,Casual Dining,8.892,15.0,0,Malay,Budget ($0-25),
+248,Foods,Gulai Nangka Muda,Casual Dining,7.578,13.0,0,Malay,Budget ($0-25),
+249,Foods,Keropok Lekor,Casual Dining,7.77,13.0,0,Malay,Budget ($0-25),
+250,Foods,Gulai Ikan Patin,Casual Dining,19.217,12.0,0,Malay,Budget ($0-25),
+251,Foods,Ikan Bakar Sambal,Casual Dining,12.384,12.0,0,Malay,Budget ($0-25),
+252,Foods,Keropok Lekor,Casual Dining,4.014,11.0,0,Malay,Budget ($0-25),
+253,Foods,Keropok Keping,Casual Dining,3.69,8.0,0,Malay,Budget ($0-25),
+254,Foods,Kuih Bahulu,Casual Dining,7.392,8.0,0,Malay,Budget ($0-25),
+255,Foods,Lemang,Casual Dining,5.652,8.0,0,Malay,Budget ($0-25),
+256,Foods,Gulai Ikan Patin,Casual Dining,16.676,7.0,0,Malay,Budget ($0-25),
+257,Foods,Cucur Udang,Casual Dining,8.514,6.0,0,Malay,Budget ($0-25),
+258,Foods,Keropok Keping,Casual Dining,3.798,5.0,0,Malay,Budget ($0-25),Top Rated (4.5-5)
+259,Foods,Kuih Seri Muka,Casual Dining,4.788,4.0,0,Malay,Budget ($0-25),Good (4-4.4)
+260,Foods,Durian Cendol,Casual Dining,11.9,32.0,0,Malaysian,Budget ($0-25),
+261,Foods,Limau Ais,Casual Dining,7.13,23.0,0,Malaysian,Budget ($0-25),
+262,Foods,Limau Ais,Casual Dining,7.395,21.0,0,Malaysian,Budget ($0-25),
+263,Foods,Durian Cendol,Casual Dining,10.08,12.0,0,Malaysian,Budget ($0-25),
+264,Foods,Milo Dinosaur,Casual Dining,5.04,11.0,0,Malaysian,Budget ($0-25),
+265,Foods,Milo Dinosaur,Casual Dining,6.578,11.0,0,Malaysian,Budget ($0-25),
+266,Foods,ABC Special,Casual Dining,10.2085,10.0,0,Malaysian,Budget ($0-25),
+267,Foods,Longan Drink,Casual Dining,5.058,10.0,0,Malaysian,Budget ($0-25),
+268,Foods,Kuih Pie Tee,Casual Dining,20.978,31.0,0,Nyonya,Budget ($0-25),
+269,Foods,Ayam Pongteh,Casual Dining,14.238,16.0,0,Nyonya,Budget ($0-25),
+270,Foods,Kuih Dadar,Casual Dining,4.482,13.0,0,Nyonya,Budget ($0-25),
+271,Foods,Kuih Lapis Nyonya,Casual Dining,4.752,13.0,0,Nyonya,Budget ($0-25),
+272,Foods,Kuih Dadar,Casual Dining,5.51,11.0,0,Nyonya,Budget ($0-25),
+273,Foods,Ayam Pongteh,Casual Dining,29.427,50.0,0,Nyonya,Mid ($26-50),
+274,Foods,Bambangan,Casual Dining,5.13,17.0,0,Sabahan,Budget ($0-25),
+275,Foods,Hinava,Casual Dining,13.392,15.0,0,Sabahan,Budget ($0-25),
+276,Foods,Bambangan,Casual Dining,5.094,11.0,0,Sabahan,Budget ($0-25),
+277,Foods,Bambangan,Casual Dining,5.688,8.0,0,Sabahan,Budget ($0-25),
+278,Foods,Hinava,Casual Dining,39.865,26.0,0,Sabahan,Mid ($26-50),
+279,Foods,Kolo Mee,Casual Dining,7.074,12.0,0,Sarawakian,Budget ($0-25),
+280,Foods,Manok Pansoh,Casual Dining,16.146,9.0,0,Sarawakian,Budget ($0-25),
+281,Foods,Midin Belacan,Casual Dining,15.543,9.0,0,Sarawakian,Budget ($0-25),
+282,Foods,Manok Pansoh,Casual Dining,26.75,16.0,0,Sarawakian,Mid ($26-50),
+283,Foods,Chai Tow Kway,Fast Food,6.24,34.0,0,Chinese,Budget ($0-25),
+284,Foods,Char Kway Teow,Fast Food,14.127,33.0,0,Chinese,Budget ($0-25),
+285,Foods,Lor Bak,Fast Food,15.827,22.0,0,Chinese,Budget ($0-25),
+286,Foods,Hainanese Chicken Chop,Fast Food,14.4245,18.0,0,Chinese,Budget ($0-25),
+287,Foods,Bak Chang,Fast Food,8.37,13.0,0,Chinese,Budget ($0-25),
+288,Foods,Bak Kwa,Fast Food,20.04,13.0,0,Chinese,Budget ($0-25),
+289,Foods,Claypot Lou Shu Fun,Fast Food,10.404,11.0,0,Chinese,Budget ($0-25),
+290,Foods,Chai Tow Kway,Fast Food,10.01,10.0,0,Chinese,Budget ($0-25),
+291,Foods,Masala Dosa,Fast Food,7.446,41.0,0,Indian,Budget ($0-25),
+292,Foods,Masala Dosa,Fast Food,16.133,31.0,0,Indian,Budget ($0-25),
+293,Foods,Appam,Fast Food,7.191,17.0,0,Indian,Budget ($0-25),
+294,Foods,Idli Sambar,Fast Food,13.9655,16.0,0,Indian,Budget ($0-25),
+295,Foods,Masala Dosa,Fast Food,10.387,14.0,0,Indian,Budget ($0-25),
+296,Foods,Idli Sambar,Fast Food,9.2225,12.0,0,Indian,Budget ($0-25),
+297,Foods,Banana Leaf Rice,Fast Food,19.547,11.0,0,Indian,Budget ($0-25),
+298,Foods,Chicken 65,Fast Food,15.114,11.0,0,Indian,Budget ($0-25),
+299,Foods,Fish Head Curry Tamil,Fast Food,28.56,46.0,0,Indian,Mid ($26-50),
+300,Foods,Fish Head Curry Tamil,Fast Food,26.13,26.0,0,Indian,Mid ($26-50),
+301,Foods,Gulai Kawah,Fast Food,17.0255,48.0,0,Malay,Budget ($0-25),
+302,Foods,Ketupat Palas,Fast Food,8.891,39.0,0,Malay,Budget ($0-25),
+303,Foods,Gulai Nangka Muda,Fast Food,9.0695,36.0,0,Malay,Budget ($0-25),
+304,Foods,Kuih Seri Muka,Fast Food,9.146,29.0,0,Malay,Budget ($0-25),
+305,Foods,Ikan Bakar Sambal,Fast Food,18.38,24.0,0,Malay,Budget ($0-25),
+306,Foods,Lempeng,Fast Food,8.6275,21.0,0,Malay,Budget ($0-25),
+307,Foods,Mee Bandung,Fast Food,15.0705,19.0,0,Malay,Budget ($0-25),
+308,Foods,Gulai Kawah,Fast Food,15.51,18.0,0,Malay,Budget ($0-25),
+309,Foods,Ikan Bakar Sambal,Fast Food,17.84,16.0,0,Malay,Budget ($0-25),
+310,Foods,Gulai Nangka Muda,Fast Food,7.794,13.0,0,Malay,Budget ($0-25),
+311,Foods,Ketupat Palas,Fast Food,5.87,13.0,0,Malay,Budget ($0-25),
+312,Foods,Cucur Udang,Fast Food,7.953,11.0,0,Malay,Budget ($0-25),
+313,Foods,Keropok Lekor,Fast Food,6.54,11.0,0,Malay,Budget ($0-25),
+314,Foods,Lemang,Fast Food,8.43,11.0,0,Malay,Budget ($0-25),
+315,Foods,Cucur Udang,Fast Food,7.568,9.0,0,Malay,Budget ($0-25),
+316,Foods,Gulai Kawah,Fast Food,13.497,9.0,0,Malay,Budget ($0-25),
+317,Foods,Cucur Udang,Fast Food,7.86,8.0,0,Malay,Budget ($0-25),
+318,Foods,Cucur Udang,Fast Food,7.227,6.0,0,Malay,Budget ($0-25),
+319,Foods,Ayam Percik,Fast Food,26.877,53.0,0,Malay,Mid ($26-50),
+320,Foods,Kopi Tarik,Fast Food,3.65,15.0,0,Malaysian,Budget ($0-25),
+321,Foods,Longan Drink,Fast Food,4.5305,13.0,0,Malaysian,Budget ($0-25),
+322,Foods,Limau Ais,Fast Food,3.54,10.0,0,Malaysian,Budget ($0-25),
+323,Foods,Kuih Dadar,Fast Food,4.75,54.0,0,Nyonya,Budget ($0-25),
+324,Foods,Kuih Lapis Nyonya,Fast Food,7.3015,33.0,0,Nyonya,Budget ($0-25),
+325,Foods,Kuih Dadar,Fast Food,7.0805,26.0,0,Nyonya,Budget ($0-25),
+326,Foods,Ayam Pongteh,Fast Food,17.9265,25.0,0,Nyonya,Budget ($0-25),
+327,Foods,Kuih Dadar,Fast Food,6.562,20.0,0,Nyonya,Budget ($0-25),
+328,Foods,Kuih Pie Tee,Fast Food,6.93,17.0,0,Nyonya,Budget ($0-25),
+329,Foods,Cincalok Omelette,Fast Food,7.095,9.0,0,Nyonya,Budget ($0-25),
+330,Foods,Hinava,Fast Food,22.3635,52.0,0,Sabahan,Budget ($0-25),
+331,Foods,Kolo Mee,Fast Food,10.778,32.0,0,Sarawakian,Budget ($0-25),
+332,Foods,Manok Pansoh,Fast Food,21.329,15.0,0,Sarawakian,Budget ($0-25),
+333,Foods,Manok Pansoh,Fast Food,18.756,12.0,0,Sarawakian,Budget ($0-25),
+334,Foods,Midin Belacan,Fast Food,8.208,9.0,0,Sarawakian,Budget ($0-25),
+335,Foods,Kolo Mee,Fast Food,14.3565,8.0,0,Sarawakian,Budget ($0-25),
+336,Foods,Kolo Mee,Fast Food,12.496,5.0,0,Sarawakian,Budget ($0-25),Top Rated (4.5-5)
+337,Foods,Lamb Chop,Fast Food,23.31,100.0,0,Western,Budget ($0-25),
+338,Foods,Claypot Lou Shu Fun,Fine Dining,11.232,9.0,0,Chinese,Budget ($0-25),
+339,Foods,Chee Cheong Fun,Fine Dining,6.426,8.0,0,Chinese,Budget ($0-25),
+340,Foods,Fish Maw Soup,Fine Dining,23.436,5.0,0,Chinese,Budget ($0-25),Top Rated (4.5-5)
+341,Foods,Braised Duck,Fine Dining,14.472,4.0,0,Chinese,Budget ($0-25),Good (4-4.4)
+342,Foods,Lor Bak,Fine Dining,10.548,4.0,0,Chinese,Budget ($0-25),Good (4-4.4)
+343,Foods,Braised Duck,Fine Dining,18.234,3.0,0,Chinese,Budget ($0-25),Average (3-3.9)
+344,Foods,Chai Tow Kway,Fine Dining,6.48,3.0,0,Chinese,Budget ($0-25),Average (3-3.9)
+345,Foods,Claypot Lou Shu Fun,Fine Dining,13.626,3.0,0,Chinese,Budget ($0-25),Average (3-3.9)
+346,Foods,Fish Maw Soup,Fine Dining,18.126,3.0,0,Chinese,Budget ($0-25),Average (3-3.9)
+347,Foods,Banana Leaf Rice,Fine Dining,12.42,9.0,0,Indian,Budget ($0-25),
+348,Foods,Appam,Fine Dining,7.362,8.0,0,Indian,Budget ($0-25),
+349,Foods,Banana Leaf Rice,Fine Dining,10.638,7.0,0,Indian,Budget ($0-25),
+350,Foods,Chicken 65,Fine Dining,14.562,6.0,0,Indian,Budget ($0-25),
+351,Foods,Fish Head Curry Tamil,Fine Dining,24.318,6.0,0,Indian,Budget ($0-25),
+352,Foods,Appam,Fine Dining,5.706,5.0,0,Indian,Budget ($0-25),Top Rated (4.5-5)
+353,Foods,Masala Dosa,Fine Dining,8.28,5.0,0,Indian,Budget ($0-25),Top Rated (4.5-5)
+354,Foods,Appam,Fine Dining,10.81,3.0,0,Indian,Budget ($0-25),Average (3-3.9)
+355,Foods,Masala Dosa,Fine Dining,10.134,3.0,0,Indian,Budget ($0-25),Average (3-3.9)
+356,Foods,Lemang,Fine Dining,4.86,11.0,0,Malay,Budget ($0-25),
+357,Foods,Gulai Ikan Patin,Fine Dining,12.366,10.0,0,Malay,Budget ($0-25),
+358,Foods,Ikan Bakar Sambal,Fine Dining,13.014,10.0,0,Malay,Budget ($0-25),
+359,Foods,Gulai Ikan Patin,Fine Dining,14.148,9.0,0,Malay,Budget ($0-25),
+360,Foods,Ikan Pekasam,Fine Dining,7.65,9.0,0,Malay,Budget ($0-25),
+361,Foods,Lemang,Fine Dining,5.544,7.0,0,Malay,Budget ($0-25),
+362,Foods,Dodol,Fine Dining,6.408,6.0,0,Malay,Budget ($0-25),
+363,Foods,Dodol,Fine Dining,5.526,6.0,0,Malay,Budget ($0-25),
+364,Foods,Keropok Lekor,Fine Dining,3.762,6.0,0,Malay,Budget ($0-25),
+365,Foods,Ketupat Palas,Fine Dining,4.248,6.0,0,Malay,Budget ($0-25),
+366,Foods,Lemang,Fine Dining,5.382,6.0,0,Malay,Budget ($0-25),
+367,Foods,Gulai Tempoyak Ikan,Fine Dining,13.734,5.0,0,Malay,Budget ($0-25),Top Rated (4.5-5)
+368,Foods,Kuih Seri Muka,Fine Dining,6.192,5.0,0,Malay,Budget ($0-25),Top Rated (4.5-5)
+369,Foods,Lemang,Fine Dining,5.418,5.0,0,Malay,Budget ($0-25),Top Rated (4.5-5)
+370,Foods,Cucur Udang,Fine Dining,6.228,4.0,0,Malay,Budget ($0-25),Good (4-4.4)
+371,Foods,Cucur Udang,Fine Dining,6.336,4.0,0,Malay,Budget ($0-25),Good (4-4.4)
+372,Foods,Dodol,Fine Dining,5.886,4.0,0,Malay,Budget ($0-25),Good (4-4.4)
+373,Foods,Gulai Tempoyak Ikan,Fine Dining,14.634,4.0,0,Malay,Budget ($0-25),Good (4-4.4)
+374,Foods,Ikan Bakar Sambal,Fine Dining,9.63,4.0,0,Malay,Budget ($0-25),Good (4-4.4)
+375,Foods,Keropok Keping,Fine Dining,4.176,4.0,0,Malay,Budget ($0-25),Good (4-4.4)
+376,Foods,Keropok Keping,Fine Dining,4.014,4.0,0,Malay,Budget ($0-25),Good (4-4.4)
+377,Foods,Ikan Bakar Sambal,Fine Dining,10.998,3.0,0,Malay,Budget ($0-25),Average (3-3.9)
+378,Foods,Keropok Keping,Fine Dining,3.762,3.0,0,Malay,Budget ($0-25),Average (3-3.9)
+379,Foods,Ketupat Palas,Fine Dining,4.752,3.0,0,Malay,Budget ($0-25),Average (3-3.9)
+380,Foods,Kuih Bahulu,Fine Dining,4.77,3.0,0,Malay,Budget ($0-25),Average (3-3.9)
+381,Foods,Longan Drink,Fine Dining,4.5,9.0,0,Malaysian,Budget ($0-25),
+382,Foods,Grass Jelly Drink,Fine Dining,4.95,8.0,0,Malaysian,Budget ($0-25),
+383,Foods,ABC Special,Fine Dining,8.532,7.0,0,Malaysian,Budget ($0-25),
+384,Foods,Durian Cendol,Fine Dining,10.026,6.0,0,Malaysian,Budget ($0-25),
+385,Foods,ABC Special,Fine Dining,6.192,5.0,0,Malaysian,Budget ($0-25),Top Rated (4.5-5)
+386,Foods,Barley Water,Fine Dining,3.636,5.0,0,Malaysian,Budget ($0-25),Top Rated (4.5-5)
+387,Foods,Kopi Tarik,Fine Dining,2.592,5.0,0,Malaysian,Budget ($0-25),Top Rated (4.5-5)
+388,Foods,Air Mata Kucing,Fine Dining,4.662,4.0,0,Malaysian,Budget ($0-25),Good (4-4.4)
+389,Foods,Durian Cendol,Fine Dining,12.006,4.0,0,Malaysian,Budget ($0-25),Good (4-4.4)
+390,Foods,Milo Dinosaur,Fine Dining,5.85,4.0,0,Malaysian,Budget ($0-25),Good (4-4.4)
+391,Foods,ABC Special,Fine Dining,6.228,3.0,0,Malaysian,Budget ($0-25),Average (3-3.9)
+392,Foods,Air Mata Kucing,Fine Dining,5.148,3.0,0,Malaysian,Budget ($0-25),Average (3-3.9)
+393,Foods,Longan Drink,Fine Dining,4.338,3.0,0,Malaysian,Budget ($0-25),Average (3-3.9)
+394,Foods,Kuih Pie Tee,Fine Dining,7.488,14.0,0,Nyonya,Budget ($0-25),
+395,Foods,Kuih Pie Tee,Fine Dining,10.044,9.0,0,Nyonya,Budget ($0-25),
+396,Foods,Kuih Dadar,Fine Dining,4.986,5.0,0,Nyonya,Budget ($0-25),Top Rated (4.5-5)
+397,Foods,Kuih Pie Tee,Fine Dining,8.226,5.0,0,Nyonya,Budget ($0-25),Top Rated (4.5-5)
+398,Foods,Kuih Pie Tee,Fine Dining,7.038,5.0,0,Nyonya,Budget ($0-25),Top Rated (4.5-5)
+399,Foods,Kuih Lapis Nyonya,Fine Dining,4.644,4.0,0,Nyonya,Budget ($0-25),Good (4-4.4)
+400,Foods,Bambangan,Fine Dining,6.66,14.0,0,Sabahan,Budget ($0-25),
+401,Foods,Hinava,Fine Dining,17.424,11.0,0,Sabahan,Budget ($0-25),
+402,Foods,Hinava,Fine Dining,14.202,10.0,0,Sabahan,Budget ($0-25),
+403,Foods,Bambangan,Fine Dining,5.4,3.0,0,Sabahan,Budget ($0-25),Average (3-3.9)
+404,Foods,Hinava,Fine Dining,12.942,3.0,0,Sabahan,Budget ($0-25),Average (3-3.9)
+405,Foods,Midin Belacan,Fine Dining,9.36,10.0,0,Sarawakian,Budget ($0-25),
+406,Foods,Manok Pansoh,Fine Dining,15.732,4.0,0,Sarawakian,Budget ($0-25),Good (4-4.4)
+407,Foods,Mushroom Soup Western,Fine Dining,11.412,8.0,0,Western,Budget ($0-25),
+408,Foods,Fish Maw Soup,Food Court,23.12,72.0,0,Chinese,Budget ($0-25),
+409,Foods,Chee Cheong Fun,Food Court,8.007,56.0,0,Chinese,Budget ($0-25),
+410,Foods,Claypot Lou Shu Fun,Food Court,9.288,55.0,0,Chinese,Budget ($0-25),
+411,Foods,Lor Bak,Food Court,8.9505,46.0,0,Chinese,Budget ($0-25),
+412,Foods,Egg Tart,Food Court,12.4865,44.0,0,Chinese,Budget ($0-25),
+413,Foods,Bak Chang,Food Court,7.378,40.0,0,Chinese,Budget ($0-25),
+414,Foods,Bak Chang,Food Court,9.69,33.0,0,Chinese,Budget ($0-25),
+415,Foods,Bak Chang,Food Court,8.1685,31.0,0,Chinese,Budget ($0-25),
+416,Foods,Ang Ku Kueh,Food Court,5.236,30.0,0,Chinese,Budget ($0-25),
+417,Foods,Lor Bak,Food Court,9.944,29.0,0,Chinese,Budget ($0-25),
+418,Foods,Lor Bak,Food Court,12.89,28.0,0,Chinese,Budget ($0-25),
+419,Foods,Bak Chang,Food Court,8.19,26.0,0,Chinese,Budget ($0-25),
+420,Foods,Chai Tow Kway,Food Court,8.81,21.0,0,Chinese,Budget ($0-25),
+421,Foods,Bak Kwa,Food Court,17.391,20.0,0,Chinese,Budget ($0-25),
+422,Foods,Banana Leaf Rice,Food Court,11.2625,69.0,0,Indian,Budget ($0-25),
+423,Foods,Idli Sambar,Food Court,5.8565,39.0,0,Indian,Budget ($0-25),
+424,Foods,Masala Dosa,Food Court,7.3355,28.0,0,Indian,Budget ($0-25),
+425,Foods,Idli Sambar,Food Court,6.27,9.0,0,Indian,Budget ($0-25),
+426,Foods,Chicken Rendang,Food Court,15.555,100.0,0,Malay,Budget ($0-25),
+427,Foods,Gulai Kawah,Food Court,9.24,55.0,0,Malay,Budget ($0-25),
+428,Foods,Ikan Bakar Sambal,Food Court,12.903,51.0,0,Malay,Budget ($0-25),
+429,Foods,Dodol,Food Court,8.84,42.0,0,Malay,Budget ($0-25),
+430,Foods,Lemang,Food Court,6.6385,34.0,0,Malay,Budget ($0-25),
+431,Foods,Gulai Tempoyak Ikan,Food Court,14.63,24.0,0,Malay,Budget ($0-25),
+432,Foods,Kuih Seri Muka,Food Court,8.75,23.0,0,Malay,Budget ($0-25),
+433,Foods,Kuih Seri Muka,Food Court,4.55,22.0,0,Malay,Budget ($0-25),
+434,Foods,Dodol,Food Court,8.7,17.0,0,Malay,Budget ($0-25),
+435,Foods,Keropok Lekor,Food Court,5.2105,14.0,0,Malay,Budget ($0-25),
+436,Foods,Gulai Tempoyak Ikan,Food Court,14.003,12.0,0,Malay,Budget ($0-25),
+437,Foods,Dodol,Food Court,6.072,10.0,0,Malay,Budget ($0-25),
+438,Foods,Milo Dinosaur,Food Court,4.454,70.0,0,Malaysian,Budget ($0-25),
+439,Foods,Kopi Tarik,Food Court,3.29,53.0,0,Malaysian,Budget ($0-25),
+440,Foods,Barley Water,Food Court,5.3295,37.0,0,Malaysian,Budget ($0-25),
+441,Foods,Grass Jelly Drink,Food Court,4.884,29.0,0,Malaysian,Budget ($0-25),
+442,Foods,Barley Water,Food Court,4.641,26.0,0,Malaysian,Budget ($0-25),
+443,Foods,Durian Cendol,Food Court,14.637,26.0,0,Malaysian,Budget ($0-25),
+444,Foods,Air Mata Kucing,Food Court,5.0,19.0,0,Malaysian,Budget ($0-25),
+445,Foods,Air Mata Kucing,Food Court,4.037,14.0,0,Malaysian,Budget ($0-25),
+446,Foods,Kuih Pie Tee,Food Court,9.7495,64.0,0,Nyonya,Budget ($0-25),
+447,Foods,Kuih Lapis Nyonya,Food Court,5.74,10.0,0,Nyonya,Budget ($0-25),
+448,Foods,Kolo Mee,Food Court,8.21,52.0,0,Sarawakian,Budget ($0-25),
+449,Foods,Kolo Mee,Food Court,10.4125,35.0,0,Sarawakian,Budget ($0-25),
+450,Foods,Chicken Alfredo,Food Court,18.683,36.0,0,Western,Budget ($0-25),
+451,Foods,Beef Steak,Food Court,37.57,100.0,0,Western,Mid ($26-50),
+452,Foods,Braised Duck,Street Food,12.206,100.0,0,Chinese,Budget ($0-25),
+453,Foods,Braised Duck,Street Food,14.7135,100.0,0,Chinese,Budget ($0-25),
+454,Foods,Hakka Thunder Tea Rice,Street Food,6.0,100.0,0,Chinese,Budget ($0-25),
+455,Foods,Fish Maw Soup,Street Food,24.7,69.0,0,Chinese,Budget ($0-25),
+456,Foods,Claypot Lou Shu Fun,Street Food,12.32,67.0,0,Chinese,Budget ($0-25),
+457,Foods,Fish Maw Soup,Street Food,19.737,63.0,0,Chinese,Budget ($0-25),
+458,Foods,Bak Kwa,Street Food,10.03,55.0,0,Chinese,Budget ($0-25),
+459,Foods,Ang Ku Kueh,Street Food,3.2,42.0,0,Chinese,Budget ($0-25),
+460,Foods,Hainanese Chicken Chop,Street Food,15.16,41.0,0,Chinese,Budget ($0-25),
+461,Foods,Hakka Thunder Tea Rice,Street Food,6.644,40.0,0,Chinese,Budget ($0-25),
+462,Foods,Ang Ku Kueh,Street Food,3.597,31.0,0,Chinese,Budget ($0-25),
+463,Foods,Bak Kwa,Street Food,15.64,30.0,0,Chinese,Budget ($0-25),
+464,Foods,Claypot Lou Shu Fun,Street Food,10.043,28.0,0,Chinese,Budget ($0-25),
+465,Foods,Hakka Thunder Tea Rice,Street Food,11.34,21.0,0,Chinese,Budget ($0-25),
+466,Foods,Fish Head Curry Tamil,Street Food,21.35,100.0,0,Indian,Budget ($0-25),
+467,Foods,Fish Head Curry Tamil,Street Food,18.964,68.0,0,Indian,Budget ($0-25),
+468,Foods,Banana Leaf Rice,Street Food,10.01,63.0,0,Indian,Budget ($0-25),
+469,Foods,Fish Head Curry Tamil,Street Food,14.74,58.0,0,Indian,Budget ($0-25),
+470,Foods,Masala Dosa,Street Food,10.21,58.0,0,Indian,Budget ($0-25),
+471,Foods,Masala Dosa,Street Food,9.13,38.0,0,Indian,Budget ($0-25),
+472,Foods,Idli Sambar,Street Food,5.94,17.0,0,Indian,Budget ($0-25),
+473,Foods,Beef Rendang,Street Food,16.83,100.0,0,Malay,Budget ($0-25),
+474,Foods,Gulai Kawah,Street Food,7.608,100.0,0,Malay,Budget ($0-25),
+475,Foods,Gulai Ikan Patin,Street Food,11.61,82.0,0,Malay,Budget ($0-25),
+476,Foods,Gulai Ikan Patin,Street Food,8.23,79.0,0,Malay,Budget ($0-25),
+477,Foods,Gulai Ikan Patin,Street Food,11.05,79.0,0,Malay,Budget ($0-25),
+478,Foods,Keropok Keping,Street Food,2.14,70.0,0,Malay,Budget ($0-25),
+479,Foods,Gulai Ikan Patin,Street Food,7.26,67.0,0,Malay,Budget ($0-25),
+480,Foods,Gulai Tempoyak Ikan,Street Food,8.41,66.0,0,Malay,Budget ($0-25),
+481,Foods,Ketupat Palas,Street Food,3.22,62.0,0,Malay,Budget ($0-25),
+482,Foods,Keropok Lekor,Street Food,3.64,61.0,0,Malay,Budget ($0-25),
+483,Foods,Ketupat Palas,Street Food,3.223,60.0,0,Malay,Budget ($0-25),
+484,Foods,Lemang,Street Food,4.332,57.0,0,Malay,Budget ($0-25),
+485,Foods,Ikan Pekasam,Street Food,5.355,55.0,0,Malay,Budget ($0-25),
+486,Foods,Keropok Lekor,Street Food,4.505,52.0,0,Malay,Budget ($0-25),
+487,Foods,Cucur Udang,Street Food,3.5785,46.0,0,Malay,Budget ($0-25),
+488,Foods,Keropok Lekor,Street Food,5.083,46.0,0,Malay,Budget ($0-25),
+489,Foods,Dodol,Street Food,6.6045,44.0,0,Malay,Budget ($0-25),
+490,Foods,Kuih Bahulu,Street Food,4.38,27.0,0,Malay,Budget ($0-25),
+491,Foods,Air Mata Kucing,Street Food,4.4795,100.0,0,Malaysian,Budget ($0-25),
+492,Foods,Grass Jelly Drink,Street Food,5.5845,100.0,0,Malaysian,Budget ($0-25),
+493,Foods,Grass Jelly Drink,Street Food,3.696,88.0,0,Malaysian,Budget ($0-25),
+494,Foods,Air Mata Kucing,Street Food,3.587,87.0,0,Malaysian,Budget ($0-25),
+495,Foods,Limau Ais,Street Food,3.5105,83.0,0,Malaysian,Budget ($0-25),
+496,Foods,ABC Special,Street Food,7.98,82.0,0,Malaysian,Budget ($0-25),
+497,Foods,Grass Jelly Drink,Street Food,3.132,67.0,0,Malaysian,Budget ($0-25),
+498,Foods,Limau Ais,Street Food,2.123,57.0,0,Malaysian,Budget ($0-25),
+499,Foods,Longan Drink,Street Food,4.2585,57.0,0,Malaysian,Budget ($0-25),
+500,Foods,ABC Special,Street Food,6.303,55.0,0,Malaysian,Budget ($0-25),
+501,Foods,Grass Jelly Drink,Street Food,2.99,38.0,0,Malaysian,Budget ($0-25),
+502,Foods,Kopi Tarik,Street Food,2.31,36.0,0,Malaysian,Budget ($0-25),
+503,Foods,Barley Water,Street Food,2.23,25.0,0,Malaysian,Budget ($0-25),
+504,Foods,Grass Jelly Drink,Street Food,5.12,25.0,0,Malaysian,Budget ($0-25),
+505,Foods,Limau Ais,Street Food,1.958,24.0,0,Malaysian,Budget ($0-25),
+506,Foods,Kuih Lapis Nyonya,Street Food,3.757,100.0,0,Nyonya,Budget ($0-25),
+507,Foods,Cincalok Omelette,Street Food,6.256,97.0,0,Nyonya,Budget ($0-25),
+508,Foods,Cincalok Omelette,Street Food,8.56,73.0,0,Nyonya,Budget ($0-25),
+509,Foods,Cincalok Omelette,Street Food,6.54,44.0,0,Nyonya,Budget ($0-25),
+510,Foods,Kuih Lapis Nyonya,Street Food,3.861,25.0,0,Nyonya,Budget ($0-25),
+511,Foods,Kuih Dadar,Street Food,5.33,24.0,0,Nyonya,Budget ($0-25),
+512,Foods,Bambangan,Street Food,4.36,100.0,0,Sabahan,Budget ($0-25),
+513,Foods,Hinava,Street Food,9.492,100.0,0,Sabahan,Budget ($0-25),
+514,Foods,Hinava,Street Food,16.2605,60.0,0,Sabahan,Budget ($0-25),
+515,Foods,Kolo Mee,Street Food,7.3695,100.0,0,Sarawakian,Budget ($0-25),
+516,Foods,Manok Pansoh,Street Food,16.881,100.0,0,Sarawakian,Budget ($0-25),
+517,Foods,Midin Belacan,Street Food,10.5315,100.0,0,Sarawakian,Budget ($0-25),
+518,Foods,Midin Belacan,Street Food,8.041,100.0,0,Sarawakian,Budget ($0-25),
+519,Foods,Midin Belacan,Street Food,9.8515,95.0,0,Sarawakian,Budget ($0-25),
+520,Shoes,Nike Essential,Nike,12.0,4.7,316,Ball Pump,Budget ($0-25),Top Rated (4.5-5)
+521,Shoes,Air Jordan Legacy 312 Low,Nike,85.97,4.8,5,Big Kids' Shoes,Premium ($51-100),Top Rated (4.5-5)
+522,Shoes,Nike Zoned Support,Nike,45.0,4.8,11,Calf Sleeves,Mid ($26-50),Top Rated (4.5-5)
+523,Shoes,Nike ACG AW84,Nike,28.0,5.0,1,Cap,Mid ($26-50),Top Rated (4.5-5)
+524,Shoes,Nike Dri-FIT,Nike,36.97,4.7,6,Little Kids' T-Shirt and Shorts Set,Mid ($26-50),Top Rated (4.5-5)
+525,Shoes,Zion 2,Nike,119.97,4.7,3,Men's Basketball Shoes,Luxury ($101-250),Top Rated (4.5-5)
+526,Shoes,Nike Sportswear,Nike,28.97,5.0,1,Men's Logo T-Shirt,Mid ($26-50),Top Rated (4.5-5)
+527,Shoes,Denver Nuggets Nike x Filip Pagowski,Nike,21.97,5.0,1,Men's NBA T-Shirt,Budget ($0-25),Top Rated (4.5-5)
+528,Shoes,Nike Sportswear Swoosh,Nike,140.0,4.9,11,Men's Overalls,Luxury ($101-250),Top Rated (4.5-5)
+529,Shoes,Nike Air Max 90 SE,Nike,119.97,4.8,31,Men's Shoes,Luxury ($101-250),Top Rated (4.5-5)
+530,Shoes,Nike Offline Pack,Nike,92.97,4.8,5,Men's Shoes,Premium ($51-100),Top Rated (4.5-5)
+531,Shoes,Nike Pro,Nike,24.97,4.3,152,Men's Tights,Budget ($0-25),Good (4-4.4)
+532,Shoes,Kristaps Porziņģis Knicks Icon Edition,Nike,104.99,5.0,3,Nike NBA Swingman Jersey,Luxury ($101-250),Top Rated (4.5-5)
+533,Shoes,Nike,Nike,10.97,3.9,15,Ponytail Holder (9-Pack),Budget ($0-25),Average (3-3.9)
+534,Shoes,Air Jordan 1 Zoom CMFT,Nike,150.0,4.8,120,Shoes,Luxury ($101-250),Top Rated (4.5-5)
+535,Shoes,Nike 8-Pound,Nike,26.97,5.0,1,Strength Training Ball,Mid ($26-50),Top Rated (4.5-5)
+536,Shoes,Nike Myriad,Nike,69.97,5.0,1,Sunglasses,Premium ($51-100),Top Rated (4.5-5)
+537,Shoes,Nike SFB Gen 2 8”,Nike,140.0,3.8,28,Tactical Boot,Luxury ($101-250),Average (3-3.9)
+538,Shoes,Nike Sportswear,Nike,32.97,5.0,3,Toddler T-Shirt and Shorts Set,Mid ($26-50),Top Rated (4.5-5)
+539,Shoes,Nike Dri-FIT,Nike,36.0,5.0,1,Toddler T-Shirt and Shorts Set,Mid ($26-50),Top Rated (4.5-5)
+540,Shoes,Nike,Nike,36.97,5.0,1,Toddler Top and Leggings Set,Mid ($26-50),Top Rated (4.5-5)
+541,Shoes,Club América,Nike,90.0,5.0,1,Women's Nike Dri-FIT Soccer Jersey Dress,Premium ($51-100),Top Rated (4.5-5)
+542,Shoes,MLB Houston Astros,Nike,115.0,4.8,5,Women's Replica Baseball Jersey,Luxury ($101-250),Top Rated (4.5-5)
+543,,Kasbah Eau de Parfum,19-69,195.0,4.4762,21,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+544,,Kasbah Eau de Parfum,19-69,195.0,4.4762,21,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+545,,Kasbah Eau de Parfum,19-69,195.0,4.4762,21,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+546,,Rainbow Bar Eau de Parfum,19-69,195.0,4.25,16,Fragrance,Luxury ($101-250),Good (4-4.4)
+547,,Rainbow Bar Eau de Parfum,19-69,195.0,4.25,16,Fragrance,Luxury ($101-250),Good (4-4.4)
+548,,Rainbow Bar Eau de Parfum,19-69,195.0,4.25,16,Fragrance,Luxury ($101-250),Good (4-4.4)
+549,,La Habana Eau de Parfum,19-69,195.0,4.1538,13,Fragrance,Luxury ($101-250),Good (4-4.4)
+550,,La Habana Eau de Parfum,19-69,195.0,4.1538,13,Fragrance,Luxury ($101-250),Good (4-4.4)
+551,,La Habana Eau de Parfum,19-69,195.0,4.1538,13,Fragrance,Luxury ($101-250),Good (4-4.4)
+552,,Invisible Post Eau de Parfum,19-69,195.0,3.625,8,Fragrance,Luxury ($101-250),Average (3-3.9)
+553,,Invisible Post Eau de Parfum,19-69,195.0,3.625,8,Fragrance,Luxury ($101-250),Average (3-3.9)
+554,,Invisible Post Eau de Parfum,19-69,195.0,3.625,8,Fragrance,Luxury ($101-250),Average (3-3.9)
+555,,Capri Eau de Parfum,19-69,195.0,3.5714,7,Fragrance,Luxury ($101-250),Average (3-3.9)
+556,,Capri Eau de Parfum,19-69,195.0,3.5714,7,Fragrance,Luxury ($101-250),Average (3-3.9)
+557,,Capri Eau de Parfum,19-69,195.0,3.5714,7,Fragrance,Luxury ($101-250),Average (3-3.9)
+558,,Purple Haze Eau de Parfum,19-69,195.0,3.2308,13,Fragrance,Luxury ($101-250),Average (3-3.9)
+559,,Purple Haze Eau de Parfum,19-69,195.0,3.2308,13,Fragrance,Luxury ($101-250),Average (3-3.9)
+560,,Purple Haze Eau de Parfum,19-69,195.0,3.2308,13,Fragrance,Luxury ($101-250),Average (3-3.9)
+561,,L'air Barbes Eau de Parfum,19-69,195.0,3.0,4,Fragrance,Luxury ($101-250),Average (3-3.9)
+562,,L'air Barbes Eau de Parfum,19-69,195.0,3.0,4,Fragrance,Luxury ($101-250),Average (3-3.9)
+563,,L'air Barbes Eau de Parfum,19-69,195.0,3.0,4,Fragrance,Luxury ($101-250),Average (3-3.9)
+564,,Kasbah Eau de Parfum Travel Spray,19-69,30.0,4.4762,21,Fragrance,Mid ($26-50),Top Rated (4.5-5)
+565,,Kasbah Eau de Parfum Travel Spray,19-69,30.0,4.4762,21,Fragrance,Mid ($26-50),Top Rated (4.5-5)
+566,,Kasbah Eau de Parfum Travel Spray,19-69,30.0,4.4762,21,Fragrance,Mid ($26-50),Top Rated (4.5-5)
+567,,Rainbow Bar Eau de Parfum Travel Spray,19-69,30.0,4.25,16,Fragrance,Mid ($26-50),Good (4-4.4)
+568,,Rainbow Bar Eau de Parfum Travel Spray,19-69,30.0,4.25,16,Fragrance,Mid ($26-50),Good (4-4.4)
+569,,Rainbow Bar Eau de Parfum Travel Spray,19-69,30.0,4.25,16,Fragrance,Mid ($26-50),Good (4-4.4)
+570,,Fragrance Discovery Set,19-69,35.0,3.6364,11,Fragrance,Mid ($26-50),Average (3-3.9)
+571,,Fragrance Discovery Set,19-69,35.0,3.6364,11,Fragrance,Mid ($26-50),Average (3-3.9)
+572,,Fragrance Discovery Set,19-69,35.0,3.6364,11,Fragrance,Mid ($26-50),Average (3-3.9)
+573,,Invisible Post Eau de Parfum Travel Spray,19-69,30.0,3.625,8,Fragrance,Mid ($26-50),Average (3-3.9)
+574,,Invisible Post Eau de Parfum Travel Spray,19-69,30.0,3.625,8,Fragrance,Mid ($26-50),Average (3-3.9)
+575,,Invisible Post Eau de Parfum Travel Spray,19-69,30.0,3.625,8,Fragrance,Mid ($26-50),Average (3-3.9)
+576,,Capri Eau de Parfum Travel Spray,19-69,30.0,3.5714,7,Fragrance,Mid ($26-50),Average (3-3.9)
+577,,Capri Eau de Parfum Travel Spray,19-69,30.0,3.5714,7,Fragrance,Mid ($26-50),Average (3-3.9)
+578,,Capri Eau de Parfum Travel Spray,19-69,30.0,3.5714,7,Fragrance,Mid ($26-50),Average (3-3.9)
+579,,Purple Haze Eau de Parfum Travel Spray,19-69,30.0,3.2308,13,Fragrance,Mid ($26-50),Average (3-3.9)
+580,,Purple Haze Eau de Parfum Travel Spray,19-69,30.0,3.2308,13,Fragrance,Mid ($26-50),Average (3-3.9)
+581,,Purple Haze Eau de Parfum Travel Spray,19-69,30.0,3.2308,13,Fragrance,Mid ($26-50),Average (3-3.9)
+582,,L'air Barbes Eau de Parfum Travel Spray,19-69,30.0,3.0,4,Fragrance,Mid ($26-50),Average (3-3.9)
+583,,L'air Barbes Eau de Parfum Travel Spray,19-69,30.0,3.0,4,Fragrance,Mid ($26-50),Average (3-3.9)
+584,,L'air Barbes Eau de Parfum Travel Spray,19-69,30.0,3.0,4,Fragrance,Mid ($26-50),Average (3-3.9)
+585,,Mini AFRICAN Beauty Butter- Intensive Dry Skin Treatment,54 Thrones,12.0,4.5175,143,Bath & Body,Budget ($0-25),Top Rated (4.5-5)
+586,,Mini AFRICAN Beauty Butter- Intensive Dry Skin Treatment,54 Thrones,12.0,4.5175,143,Bath & Body,Budget ($0-25),Top Rated (4.5-5)
+587,,Mini AFRICAN Beauty Butter- Intensive Dry Skin Treatment,54 Thrones,12.0,4.5175,143,Bath & Body,Budget ($0-25),Top Rated (4.5-5)
+588,,AFRICAN Beauty Butter- Intensive Dry Skin Treatment,54 Thrones,38.0,4.3256,258,Bath & Body,Mid ($26-50),Good (4-4.4)
+589,,AFRICAN Beauty Butter- Intensive Dry Skin Treatment,54 Thrones,38.0,4.3256,258,Bath & Body,Mid ($26-50),Good (4-4.4)
+590,,AFRICAN Beauty Butter- Intensive Dry Skin Treatment,54 Thrones,38.0,4.3256,258,Bath & Body,Mid ($26-50),Good (4-4.4)
+591,,African Beauty Butter Mini Gift Set,54 Thrones,29.0,3.561,41,Bath & Body,Mid ($26-50),Average (3-3.9)
+592,,African Beauty Butter Mini Gift Set,54 Thrones,29.0,3.561,41,Bath & Body,Mid ($26-50),Average (3-3.9)
+593,,African Beauty Butter Mini Gift Set,54 Thrones,29.0,3.561,41,Bath & Body,Mid ($26-50),Average (3-3.9)
+594,,African Beauty Butter Collection Deluxe Tin,54 Thrones,80.0,4.2273,22,Bath & Body,Premium ($51-100),Good (4-4.4)
+595,,African Beauty Butter Collection Deluxe Tin,54 Thrones,80.0,4.2273,22,Bath & Body,Premium ($51-100),Good (4-4.4)
+596,,African Beauty Butter Collection Deluxe Tin,54 Thrones,80.0,4.2273,22,Bath & Body,Premium ($51-100),Good (4-4.4)
+597,,ABBOTT Sampler Set,ABBOTT,26.0,4.8163,49,Fragrance,Mid ($26-50),Top Rated (4.5-5)
+598,,ABBOTT Sampler Set,ABBOTT,26.0,4.8163,49,Fragrance,Mid ($26-50),Top Rated (4.5-5)
+599,,ABBOTT Sampler Set,ABBOTT,26.0,4.8163,49,Fragrance,Mid ($26-50),Top Rated (4.5-5)
+600,,Crescent Beach Perfume Travel Spray,ABBOTT,29.0,4.7778,9,Fragrance,Mid ($26-50),Top Rated (4.5-5)
+601,,Crescent Beach Perfume Travel Spray,ABBOTT,29.0,4.7778,9,Fragrance,Mid ($26-50),Top Rated (4.5-5)
+602,,Crescent Beach Perfume Travel Spray,ABBOTT,29.0,4.7778,9,Fragrance,Mid ($26-50),Top Rated (4.5-5)
+603,,Mojave Perfume Travel Spray,ABBOTT,29.0,4.7143,7,Fragrance,Mid ($26-50),Top Rated (4.5-5)
+604,,Mojave Perfume Travel Spray,ABBOTT,29.0,4.7143,7,Fragrance,Mid ($26-50),Top Rated (4.5-5)
+605,,Mojave Perfume Travel Spray,ABBOTT,29.0,4.7143,7,Fragrance,Mid ($26-50),Top Rated (4.5-5)
+606,,Big Sky Eau de Parfum Travel Spray,ABBOTT,28.0,4.25,4,Fragrance,Mid ($26-50),Good (4-4.4)
+607,,Big Sky Eau de Parfum Travel Spray,ABBOTT,28.0,4.25,4,Fragrance,Mid ($26-50),Good (4-4.4)
+608,,Big Sky Eau de Parfum Travel Spray,ABBOTT,28.0,4.25,4,Fragrance,Mid ($26-50),Good (4-4.4)
+609,,Seqouia Eau de Parfum Travel Spray,ABBOTT,29.0,4.1667,6,Fragrance,Mid ($26-50),Good (4-4.4)
+610,,Seqouia Eau de Parfum Travel Spray,ABBOTT,29.0,4.1667,6,Fragrance,Mid ($26-50),Good (4-4.4)
+611,,Seqouia Eau de Parfum Travel Spray,ABBOTT,29.0,4.1667,6,Fragrance,Mid ($26-50),Good (4-4.4)
+612,,The Cape Perfume Travel Spray,ABBOTT,29.0,3.8333,6,Fragrance,Mid ($26-50),Average (3-3.9)
+613,,The Cape Perfume Travel Spray,ABBOTT,29.0,3.8333,6,Fragrance,Mid ($26-50),Average (3-3.9)
+614,,The Cape Perfume Travel Spray,ABBOTT,29.0,3.8333,6,Fragrance,Mid ($26-50),Average (3-3.9)
+615,,Montecito Perfume Travel Spray,ABBOTT,29.0,3.7143,7,Fragrance,Mid ($26-50),Average (3-3.9)
+616,,Montecito Perfume Travel Spray,ABBOTT,29.0,3.7143,7,Fragrance,Mid ($26-50),Average (3-3.9)
+617,,Montecito Perfume Travel Spray,ABBOTT,29.0,3.7143,7,Fragrance,Mid ($26-50),Average (3-3.9)
+618,,Big Sky Eau de Parfum,ABBOTT,84.0,4.625,8,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+619,,Big Sky Eau de Parfum,ABBOTT,84.0,4.625,8,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+620,,Big Sky Eau de Parfum,ABBOTT,84.0,4.625,8,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+621,,Sequoia Perfume,ABBOTT,84.0,4.619,21,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+622,,Sequoia Perfume,ABBOTT,84.0,4.619,21,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+623,,Sequoia Perfume,ABBOTT,84.0,4.619,21,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+624,,The Cape Perfume,ABBOTT,84.0,4.6111,18,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+625,,The Cape Perfume,ABBOTT,84.0,4.6111,18,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+626,,The Cape Perfume,ABBOTT,84.0,4.6111,18,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+627,,Crescent Beach Perfume,ABBOTT,84.0,4.5882,17,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+628,,Crescent Beach Perfume,ABBOTT,84.0,4.5882,17,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+629,,Crescent Beach Perfume,ABBOTT,84.0,4.5882,17,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+630,,Montecito Perfume,ABBOTT,84.0,4.1111,9,Fragrance,Premium ($51-100),Good (4-4.4)
+631,,Montecito Perfume,ABBOTT,84.0,4.1111,9,Fragrance,Premium ($51-100),Good (4-4.4)
+632,,Montecito Perfume,ABBOTT,84.0,4.1111,9,Fragrance,Premium ($51-100),Good (4-4.4)
+633,,Mojave Perfume,ABBOTT,84.0,4.0909,11,Fragrance,Premium ($51-100),Good (4-4.4)
+634,,Mojave Perfume,ABBOTT,84.0,4.0909,11,Fragrance,Premium ($51-100),Good (4-4.4)
+635,,Mojave Perfume,ABBOTT,84.0,4.0909,11,Fragrance,Premium ($51-100),Good (4-4.4)
+636,,Wild Geranium,AERIN,145.0,4.6667,24,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+637,,Wild Geranium,AERIN,145.0,4.6667,24,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+638,,Wild Geranium,AERIN,145.0,4.6667,24,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+639,,Amber Musk,AERIN,145.0,4.3833,120,Fragrance,Luxury ($101-250),Good (4-4.4)
+640,,Amber Musk,AERIN,145.0,4.3833,120,Fragrance,Luxury ($101-250),Good (4-4.4)
+641,,Amber Musk,AERIN,145.0,4.3833,120,Fragrance,Luxury ($101-250),Good (4-4.4)
+642,,Waterlily Sun,AERIN,145.0,4.3529,51,Fragrance,Luxury ($101-250),Good (4-4.4)
+643,,Waterlily Sun,AERIN,145.0,4.3529,51,Fragrance,Luxury ($101-250),Good (4-4.4)
+644,,Waterlily Sun,AERIN,145.0,4.3529,51,Fragrance,Luxury ($101-250),Good (4-4.4)
+645,,Aegea Blossom Eau de Parfum,AERIN,145.0,4.3529,17,Fragrance,Luxury ($101-250),Good (4-4.4)
+646,,Aegea Blossom Eau de Parfum,AERIN,145.0,4.3529,17,Fragrance,Luxury ($101-250),Good (4-4.4)
+647,,Aegea Blossom Eau de Parfum,AERIN,145.0,4.3529,17,Fragrance,Luxury ($101-250),Good (4-4.4)
+648,,Ikat Jasmine,AERIN,200.0,4.3385,65,Fragrance,Luxury ($101-250),Good (4-4.4)
+649,,Ikat Jasmine,AERIN,200.0,4.3385,65,Fragrance,Luxury ($101-250),Good (4-4.4)
+650,,Ikat Jasmine,AERIN,200.0,4.3385,65,Fragrance,Luxury ($101-250),Good (4-4.4)
+651,,Hibiscus Palm Eau de Parfum,AERIN,145.0,4.3333,60,Fragrance,Luxury ($101-250),Good (4-4.4)
+652,,Hibiscus Palm Eau de Parfum,AERIN,145.0,4.3333,60,Fragrance,Luxury ($101-250),Good (4-4.4)
+653,,Hibiscus Palm Eau de Parfum,AERIN,145.0,4.3333,60,Fragrance,Luxury ($101-250),Good (4-4.4)
+654,,Lilac Path,AERIN,145.0,4.2875,80,Fragrance,Luxury ($101-250),Good (4-4.4)
+655,,Lilac Path,AERIN,145.0,4.2875,80,Fragrance,Luxury ($101-250),Good (4-4.4)
+656,,Lilac Path,AERIN,145.0,4.2875,80,Fragrance,Luxury ($101-250),Good (4-4.4)
+657,,Mediterranean Honeysuckle,AERIN,145.0,4.2158,139,Fragrance,Luxury ($101-250),Good (4-4.4)
+658,,Mediterranean Honeysuckle,AERIN,145.0,4.2158,139,Fragrance,Luxury ($101-250),Good (4-4.4)
+659,,Mediterranean Honeysuckle,AERIN,145.0,4.2158,139,Fragrance,Luxury ($101-250),Good (4-4.4)
+660,,Tangier Vanille,AERIN,145.0,3.6923,39,Fragrance,Luxury ($101-250),Average (3-3.9)
+661,,Tangier Vanille,AERIN,145.0,3.6923,39,Fragrance,Luxury ($101-250),Average (3-3.9)
+662,,Tangier Vanille,AERIN,145.0,3.6923,39,Fragrance,Luxury ($101-250),Average (3-3.9)
+663,,Mediterranean Honeysuckle Clementina,AERIN,145.0,3.5,4,Fragrance,Luxury ($101-250),Average (3-3.9)
+664,,Mediterranean Honeysuckle Clementina,AERIN,145.0,3.5,4,Fragrance,Luxury ($101-250),Average (3-3.9)
+665,,Mediterranean Honeysuckle Clementina,AERIN,145.0,3.5,4,Fragrance,Luxury ($101-250),Average (3-3.9)
+666,,Cedar Violet Eau de Parfum,AERIN,145.0,3.3571,14,Fragrance,Luxury ($101-250),Average (3-3.9)
+667,,Cedar Violet Eau de Parfum,AERIN,145.0,3.3571,14,Fragrance,Luxury ($101-250),Average (3-3.9)
+668,,Cedar Violet Eau de Parfum,AERIN,145.0,3.3571,14,Fragrance,Luxury ($101-250),Average (3-3.9)
+669,,Mediterranean Honeysuckle Mimosa Eau de Parfum,AERIN,135.0,3.2,10,Fragrance,Luxury ($101-250),Average (3-3.9)
+670,,Mediterranean Honeysuckle Mimosa Eau de Parfum,AERIN,135.0,3.2,10,Fragrance,Luxury ($101-250),Average (3-3.9)
+671,,Mediterranean Honeysuckle Mimosa Eau de Parfum,AERIN,135.0,3.2,10,Fragrance,Luxury ($101-250),Average (3-3.9)
+672,,Wild Geranium Travel Spray,AERIN,35.0,4.3333,21,Fragrance,Mid ($26-50),Good (4-4.4)
+673,,Wild Geranium Travel Spray,AERIN,35.0,4.3333,21,Fragrance,Mid ($26-50),Good (4-4.4)
+674,,Wild Geranium Travel Spray,AERIN,35.0,4.3333,21,Fragrance,Mid ($26-50),Good (4-4.4)
+675,,Mediterranean Honeysuckle Eau de Parfum Travel Spray,AERIN,35.0,4.2,50,Fragrance,Mid ($26-50),Good (4-4.4)
+676,,Mediterranean Honeysuckle Eau de Parfum Travel Spray,AERIN,35.0,4.2,50,Fragrance,Mid ($26-50),Good (4-4.4)
+677,,Mediterranean Honeysuckle Eau de Parfum Travel Spray,AERIN,35.0,4.2,50,Fragrance,Mid ($26-50),Good (4-4.4)
+678,,Hibiscus Palm Eau de Parfum Travel Spray,AERIN,35.0,4.0714,14,Fragrance,Mid ($26-50),Good (4-4.4)
+679,,Hibiscus Palm Eau de Parfum Travel Spray,AERIN,35.0,4.0714,14,Fragrance,Mid ($26-50),Good (4-4.4)
+680,,Hibiscus Palm Eau de Parfum Travel Spray,AERIN,35.0,4.0714,14,Fragrance,Mid ($26-50),Good (4-4.4)
+681,,Ikat Jasmine Travel Spray,AERIN,35.0,4.0,13,Fragrance,Mid ($26-50),Good (4-4.4)
+682,,Ikat Jasmine Travel Spray,AERIN,35.0,4.0,13,Fragrance,Mid ($26-50),Good (4-4.4)
+683,,Ikat Jasmine Travel Spray,AERIN,35.0,4.0,13,Fragrance,Mid ($26-50),Good (4-4.4)
+684,,Mini Aegea Blossom Eau de Parfum Travel Spray,AERIN,35.0,3.7059,17,Fragrance,Mid ($26-50),Average (3-3.9)
+685,,Mini Aegea Blossom Eau de Parfum Travel Spray,AERIN,35.0,3.7059,17,Fragrance,Mid ($26-50),Average (3-3.9)
+686,,Mini Aegea Blossom Eau de Parfum Travel Spray,AERIN,35.0,3.7059,17,Fragrance,Mid ($26-50),Average (3-3.9)
+687,,Cedar Violet Eau de Parfum Travel Spray,AERIN,35.0,3.3571,14,Fragrance,Mid ($26-50),Average (3-3.9)
+688,,Cedar Violet Eau de Parfum Travel Spray,AERIN,35.0,3.3571,14,Fragrance,Mid ($26-50),Average (3-3.9)
+689,,Cedar Violet Eau de Parfum Travel Spray,AERIN,35.0,3.3571,14,Fragrance,Mid ($26-50),Average (3-3.9)
+690,,Rose De Grasse Pour Filles Eau de Parfum,AERIN,100.0,2.0,1,Fragrance,Premium ($51-100),Low (1-2.9)
+691,,Rose De Grasse Pour Filles Eau de Parfum,AERIN,100.0,2.0,1,Fragrance,Premium ($51-100),Low (1-2.9)
+692,,Rose De Grasse Pour Filles Eau de Parfum,AERIN,100.0,2.0,1,Fragrance,Premium ($51-100),Low (1-2.9)
+693,,Rose De Grasse,AERIN,260.0,4.5278,36,Fragrance,Ultra ($250+),Top Rated (4.5-5)
+694,,Rose De Grasse,AERIN,260.0,4.5278,36,Fragrance,Ultra ($250+),Top Rated (4.5-5)
+695,,Rose De Grasse,AERIN,260.0,4.5278,36,Fragrance,Ultra ($250+),Top Rated (4.5-5)
+696,,Rose Lip Conditioner,AERIN,35.0,4.26,527,Makeup,Mid ($26-50),Good (4-4.4)
+697,,Rose Lip Conditioner,AERIN,35.0,4.26,527,Makeup,Mid ($26-50),Good (4-4.4)
+698,,Rose Lip Conditioner,AERIN,35.0,4.26,527,Makeup,Mid ($26-50),Good (4-4.4)
+699,,Amber Musk Eau de Parfum Travel Spray,AERIN,35.0,4.1875,48,Mini Size,Mid ($26-50),Good (4-4.4)
+700,,Amber Musk Eau de Parfum Travel Spray,AERIN,35.0,4.1875,48,Mini Size,Mid ($26-50),Good (4-4.4)
+701,,Amber Musk Eau de Parfum Travel Spray,AERIN,35.0,4.1875,48,Mini Size,Mid ($26-50),Good (4-4.4)
+702,,Restructuring Bond Repair Masque,ALTERNA Haircare,50.0,4.871,31,Hair,Mid ($26-50),Top Rated (4.5-5)
+703,,Restructuring Bond Repair Masque,ALTERNA Haircare,50.0,4.871,31,Hair,Mid ($26-50),Top Rated (4.5-5)
+704,,Restructuring Bond Repair Masque,ALTERNA Haircare,50.0,4.871,31,Hair,Mid ($26-50),Top Rated (4.5-5)
+705,,Renewing Exfoliating Scalp Scrub-to-Foam,ALTERNA Haircare,48.0,4.8615,65,Hair,Mid ($26-50),Top Rated (4.5-5)
+706,,Renewing Exfoliating Scalp Scrub-to-Foam,ALTERNA Haircare,48.0,4.8615,65,Hair,Mid ($26-50),Top Rated (4.5-5)
+707,,Renewing Exfoliating Scalp Scrub-to-Foam,ALTERNA Haircare,48.0,4.8615,65,Hair,Mid ($26-50),Top Rated (4.5-5)
+708,,Renewing Scalp Leave-In Treatment with Hemp,ALTERNA Haircare,48.0,4.8226,62,Hair,Mid ($26-50),Top Rated (4.5-5)
+709,,Renewing Scalp Leave-In Treatment with Hemp,ALTERNA Haircare,48.0,4.8226,62,Hair,Mid ($26-50),Top Rated (4.5-5)
+710,,Renewing Scalp Leave-In Treatment with Hemp,ALTERNA Haircare,48.0,4.8226,62,Hair,Mid ($26-50),Top Rated (4.5-5)
+711,,CAVIAR Anti-Aging Rapid Blowout Balm,ALTERNA Haircare,32.0,4.6927,192,Hair,Mid ($26-50),Top Rated (4.5-5)
+712,,CAVIAR Anti-Aging Rapid Blowout Balm,ALTERNA Haircare,32.0,4.6927,192,Hair,Mid ($26-50),Top Rated (4.5-5)
+713,,CAVIAR Anti-Aging Rapid Blowout Balm,ALTERNA Haircare,32.0,4.6927,192,Hair,Mid ($26-50),Top Rated (4.5-5)
+714,,CAVIAR Anti-Aging Restructuring Bond Repair Shampoo,ALTERNA Haircare,35.0,4.6286,35,Hair,Mid ($26-50),Top Rated (4.5-5)
+715,,CAVIAR Anti-Aging Restructuring Bond Repair Shampoo,ALTERNA Haircare,35.0,4.6286,35,Hair,Mid ($26-50),Top Rated (4.5-5)
+716,,CAVIAR Anti-Aging Restructuring Bond Repair Shampoo,ALTERNA Haircare,35.0,4.6286,35,Hair,Mid ($26-50),Top Rated (4.5-5)
+717,,CAVIAR Anti-Aging Infinite Color Hold Dual-Use Serum,ALTERNA Haircare,36.0,4.5957,94,Hair,Mid ($26-50),Top Rated (4.5-5)
+718,,CAVIAR Anti-Aging Infinite Color Hold Dual-Use Serum,ALTERNA Haircare,36.0,4.5957,94,Hair,Mid ($26-50),Top Rated (4.5-5)
+719,,CAVIAR Anti-Aging Infinite Color Hold Dual-Use Serum,ALTERNA Haircare,36.0,4.5957,94,Hair,Mid ($26-50),Top Rated (4.5-5)
+720,,Renewing Scalp Care Peppermint Leave-In Treatment,ALTERNA Haircare,48.0,4.5938,64,Hair,Mid ($26-50),Top Rated (4.5-5)
+721,,Renewing Scalp Care Peppermint Leave-In Treatment,ALTERNA Haircare,48.0,4.5938,64,Hair,Mid ($26-50),Top Rated (4.5-5)
+722,,Renewing Scalp Care Peppermint Leave-In Treatment,ALTERNA Haircare,48.0,4.5938,64,Hair,Mid ($26-50),Top Rated (4.5-5)
+723,,Alterna Haircare Caviar Anti-Aging Clinical Densifying Foam Conditioner,ALTERNA Haircare,38.0,4.5606,66,Hair,Mid ($26-50),Top Rated (4.5-5)
+724,,Alterna Haircare Caviar Anti-Aging Clinical Densifying Foam Conditioner,ALTERNA Haircare,38.0,4.5606,66,Hair,Mid ($26-50),Top Rated (4.5-5)
+725,,Alterna Haircare Caviar Anti-Aging Clinical Densifying Foam Conditioner,ALTERNA Haircare,38.0,4.5606,66,Hair,Mid ($26-50),Top Rated (4.5-5)
+726,,CAVIAR Anti-Aging Perfect Texture Spray,ALTERNA Haircare,30.0,4.5281,89,Hair,Mid ($26-50),Top Rated (4.5-5)
+727,,CAVIAR Anti-Aging Perfect Texture Spray,ALTERNA Haircare,30.0,4.5281,89,Hair,Mid ($26-50),Top Rated (4.5-5)
+728,,CAVIAR Anti-Aging Perfect Texture Spray,ALTERNA Haircare,30.0,4.5281,89,Hair,Mid ($26-50),Top Rated (4.5-5)
+729,,CAVIAR Anti-Aging Clinical Densifying Styling Mousse,ALTERNA Haircare,38.0,4.5164,122,Hair,Mid ($26-50),Top Rated (4.5-5)
+730,,CAVIAR Anti-Aging Clinical Densifying Styling Mousse,ALTERNA Haircare,38.0,4.5164,122,Hair,Mid ($26-50),Top Rated (4.5-5)
+731,,CAVIAR Anti-Aging Clinical Densifying Styling Mousse,ALTERNA Haircare,38.0,4.5164,122,Hair,Mid ($26-50),Top Rated (4.5-5)
+732,,CAVIAR Anti-Aging Replenishing Moisture Priming Leave-In Conditioner,ALTERNA Haircare,32.0,4.4488,205,Hair,Mid ($26-50),Top Rated (4.5-5)
+733,,CAVIAR Anti-Aging Replenishing Moisture Priming Leave-In Conditioner,ALTERNA Haircare,32.0,4.4488,205,Hair,Mid ($26-50),Top Rated (4.5-5)
+734,,CAVIAR Anti-Aging Replenishing Moisture Priming Leave-In Conditioner,ALTERNA Haircare,32.0,4.4488,205,Hair,Mid ($26-50),Top Rated (4.5-5)
+735,,CAVIAR Anti-Aging Working Hairspray,ALTERNA Haircare,26.0,4.4268,157,Hair,Mid ($26-50),Top Rated (4.5-5)
+736,,CAVIAR Anti-Aging Working Hairspray,ALTERNA Haircare,26.0,4.4268,157,Hair,Mid ($26-50),Top Rated (4.5-5)
+737,,CAVIAR Anti-Aging Working Hairspray,ALTERNA Haircare,26.0,4.4268,157,Hair,Mid ($26-50),Top Rated (4.5-5)
+738,,Alterna Haircare Caviar Anti-Aging Clinical Densifying Shampoo,ALTERNA Haircare,38.0,4.4203,69,Hair,Mid ($26-50),Top Rated (4.5-5)
+739,,Alterna Haircare Caviar Anti-Aging Clinical Densifying Shampoo,ALTERNA Haircare,38.0,4.4203,69,Hair,Mid ($26-50),Top Rated (4.5-5)
+740,,Alterna Haircare Caviar Anti-Aging Clinical Densifying Shampoo,ALTERNA Haircare,38.0,4.4203,69,Hair,Mid ($26-50),Top Rated (4.5-5)
+741,,CAVIAR Anti-Aging Smoothing Anti-Frizz Shampoo,ALTERNA Haircare,35.0,4.3879,116,Hair,Mid ($26-50),Good (4-4.4)
+742,,CAVIAR Anti-Aging Smoothing Anti-Frizz Shampoo,ALTERNA Haircare,35.0,4.3879,116,Hair,Mid ($26-50),Good (4-4.4)
+743,,CAVIAR Anti-Aging Smoothing Anti-Frizz Shampoo,ALTERNA Haircare,35.0,4.3879,116,Hair,Mid ($26-50),Good (4-4.4)
+744,,CAVIAR Anti-Aging Restructuring Bond Repair Leave-In Overnight Serum,ALTERNA Haircare,40.0,4.3761,452,Hair,Mid ($26-50),Good (4-4.4)
+745,,CAVIAR Anti-Aging Restructuring Bond Repair Leave-In Overnight Serum,ALTERNA Haircare,40.0,4.3761,452,Hair,Mid ($26-50),Good (4-4.4)
+746,,CAVIAR Anti-Aging Restructuring Bond Repair Leave-In Overnight Serum,ALTERNA Haircare,40.0,4.3761,452,Hair,Mid ($26-50),Good (4-4.4)
+747,,CAVIAR Anti-Aging Smoothing Anti-Frizz Dry Oil Mist,ALTERNA Haircare,34.0,4.3662,213,Hair,Mid ($26-50),Good (4-4.4)
+748,,CAVIAR Anti-Aging Smoothing Anti-Frizz Dry Oil Mist,ALTERNA Haircare,34.0,4.3662,213,Hair,Mid ($26-50),Good (4-4.4)
+749,,CAVIAR Anti-Aging Smoothing Anti-Frizz Dry Oil Mist,ALTERNA Haircare,34.0,4.3662,213,Hair,Mid ($26-50),Good (4-4.4)
+750,,CAVIAR Anti-Aging Multiplying Volume Styling Mist,ALTERNA Haircare,30.0,4.2685,391,Hair,Mid ($26-50),Good (4-4.4)
+751,,CAVIAR Anti-Aging Multiplying Volume Styling Mist,ALTERNA Haircare,30.0,4.2685,391,Hair,Mid ($26-50),Good (4-4.4)
+752,,CAVIAR Anti-Aging Multiplying Volume Styling Mist,ALTERNA Haircare,30.0,4.2685,391,Hair,Mid ($26-50),Good (4-4.4)
+753,,My Hair My Canvas  Me Time Everyday Conditioner,ALTERNA Haircare,28.0,4.2628,156,Hair,Mid ($26-50),Good (4-4.4)
+754,,My Hair My Canvas  Me Time Everyday Conditioner,ALTERNA Haircare,28.0,4.2628,156,Hair,Mid ($26-50),Good (4-4.4)
+755,,My Hair My Canvas  Me Time Everyday Conditioner,ALTERNA Haircare,28.0,4.2628,156,Hair,Mid ($26-50),Good (4-4.4)
+756,,CAVIAR Anti-Aging Replenishing Moisture Shampoo,ALTERNA Haircare,35.0,4.2482,963,Hair,Mid ($26-50),Good (4-4.4)
+757,,CAVIAR Anti-Aging Replenishing Moisture Shampoo,ALTERNA Haircare,35.0,4.2482,963,Hair,Mid ($26-50),Good (4-4.4)
+758,,CAVIAR Anti-Aging Replenishing Moisture Shampoo,ALTERNA Haircare,35.0,4.2482,963,Hair,Mid ($26-50),Good (4-4.4)
+759,,CAVIAR Anti-Aging Multiplying Volume Styling Mousse,ALTERNA Haircare,32.0,4.2381,21,Hair,Mid ($26-50),Good (4-4.4)
+760,,CAVIAR Anti-Aging Multiplying Volume Styling Mousse,ALTERNA Haircare,32.0,4.2381,21,Hair,Mid ($26-50),Good (4-4.4)
+761,,CAVIAR Anti-Aging Multiplying Volume Styling Mousse,ALTERNA Haircare,32.0,4.2381,21,Hair,Mid ($26-50),Good (4-4.4)
+762,,My Hair My Canvas Me Time Every Day Shampoo,ALTERNA Haircare,28.0,4.225,160,Hair,Mid ($26-50),Good (4-4.4)
+763,,My Hair My Canvas Me Time Every Day Shampoo,ALTERNA Haircare,28.0,4.225,160,Hair,Mid ($26-50),Good (4-4.4)
+764,,My Hair My Canvas Me Time Every Day Shampoo,ALTERNA Haircare,28.0,4.225,160,Hair,Mid ($26-50),Good (4-4.4)
+765,,CAVIAR Anti-Aging Perfect Iron Spray,ALTERNA Haircare,32.0,4.195,159,Hair,Mid ($26-50),Good (4-4.4)
+766,,CAVIAR Anti-Aging Perfect Iron Spray,ALTERNA Haircare,32.0,4.195,159,Hair,Mid ($26-50),Good (4-4.4)
+767,,CAVIAR Anti-Aging Perfect Iron Spray,ALTERNA Haircare,32.0,4.195,159,Hair,Mid ($26-50),Good (4-4.4)
+768,,MHMC New Beginnings Exfoliating Cleanser,ALTERNA Haircare,30.0,4.189,164,Hair,Mid ($26-50),Good (4-4.4)
+769,,MHMC New Beginnings Exfoliating Cleanser,ALTERNA Haircare,30.0,4.189,164,Hair,Mid ($26-50),Good (4-4.4)
+770,,MHMC New Beginnings Exfoliating Cleanser,ALTERNA Haircare,30.0,4.189,164,Hair,Mid ($26-50),Good (4-4.4)
+771,,CAVIAR Anti-Aging Replenishing Moisture Leave-In Smoothing Gelee,ALTERNA Haircare,30.0,4.1863,102,Hair,Mid ($26-50),Good (4-4.4)
+772,,CAVIAR Anti-Aging Replenishing Moisture Leave-In Smoothing Gelee,ALTERNA Haircare,30.0,4.1863,102,Hair,Mid ($26-50),Good (4-4.4)
+773,,CAVIAR Anti-Aging Replenishing Moisture Leave-In Smoothing Gelee,ALTERNA Haircare,30.0,4.1863,102,Hair,Mid ($26-50),Good (4-4.4)
+774,,Caviar Anti-Aging Smoothing Anti-Frizz Air-Dry Balm,ALTERNA Haircare,32.0,4.1563,64,Hair,Mid ($26-50),Good (4-4.4)
+775,,Caviar Anti-Aging Smoothing Anti-Frizz Air-Dry Balm,ALTERNA Haircare,32.0,4.1563,64,Hair,Mid ($26-50),Good (4-4.4)
+776,,Caviar Anti-Aging Smoothing Anti-Frizz Air-Dry Balm,ALTERNA Haircare,32.0,4.1563,64,Hair,Mid ($26-50),Good (4-4.4)
+777,,CAVIAR Anti-Aging Smoothing Anti-Frizz Conditioner,ALTERNA Haircare,36.0,4.1518,112,Hair,Mid ($26-50),Good (4-4.4)
+778,,CAVIAR Anti-Aging Smoothing Anti-Frizz Conditioner,ALTERNA Haircare,36.0,4.1518,112,Hair,Mid ($26-50),Good (4-4.4)
+779,,CAVIAR Anti-Aging Smoothing Anti-Frizz Conditioner,ALTERNA Haircare,36.0,4.1518,112,Hair,Mid ($26-50),Good (4-4.4)
+780,,CAVIAR Anti-Aging Restructuring Bond Repair Leave-In Heat Protection Spray,ALTERNA Haircare,32.0,4.1513,119,Hair,Mid ($26-50),Good (4-4.4)
+781,,CAVIAR Anti-Aging Restructuring Bond Repair Leave-In Heat Protection Spray,ALTERNA Haircare,32.0,4.1513,119,Hair,Mid ($26-50),Good (4-4.4)
+782,,CAVIAR Anti-Aging Restructuring Bond Repair Leave-In Heat Protection Spray,ALTERNA Haircare,32.0,4.1513,119,Hair,Mid ($26-50),Good (4-4.4)
+783,,CAVIAR Anti-Aging Multiplying Volume Conditioner,ALTERNA Haircare,36.0,4.1471,102,Hair,Mid ($26-50),Good (4-4.4)
+784,,CAVIAR Anti-Aging Multiplying Volume Conditioner,ALTERNA Haircare,36.0,4.1471,102,Hair,Mid ($26-50),Good (4-4.4)
+785,,CAVIAR Anti-Aging Multiplying Volume Conditioner,ALTERNA Haircare,36.0,4.1471,102,Hair,Mid ($26-50),Good (4-4.4)
+786,,CAVIAR Anti-Aging Clinical Densifying Shampoo,ALTERNA Haircare,34.0,4.1325,166,Hair,Mid ($26-50),Good (4-4.4)
+787,,CAVIAR Anti-Aging Clinical Densifying Shampoo,ALTERNA Haircare,34.0,4.1325,166,Hair,Mid ($26-50),Good (4-4.4)
+788,,CAVIAR Anti-Aging Clinical Densifying Shampoo,ALTERNA Haircare,34.0,4.1325,166,Hair,Mid ($26-50),Good (4-4.4)
+789,,CAVIAR Anti-Aging Smoothing Anti-Frizz Blowout Butter,ALTERNA Haircare,35.0,4.1298,208,Hair,Mid ($26-50),Good (4-4.4)
+790,,CAVIAR Anti-Aging Smoothing Anti-Frizz Blowout Butter,ALTERNA Haircare,35.0,4.1298,208,Hair,Mid ($26-50),Good (4-4.4)
+791,,CAVIAR Anti-Aging Smoothing Anti-Frizz Blowout Butter,ALTERNA Haircare,35.0,4.1298,208,Hair,Mid ($26-50),Good (4-4.4)
+792,,CAVIAR Anti-Aging Infinite Color Hold Shampoo,ALTERNA Haircare,35.0,4.0833,36,Hair,Mid ($26-50),Good (4-4.4)
+793,,CAVIAR Anti-Aging Infinite Color Hold Shampoo,ALTERNA Haircare,35.0,4.0833,36,Hair,Mid ($26-50),Good (4-4.4)
+794,,CAVIAR Anti-Aging Infinite Color Hold Shampoo,ALTERNA Haircare,35.0,4.0833,36,Hair,Mid ($26-50),Good (4-4.4)
+795,,CAVIAR Anti-Aging Smoothing Anti-Frizz Nourishing Oil,ALTERNA Haircare,38.0,4.0615,130,Hair,Mid ($26-50),Good (4-4.4)
+796,,CAVIAR Anti-Aging Smoothing Anti-Frizz Nourishing Oil,ALTERNA Haircare,38.0,4.0615,130,Hair,Mid ($26-50),Good (4-4.4)
+797,,CAVIAR Anti-Aging Smoothing Anti-Frizz Nourishing Oil,ALTERNA Haircare,38.0,4.0615,130,Hair,Mid ($26-50),Good (4-4.4)
+798,,My Hair My Canvas  Cool Hydrations Nourishing Masque,ALTERNA Haircare,35.0,4.0569,123,Hair,Mid ($26-50),Good (4-4.4)
+799,,My Hair My Canvas  Cool Hydrations Nourishing Masque,ALTERNA Haircare,35.0,4.0569,123,Hair,Mid ($26-50),Good (4-4.4)
+800,,My Hair My Canvas  Cool Hydrations Nourishing Masque,ALTERNA Haircare,35.0,4.0569,123,Hair,Mid ($26-50),Good (4-4.4)
+801,,CAVIAR Anti-Aging Replenishing Moisture CC Cream,ALTERNA Haircare,30.0,4.0232,1721,Hair,Mid ($26-50),Good (4-4.4)
+802,,CAVIAR Anti-Aging Replenishing Moisture CC Cream,ALTERNA Haircare,30.0,4.0232,1721,Hair,Mid ($26-50),Good (4-4.4)
+803,,CAVIAR Anti-Aging Replenishing Moisture CC Cream,ALTERNA Haircare,30.0,4.0232,1721,Hair,Mid ($26-50),Good (4-4.4)
+804,,Caviar Anti-Aging Clinical Densifying Scalp Treatment,ALTERNA Haircare,38.0,4.0124,242,Hair,Mid ($26-50),Good (4-4.4)
+805,,Caviar Anti-Aging Clinical Densifying Scalp Treatment,ALTERNA Haircare,38.0,4.0124,242,Hair,Mid ($26-50),Good (4-4.4)
+806,,Caviar Anti-Aging Clinical Densifying Scalp Treatment,ALTERNA Haircare,38.0,4.0124,242,Hair,Mid ($26-50),Good (4-4.4)
+807,,CAVIAR Anti-Aging Restructuring Bond Repair 3-in-1 Sealing Serum,ALTERNA Haircare,38.0,4.0101,199,Hair,Mid ($26-50),Good (4-4.4)
+808,,CAVIAR Anti-Aging Restructuring Bond Repair 3-in-1 Sealing Serum,ALTERNA Haircare,38.0,4.0101,199,Hair,Mid ($26-50),Good (4-4.4)
+809,,CAVIAR Anti-Aging Restructuring Bond Repair 3-in-1 Sealing Serum,ALTERNA Haircare,38.0,4.0101,199,Hair,Mid ($26-50),Good (4-4.4)
+810,,CAVIAR Anti-Aging Infinite Color Hold Conditioner,ALTERNA Haircare,36.0,4.0,20,Hair,Mid ($26-50),Good (4-4.4)
+811,,CAVIAR Anti-Aging Infinite Color Hold Conditioner,ALTERNA Haircare,36.0,4.0,20,Hair,Mid ($26-50),Good (4-4.4)
+812,,CAVIAR Anti-Aging Infinite Color Hold Conditioner,ALTERNA Haircare,36.0,4.0,20,Hair,Mid ($26-50),Good (4-4.4)
+813,,CAVIAR Anti-Aging Replenishing Moisture Masque,ALTERNA Haircare,45.0,3.9368,95,Hair,Mid ($26-50),Good (4-4.4)
+814,,CAVIAR Anti-Aging Replenishing Moisture Masque,ALTERNA Haircare,45.0,3.9368,95,Hair,Mid ($26-50),Good (4-4.4)
+815,,CAVIAR Anti-Aging Replenishing Moisture Masque,ALTERNA Haircare,45.0,3.9368,95,Hair,Mid ($26-50),Good (4-4.4)
+816,,CAVIAR Anti-Aging Multiplying Volume Shampoo,ALTERNA Haircare,35.0,3.9127,126,Hair,Mid ($26-50),Good (4-4.4)
+817,,CAVIAR Anti-Aging Multiplying Volume Shampoo,ALTERNA Haircare,35.0,3.9127,126,Hair,Mid ($26-50),Good (4-4.4)
+818,,CAVIAR Anti-Aging Multiplying Volume Shampoo,ALTERNA Haircare,35.0,3.9127,126,Hair,Mid ($26-50),Good (4-4.4)
+819,,My Hair My Canvas  Meltaway No-Rinse Micellar Cleanser,ALTERNA Haircare,29.0,3.7903,124,Hair,Mid ($26-50),Average (3-3.9)
+820,,My Hair My Canvas  Meltaway No-Rinse Micellar Cleanser,ALTERNA Haircare,29.0,3.7903,124,Hair,Mid ($26-50),Average (3-3.9)
+821,,My Hair My Canvas  Meltaway No-Rinse Micellar Cleanser,ALTERNA Haircare,29.0,3.7903,124,Hair,Mid ($26-50),Average (3-3.9)
+822,,CAVIAR Anti-Aging Restructuring Bond Repair Leave-In Protein Cream,ALTERNA Haircare,37.0,3.3333,18,Hair,Mid ($26-50),Average (3-3.9)
+823,,CAVIAR Anti-Aging Restructuring Bond Repair Leave-In Protein Cream,ALTERNA Haircare,37.0,3.3333,18,Hair,Mid ($26-50),Average (3-3.9)
+824,,CAVIAR Anti-Aging Restructuring Bond Repair Leave-In Protein Cream,ALTERNA Haircare,37.0,3.3333,18,Hair,Mid ($26-50),Average (3-3.9)
+825,,CAVIAR Anti-Aging Restructuring Bond Repair Conditioner,ALTERNA Haircare,56.0,4.963,27,Hair,Premium ($51-100),Top Rated (4.5-5)
+826,,CAVIAR Anti-Aging Restructuring Bond Repair Conditioner,ALTERNA Haircare,56.0,4.963,27,Hair,Premium ($51-100),Top Rated (4.5-5)
+827,,CAVIAR Anti-Aging Restructuring Bond Repair Conditioner,ALTERNA Haircare,56.0,4.963,27,Hair,Premium ($51-100),Top Rated (4.5-5)
+828,,CAVIAR Anti-Aging Replenishing Moisture Conditioner,ALTERNA Haircare,55.0,4.4528,890,Hair,Premium ($51-100),Top Rated (4.5-5)
+829,,CAVIAR Anti-Aging Replenishing Moisture Conditioner,ALTERNA Haircare,55.0,4.4528,890,Hair,Premium ($51-100),Top Rated (4.5-5)
+830,,CAVIAR Anti-Aging Replenishing Moisture Conditioner,ALTERNA Haircare,55.0,4.4528,890,Hair,Premium ($51-100),Top Rated (4.5-5)
+831,,Replenishing Moisture Jumbo Trio,ALTERNA Haircare,100.0,3.6667,3,Hair,Premium ($51-100),Average (3-3.9)
+832,,Replenishing Moisture Jumbo Trio,ALTERNA Haircare,100.0,3.6667,3,Hair,Premium ($51-100),Average (3-3.9)
+833,,Replenishing Moisture Jumbo Trio,ALTERNA Haircare,100.0,3.6667,3,Hair,Premium ($51-100),Average (3-3.9)
+834,,Colonia Alcohol-Free Deodorant,Acqua di Parma,55.0,3.2,10,Bath & Body,Premium ($51-100),Average (3-3.9)
+835,,Colonia Alcohol-Free Deodorant,Acqua di Parma,55.0,3.2,10,Bath & Body,Premium ($51-100),Average (3-3.9)
+836,,Colonia Alcohol-Free Deodorant,Acqua di Parma,55.0,3.2,10,Bath & Body,Premium ($51-100),Average (3-3.9)
+837,,Aperitivo In Terrazza Diffuser,Acqua di Parma,112.0,5.0,1,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+838,,Aperitivo In Terrazza Diffuser,Acqua di Parma,112.0,5.0,1,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+839,,Aperitivo In Terrazza Diffuser,Acqua di Parma,112.0,5.0,1,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+840,,Yuzu Eau de Parfum,Acqua di Parma,135.0,4.6667,6,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+841,,Yuzu Eau de Parfum,Acqua di Parma,135.0,4.6667,6,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+842,,Yuzu Eau de Parfum,Acqua di Parma,135.0,4.6667,6,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+843,,Buongiorno Diffuser,Acqua di Parma,112.0,4.625,8,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+844,,Buongiorno Diffuser,Acqua di Parma,112.0,4.625,8,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+845,,Buongiorno Diffuser,Acqua di Parma,112.0,4.625,8,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+846,,Colonia Pura,Acqua di Parma,130.0,4.5714,7,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+847,,Colonia Pura,Acqua di Parma,130.0,4.5714,7,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+848,,Colonia Pura,Acqua di Parma,130.0,4.5714,7,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+849,,Colonia Essenza,Acqua di Parma,130.0,4.5333,15,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+850,,Colonia Essenza,Acqua di Parma,130.0,4.5333,15,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+851,,Colonia Essenza,Acqua di Parma,130.0,4.5333,15,Fragrance,Luxury ($101-250),Top Rated (4.5-5)
+852,,Magnolia Nobile,Acqua di Parma,210.0,4.2791,43,Fragrance,Luxury ($101-250),Good (4-4.4)
+853,,Magnolia Nobile,Acqua di Parma,210.0,4.2791,43,Fragrance,Luxury ($101-250),Good (4-4.4)
+854,,Magnolia Nobile,Acqua di Parma,210.0,4.2791,43,Fragrance,Luxury ($101-250),Good (4-4.4)
+855,,Colonia,Acqua di Parma,181.0,4.2125,80,Fragrance,Luxury ($101-250),Good (4-4.4)
+856,,Colonia,Acqua di Parma,181.0,4.2125,80,Fragrance,Luxury ($101-250),Good (4-4.4)
+857,,Colonia,Acqua di Parma,181.0,4.2125,80,Fragrance,Luxury ($101-250),Good (4-4.4)
+858,,Luce di Colonia Diffuser,Acqua di Parma,112.0,2.6667,3,Fragrance,Luxury ($101-250),Low (1-2.9)
+859,,Luce di Colonia Diffuser,Acqua di Parma,112.0,2.6667,3,Fragrance,Luxury ($101-250),Low (1-2.9)
+860,,Luce di Colonia Diffuser,Acqua di Parma,112.0,2.6667,3,Fragrance,Luxury ($101-250),Low (1-2.9)
+861,,Mirto di Panarea,Acqua di Parma,84.0,4.4359,39,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+862,,Mirto di Panarea,Acqua di Parma,84.0,4.4359,39,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+863,,Mirto di Panarea,Acqua di Parma,84.0,4.4359,39,Fragrance,Premium ($51-100),Top Rated (4.5-5)
+864,,Fico di Amalfi Candle,Acqua di Parma,82.0,4.0,2,Fragrance,Premium ($51-100),Good (4-4.4)
+865,,Fico di Amalfi Candle,Acqua di Parma,82.0,4.0,2,Fragrance,Premium ($51-100),Good (4-4.4)
+866,,Fico di Amalfi Candle,Acqua di Parma,82.0,4.0,2,Fragrance,Premium ($51-100),Good (4-4.4)
+867,,Arancia di Capri,Acqua di Parma,84.0,3.9459,37,Fragrance,Premium ($51-100),Good (4-4.4)
+868,,Arancia di Capri,Acqua di Parma,84.0,3.9459,37,Fragrance,Premium ($51-100),Good (4-4.4)
+869,,Arancia di Capri,Acqua di Parma,84.0,3.9459,37,Fragrance,Premium ($51-100),Good (4-4.4)
+870,,Oud Eau de Parfum,Acqua di Parma,295.0,4.2632,19,Fragrance,Ultra ($250+),Good (4-4.4)
+871,,Oud Eau de Parfum,Acqua di Parma,295.0,4.2632,19,Fragrance,Ultra ($250+),Good (4-4.4)
+872,,Oud Eau de Parfum,Acqua di Parma,295.0,4.2632,19,Fragrance,Ultra ($250+),Good (4-4.4)
+873,,Blu Mediterraneo Mini Eau de Toilette Set,Acqua di Parma,77.0,3.3333,12,Mini Size,Premium ($51-100),Average (3-3.9)
+874,,Blu Mediterraneo Mini Eau de Toilette Set,Acqua di Parma,77.0,3.3333,12,Mini Size,Premium ($51-100),Average (3-3.9)
+875,,Blu Mediterraneo Mini Eau de Toilette Set,Acqua di Parma,77.0,3.3333,12,Mini Size,Premium ($51-100),Average (3-3.9)
+876,,GENIUS Liquid Collagen Hand Cream,Algenist,38.0,4.175,40,Bath & Body,Mid ($26-50),Good (4-4.4)
+877,,GENIUS Liquid Collagen Hand Cream,Algenist,38.0,4.175,40,Bath & Body,Mid ($26-50),Good (4-4.4)
+878,,GENIUS Liquid Collagen Hand Cream,Algenist,38.0,4.175,40,Bath & Body,Mid ($26-50),Good (4-4.4)
+879,,Mini GENIUS Liquid Collagen,Algenist,25.0,3.4412,34,Skincare,Budget ($0-25),Average (3-3.9)
+880,,Mini GENIUS Liquid Collagen,Algenist,25.0,3.4412,34,Skincare,Budget ($0-25),Average (3-3.9)
+881,,Mini GENIUS Liquid Collagen,Algenist,25.0,3.4412,34,Skincare,Budget ($0-25),Average (3-3.9)
+882,,GENIUS Ultimate Anti-Aging Cream,Algenist,112.0,4.2525,503,Skincare,Luxury ($101-250),Good (4-4.4)
+883,,GENIUS Ultimate Anti-Aging Cream,Algenist,112.0,4.2525,503,Skincare,Luxury ($101-250),Good (4-4.4)
+884,,GENIUS Ultimate Anti-Aging Cream,Algenist,112.0,4.2525,503,Skincare,Luxury ($101-250),Good (4-4.4)
+885,,GENIUS Liquid Collagen Serum,Algenist,115.0,4.0259,1159,Skincare,Luxury ($101-250),Good (4-4.4)
+886,,GENIUS Liquid Collagen Serum,Algenist,115.0,4.0259,1159,Skincare,Luxury ($101-250),Good (4-4.4)
+887,,GENIUS Liquid Collagen Serum,Algenist,115.0,4.0259,1159,Skincare,Luxury ($101-250),Good (4-4.4)
+888,,GENIUS Ultimate Anti-Aging Vitamin C+ Serum,Algenist,118.0,3.9825,229,Skincare,Luxury ($101-250),Good (4-4.4)
+889,,GENIUS Ultimate Anti-Aging Vitamin C+ Serum,Algenist,118.0,3.9825,229,Skincare,Luxury ($101-250),Good (4-4.4)
+890,,GENIUS Ultimate Anti-Aging Vitamin C+ Serum,Algenist,118.0,3.9825,229,Skincare,Luxury ($101-250),Good (4-4.4)
+891,,GENIUS Liquid Skin Resurfacing 2% BHA Toner,Algenist,40.0,4.7939,165,Skincare,Mid ($26-50),Top Rated (4.5-5)
+892,,GENIUS Liquid Skin Resurfacing 2% BHA Toner,Algenist,40.0,4.7939,165,Skincare,Mid ($26-50),Top Rated (4.5-5)
+893,,GENIUS Liquid Skin Resurfacing 2% BHA Toner,Algenist,40.0,4.7939,165,Skincare,Mid ($26-50),Top Rated (4.5-5)
+894,,SUBLIME DEFENSE Ultra Lightweight UV Defense Fluid SPF 50,Algenist,28.0,4.4134,508,Skincare,Mid ($26-50),Top Rated (4.5-5)
+895,,SUBLIME DEFENSE Ultra Lightweight UV Defense Fluid SPF 50,Algenist,28.0,4.4134,508,Skincare,Mid ($26-50),Top Rated (4.5-5)
+896,,SUBLIME DEFENSE Ultra Lightweight UV Defense Fluid SPF 50,Algenist,28.0,4.4134,508,Skincare,Mid ($26-50),Top Rated (4.5-5)
+897,,ALIVE Prebiotic Balancing Mask,Algenist,38.0,4.3729,118,Skincare,Mid ($26-50),Good (4-4.4)
+898,,ALIVE Prebiotic Balancing Mask,Algenist,38.0,4.3729,118,Skincare,Mid ($26-50),Good (4-4.4)
+899,,ALIVE Prebiotic Balancing Mask,Algenist,38.0,4.3729,118,Skincare,Mid ($26-50),Good (4-4.4)
+900,,Gentle Rejuvenating Cleanser,Algenist,28.0,4.2689,264,Skincare,Mid ($26-50),Good (4-4.4)
+901,,Gentle Rejuvenating Cleanser,Algenist,28.0,4.2689,264,Skincare,Mid ($26-50),Good (4-4.4)
+902,,Gentle Rejuvenating Cleanser,Algenist,28.0,4.2689,264,Skincare,Mid ($26-50),Good (4-4.4)
+903,,GENIUS Ultimate Anti-Aging Melting Cleanser,Algenist,38.0,4.0569,334,Skincare,Mid ($26-50),Good (4-4.4)
+904,,GENIUS Ultimate Anti-Aging Melting Cleanser,Algenist,38.0,4.0569,334,Skincare,Mid ($26-50),Good (4-4.4)
+905,,GENIUS Ultimate Anti-Aging Melting Cleanser,Algenist,38.0,4.0569,334,Skincare,Mid ($26-50),Good (4-4.4)
+906,,GENIUS Liquid Collagen Lip Treatment,Algenist,29.0,3.8721,649,Skincare,Mid ($26-50),Average (3-3.9)
+907,,GENIUS Liquid Collagen Lip Treatment,Algenist,29.0,3.8721,649,Skincare,Mid ($26-50),Average (3-3.9)
+908,,GENIUS Liquid Collagen Lip Treatment,Algenist,29.0,3.8721,649,Skincare,Mid ($26-50),Average (3-3.9)
+909,,ALIVE Prebiotic Balancing Moisturizer SPF 15,Algenist,40.0,3.2,30,Skincare,Mid ($26-50),Average (3-3.9)
+910,,ALIVE Prebiotic Balancing Moisturizer SPF 15,Algenist,40.0,3.2,30,Skincare,Mid ($26-50),Average (3-3.9)
+911,,ALIVE Prebiotic Balancing Moisturizer SPF 15,Algenist,40.0,3.2,30,Skincare,Mid ($26-50),Average (3-3.9)
+912,,Plump Pout Duo,Algenist,44.0,3.0,1,Skincare,Mid ($26-50),Average (3-3.9)
+913,,Plump Pout Duo,Algenist,44.0,3.0,1,Skincare,Mid ($26-50),Average (3-3.9)
+914,,Plump Pout Duo,Algenist,44.0,3.0,1,Skincare,Mid ($26-50),Average (3-3.9)
+915,,10 Day Results Kit,Algenist,88.0,4.8023,258,Skincare,Premium ($51-100),Top Rated (4.5-5)
+916,,10 Day Results Kit,Algenist,88.0,4.8023,258,Skincare,Premium ($51-100),Top Rated (4.5-5)
+917,,10 Day Results Kit,Algenist,88.0,4.8023,258,Skincare,Premium ($51-100),Top Rated (4.5-5)
+918,,Algae Niacinamide Moisture Veil,Algenist,65.0,4.6982,169,Skincare,Premium ($51-100),Top Rated (4.5-5)
+919,,Algae Niacinamide Moisture Veil,Algenist,65.0,4.6982,169,Skincare,Premium ($51-100),Top Rated (4.5-5)
+920,,Algae Niacinamide Moisture Veil,Algenist,65.0,4.6982,169,Skincare,Premium ($51-100),Top Rated (4.5-5)
+921,,Blue Algae Vitamin C Skinclarity Brightening Serum,Algenist,72.0,4.6087,207,Skincare,Premium ($51-100),Top Rated (4.5-5)
+922,,Blue Algae Vitamin C Skinclarity Brightening Serum,Algenist,72.0,4.6087,207,Skincare,Premium ($51-100),Top Rated (4.5-5)
+923,,Blue Algae Vitamin C Skinclarity Brightening Serum,Algenist,72.0,4.6087,207,Skincare,Premium ($51-100),Top Rated (4.5-5)
+924,,GENIUS Sleeping Collagen Moisturizer,Algenist,98.0,4.5413,1321,Skincare,Premium ($51-100),Top Rated (4.5-5)
+925,,GENIUS Sleeping Collagen Moisturizer,Algenist,98.0,4.5413,1321,Skincare,Premium ($51-100),Top Rated (4.5-5)
+926,,GENIUS Sleeping Collagen Moisturizer,Algenist,98.0,4.5413,1321,Skincare,Premium ($51-100),Top Rated (4.5-5)
+927,,Triple Algae Eye Renewal Balm Eye Cream,Algenist,68.0,4.5306,1142,Skincare,Premium ($51-100),Top Rated (4.5-5)
+928,,Triple Algae Eye Renewal Balm Eye Cream,Algenist,68.0,4.5306,1142,Skincare,Premium ($51-100),Top Rated (4.5-5)
+929,,Triple Algae Eye Renewal Balm Eye Cream,Algenist,68.0,4.5306,1142,Skincare,Premium ($51-100),Top Rated (4.5-5)
+930,,GENIUS Collagen Calming Relief,Algenist,58.0,4.464,125,Skincare,Premium ($51-100),Top Rated (4.5-5)
+931,,GENIUS Collagen Calming Relief,Algenist,58.0,4.464,125,Skincare,Premium ($51-100),Top Rated (4.5-5)
+932,,GENIUS Collagen Calming Relief,Algenist,58.0,4.464,125,Skincare,Premium ($51-100),Top Rated (4.5-5)
+933,,Advanced Anti-Aging Repairing Oil,Algenist,82.0,4.4531,245,Skincare,Premium ($51-100),Top Rated (4.5-5)
+934,,Advanced Anti-Aging Repairing Oil,Algenist,82.0,4.4531,245,Skincare,Premium ($51-100),Top Rated (4.5-5)
+935,,Advanced Anti-Aging Repairing Oil,Algenist,82.0,4.4531,245,Skincare,Premium ($51-100),Top Rated (4.5-5)
+936,,POWER Recharging Night Pressed Serum,Algenist,95.0,4.3854,205,Skincare,Premium ($51-100),Good (4-4.4)
+937,,POWER Recharging Night Pressed Serum,Algenist,95.0,4.3854,205,Skincare,Premium ($51-100),Good (4-4.4)
+938,,POWER Recharging Night Pressed Serum,Algenist,95.0,4.3854,205,Skincare,Premium ($51-100),Good (4-4.4)
+939,,Overnight Restorative Cream,Algenist,94.0,4.3808,239,Skincare,Premium ($51-100),Good (4-4.4)
+940,,Overnight Restorative Cream,Algenist,94.0,4.3808,239,Skincare,Premium ($51-100),Good (4-4.4)
+941,,Overnight Restorative Cream,Algenist,94.0,4.3808,239,Skincare,Premium ($51-100),Good (4-4.4)
+942,,ELEVATE Advanced Lift Contouring Cream,Algenist,96.0,4.3243,37,Skincare,Premium ($51-100),Good (4-4.4)
+943,,ELEVATE Advanced Lift Contouring Cream,Algenist,96.0,4.3243,37,Skincare,Premium ($51-100),Good (4-4.4)
+944,,ELEVATE Advanced Lift Contouring Cream,Algenist,96.0,4.3243,37,Skincare,Premium ($51-100),Good (4-4.4)
+945,,Regenerative Anti-Aging Moisturizer,Algenist,94.0,4.2715,221,Skincare,Premium ($51-100),Good (4-4.4)
+946,,Regenerative Anti-Aging Moisturizer,Algenist,94.0,4.2715,221,Skincare,Premium ($51-100),Good (4-4.4)
+947,,Regenerative Anti-Aging Moisturizer,Algenist,94.0,4.2715,221,Skincare,Premium ($51-100),Good (4-4.4)
+948,,Blue Algae Vitamin C Dark Spot Correcting Peel,Algenist,85.0,4.213,108,Skincare,Premium ($51-100),Good (4-4.4)
+949,,Blue Algae Vitamin C Dark Spot Correcting Peel,Algenist,85.0,4.213,108,Skincare,Premium ($51-100),Good (4-4.4)
+950,,Blue Algae Vitamin C Dark Spot Correcting Peel,Algenist,85.0,4.213,108,Skincare,Premium ($51-100),Good (4-4.4)
+951,,POWER Advanced Wrinkle Fighter Moisturizer,Algenist,85.0,4.1818,77,Skincare,Premium ($51-100),Good (4-4.4)
+952,,POWER Advanced Wrinkle Fighter Moisturizer,Algenist,85.0,4.1818,77,Skincare,Premium ($51-100),Good (4-4.4)
+953,,POWER Advanced Wrinkle Fighter Moisturizer,Algenist,85.0,4.1818,77,Skincare,Premium ($51-100),Good (4-4.4)
+954,,ELEVATE Advanced Retinol Serum,Algenist,98.0,4.1026,39,Skincare,Premium ($51-100),Good (4-4.4)
+955,,ELEVATE Advanced Retinol Serum,Algenist,98.0,4.1026,39,Skincare,Premium ($51-100),Good (4-4.4)
+956,,ELEVATE Advanced Retinol Serum,Algenist,98.0,4.1026,39,Skincare,Premium ($51-100),Good (4-4.4)
+957,,POWER Advanced Wrinkle Fighter 360° Eye Serum,Algenist,70.0,4.023,87,Skincare,Premium ($51-100),Good (4-4.4)
+958,,POWER Advanced Wrinkle Fighter 360° Eye Serum,Algenist,70.0,4.023,87,Skincare,Premium ($51-100),Good (4-4.4)
+959,,POWER Advanced Wrinkle Fighter 360° Eye Serum,Algenist,70.0,4.023,87,Skincare,Premium ($51-100),Good (4-4.4)
+960,,AA (Alguronic Acid) Barrier Serum,Algenist,85.0,3.97,100,Skincare,Premium ($51-100),Good (4-4.4)
+961,,AA (Alguronic Acid) Barrier Serum,Algenist,85.0,3.97,100,Skincare,Premium ($51-100),Good (4-4.4)
+962,,AA (Alguronic Acid) Barrier Serum,Algenist,85.0,3.97,100,Skincare,Premium ($51-100),Good (4-4.4)
+963,,ELEVATE Firming & Lifting Neck Cream,Algenist,84.0,3.8889,18,Skincare,Premium ($51-100),Average (3-3.9)
+964,,ELEVATE Firming & Lifting Neck Cream,Algenist,84.0,3.8889,18,Skincare,Premium ($51-100),Average (3-3.9)
+965,,ELEVATE Firming & Lifting Neck Cream,Algenist,84.0,3.8889,18,Skincare,Premium ($51-100),Average (3-3.9)
+966,,GENIUS Ultimate Anti-Aging Eye Cream,Algenist,74.0,3.7759,116,Skincare,Premium ($51-100),Average (3-3.9)
+967,,GENIUS Ultimate Anti-Aging Eye Cream,Algenist,74.0,3.7759,116,Skincare,Premium ($51-100),Average (3-3.9)
+968,,GENIUS Ultimate Anti-Aging Eye Cream,Algenist,74.0,3.7759,116,Skincare,Premium ($51-100),Average (3-3.9)
+969,,ELEVATE Firming & Lifting Contouring Eye Cream,Algenist,72.0,3.2581,31,Skincare,Premium ($51-100),Average (3-3.9)
+970,,ELEVATE Firming & Lifting Contouring Eye Cream,Algenist,72.0,3.2581,31,Skincare,Premium ($51-100),Average (3-3.9)
+971,,ELEVATE Firming & Lifting Contouring Eye Cream,Algenist,72.0,3.2581,31,Skincare,Premium ($51-100),Average (3-3.9)
+972,,Mini Liquid Gold Exfoliating Treatment with Glycolic Acid,Alpha-H,22.0,4.0,34,Skincare,Budget ($0-25),Good (4-4.4)
+973,,Mini Liquid Gold Exfoliating Treatment with Glycolic Acid,Alpha-H,22.0,4.0,34,Skincare,Budget ($0-25),Good (4-4.4)
+974,,Mini Liquid Gold Exfoliating Treatment with Glycolic Acid,Alpha-H,22.0,4.0,34,Skincare,Budget ($0-25),Good (4-4.4)
+975,,Liquid Gold Midnight Reboot Serum with 14% Glycolic Acid and Tripeptide-5,Alpha-H,105.0,5.0,16,Skincare,Luxury ($101-250),Top Rated (4.5-5)
+976,,Liquid Gold Midnight Reboot Serum with 14% Glycolic Acid and Tripeptide-5,Alpha-H,105.0,5.0,16,Skincare,Luxury ($101-250),Top Rated (4.5-5)
+977,,Liquid Gold Midnight Reboot Serum with 14% Glycolic Acid and Tripeptide-5,Alpha-H,105.0,5.0,16,Skincare,Luxury ($101-250),Top Rated (4.5-5)
+978,,Beauty Sleep Power Peel Age-Defying Night Peel,Alpha-H,106.0,4.6,15,Skincare,Luxury ($101-250),Top Rated (4.5-5)
+979,,Beauty Sleep Power Peel Age-Defying Night Peel,Alpha-H,106.0,4.6,15,Skincare,Luxury ($101-250),Top Rated (4.5-5)
+980,,Beauty Sleep Power Peel Age-Defying Night Peel,Alpha-H,106.0,4.6,15,Skincare,Luxury ($101-250),Top Rated (4.5-5)
+981,,Balancing Cleanser,Alpha-H,38.0,4.5455,77,Skincare,Mid ($26-50),Top Rated (4.5-5)
+982,,Balancing Cleanser,Alpha-H,38.0,4.5455,77,Skincare,Mid ($26-50),Top Rated (4.5-5)
+983,,Balancing Cleanser,Alpha-H,38.0,4.5455,77,Skincare,Mid ($26-50),Top Rated (4.5-5)
+984,,Triple Action Cleanser,Alpha-H,38.0,4.25,12,Skincare,Mid ($26-50),Good (4-4.4)
+985,,Triple Action Cleanser,Alpha-H,38.0,4.25,12,Skincare,Mid ($26-50),Good (4-4.4)
+986,,Triple Action Cleanser,Alpha-H,38.0,4.25,12,Skincare,Mid ($26-50),Good (4-4.4)
+987,,Liquid Gold Exfoliating Treatment with Glycolic acid,Alpha-H,56.0,4.5093,915,Skincare,Premium ($51-100),Top Rated (4.5-5)
+988,,Liquid Gold Exfoliating Treatment with Glycolic acid,Alpha-H,56.0,4.5093,915,Skincare,Premium ($51-100),Top Rated (4.5-5)
+989,,Liquid Gold Exfoliating Treatment with Glycolic acid,Alpha-H,56.0,4.5093,915,Skincare,Premium ($51-100),Top Rated (4.5-5)
+990,,Vitamin A Serum with 0.5% Retinol,Alpha-H,65.0,4.3579,95,Skincare,Premium ($51-100),Good (4-4.4)
+991,,Vitamin A Serum with 0.5% Retinol,Alpha-H,65.0,4.3579,95,Skincare,Premium ($51-100),Good (4-4.4)
+992,,Vitamin A Serum with 0.5% Retinol,Alpha-H,65.0,4.3579,95,Skincare,Premium ($51-100),Good (4-4.4)
+993,,Vitamin B Serum with 5% Niacinamide and Peptides,Alpha-H,65.0,4.2619,84,Skincare,Premium ($51-100),Good (4-4.4)
+994,,Vitamin B Serum with 5% Niacinamide and Peptides,Alpha-H,65.0,4.2619,84,Skincare,Premium ($51-100),Good (4-4.4)
+995,,Vitamin B Serum with 5% Niacinamide and Peptides,Alpha-H,65.0,4.2619,84,Skincare,Premium ($51-100),Good (4-4.4)
+996,,Liquid Gold Firming Eye Cream,Alpha-H,82.0,3.8824,17,Skincare,Premium ($51-100),Average (3-3.9)
+997,,Liquid Gold Firming Eye Cream,Alpha-H,82.0,3.8824,17,Skincare,Premium ($51-100),Average (3-3.9)
+998,,Liquid Gold Firming Eye Cream,Alpha-H,82.0,3.8824,17,Skincare,Premium ($51-100),Average (3-3.9)
+999,,Desert Date Cream Blush & Lip Multistick,Ami Colé,22.0,5.0,4,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1000,,Desert Date Cream Blush & Lip Multistick,Ami Colé,22.0,5.0,4,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1001,,Desert Date Cream Blush & Lip Multistick,Ami Colé,22.0,5.0,4,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1002,,Ultra-Flex Clear Eyebrow Shaping Gel,Ami Colé,20.0,4.8889,9,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1003,,Ultra-Flex Clear Eyebrow Shaping Gel,Ami Colé,20.0,4.8889,9,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1004,,Ultra-Flex Clear Eyebrow Shaping Gel,Ami Colé,20.0,4.8889,9,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1005,,Light-Catching Highlighter Balm,Ami Colé,22.0,4.75,8,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1006,,Light-Catching Highlighter Balm,Ami Colé,22.0,4.75,8,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1007,,Light-Catching Highlighter Balm,Ami Colé,22.0,4.75,8,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1008,,Lip Treatment Oil,Ami Colé,20.0,4.7053,95,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1009,,Lip Treatment Oil,Ami Colé,20.0,4.7053,95,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1010,,Lip Treatment Oil,Ami Colé,20.0,4.7053,95,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1011,,Skin-Enhancing Concealer,Ami Colé,24.0,4.6429,14,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1012,,Skin-Enhancing Concealer,Ami Colé,24.0,4.6429,14,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1013,,Skin-Enhancing Concealer,Ami Colé,24.0,4.6429,14,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1014,,Skin Melt Talc-Free Loose Setting Powder,Ami Colé,22.0,4.5714,21,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1015,,Skin Melt Talc-Free Loose Setting Powder,Ami Colé,22.0,4.5714,21,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1016,,Skin Melt Talc-Free Loose Setting Powder,Ami Colé,22.0,4.5714,21,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1017,,Lash-Amplifying Volumizing & Lengthening Mascara,Ami Colé,19.0,4.1842,38,Makeup,Budget ($0-25),Good (4-4.4)
+1018,,Lash-Amplifying Volumizing & Lengthening Mascara,Ami Colé,19.0,4.1842,38,Makeup,Budget ($0-25),Good (4-4.4)
+1019,,Lash-Amplifying Volumizing & Lengthening Mascara,Ami Colé,19.0,4.1842,38,Makeup,Budget ($0-25),Good (4-4.4)
+1020,,Skin-Enhancing Tinted Moisturizer,Ami Colé,32.0,4.8966,58,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1021,,Skin-Enhancing Tinted Moisturizer,Ami Colé,32.0,4.8966,58,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1022,,Skin-Enhancing Tinted Moisturizer,Ami Colé,32.0,4.8966,58,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1023,,"The Customizable Crew Set: Highlighter, Lip Oil, and Skin Tint Set",Ami Colé,60.0,4.5,2,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1024,,"The Customizable Crew Set: Highlighter, Lip Oil, and Skin Tint Set",Ami Colé,60.0,4.5,2,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1025,,"The Customizable Crew Set: Highlighter, Lip Oil, and Skin Tint Set",Ami Colé,60.0,4.5,2,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1026,,Brush 12 Precision Brow Brush for Pomades & Gels,Anastasia Beverly Hills,18.0,4.7427,1551,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1027,,Brush 12 Precision Brow Brush for Pomades & Gels,Anastasia Beverly Hills,18.0,4.7427,1551,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1028,,Brush 12 Precision Brow Brush for Pomades & Gels,Anastasia Beverly Hills,18.0,4.7427,1551,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1029,,Ombre Effect Long Wearing Brow Powder Duo,Anastasia Beverly Hills,23.0,4.695,5086,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1030,,Ombre Effect Long Wearing Brow Powder Duo,Anastasia Beverly Hills,23.0,4.695,5086,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1031,,Ombre Effect Long Wearing Brow Powder Duo,Anastasia Beverly Hills,23.0,4.695,5086,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1032,,Brush 7B Precision Brow Brush for Powders,Anastasia Beverly Hills,18.0,4.6818,1122,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1033,,Brush 7B Precision Brow Brush for Powders,Anastasia Beverly Hills,18.0,4.6818,1122,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1034,,Brush 7B Precision Brow Brush for Powders,Anastasia Beverly Hills,18.0,4.6818,1122,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1035,,"DIPBROW Waterproof, Smudge Proof Brow Pomade",Anastasia Beverly Hills,21.0,4.6701,11158,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1036,,"DIPBROW Waterproof, Smudge Proof Brow Pomade",Anastasia Beverly Hills,21.0,4.6701,11158,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1037,,"DIPBROW Waterproof, Smudge Proof Brow Pomade",Anastasia Beverly Hills,21.0,4.6701,11158,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1038,,Lip Liner,Anastasia Beverly Hills,18.0,4.6577,1335,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1039,,Lip Liner,Anastasia Beverly Hills,18.0,4.6577,1335,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1040,,Lip Liner,Anastasia Beverly Hills,18.0,4.6577,1335,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1041,,Matte & Satin Velvet Lipstick,Anastasia Beverly Hills,23.0,4.6062,1427,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1042,,Matte & Satin Velvet Lipstick,Anastasia Beverly Hills,23.0,4.6062,1427,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1043,,Matte & Satin Velvet Lipstick,Anastasia Beverly Hills,23.0,4.6062,1427,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1044,,Eye Shadow Singles,Anastasia Beverly Hills,12.0,4.4696,790,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1045,,Eye Shadow Singles,Anastasia Beverly Hills,12.0,4.4696,790,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1046,,Eye Shadow Singles,Anastasia Beverly Hills,12.0,4.4696,790,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1047,,Highlighting Duo Pencil,Anastasia Beverly Hills,23.0,4.4611,501,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1048,,Highlighting Duo Pencil,Anastasia Beverly Hills,23.0,4.4611,501,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1049,,Highlighting Duo Pencil,Anastasia Beverly Hills,23.0,4.4611,501,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1050,,Lip Gloss,Anastasia Beverly Hills,16.0,4.4551,1672,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1051,,Lip Gloss,Anastasia Beverly Hills,16.0,4.4551,1672,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1052,,Lip Gloss,Anastasia Beverly Hills,16.0,4.4551,1672,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1053,,Perfect Brow Pencil,Anastasia Beverly Hills,23.0,4.4411,2156,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1054,,Perfect Brow Pencil,Anastasia Beverly Hills,23.0,4.4411,2156,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1055,,Perfect Brow Pencil,Anastasia Beverly Hills,23.0,4.4411,2156,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1056,,Strong Hold Clear Brow Gel,Anastasia Beverly Hills,22.0,4.4206,4826,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1057,,Strong Hold Clear Brow Gel,Anastasia Beverly Hills,22.0,4.4206,4826,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1058,,Strong Hold Clear Brow Gel,Anastasia Beverly Hills,22.0,4.4206,4826,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1059,,Brow Wiz Ultra-Slim Precision Brow Pencil,Anastasia Beverly Hills,25.0,4.4056,15885,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1060,,Brow Wiz Ultra-Slim Precision Brow Pencil,Anastasia Beverly Hills,25.0,4.4056,15885,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1061,,Brow Wiz Ultra-Slim Precision Brow Pencil,Anastasia Beverly Hills,25.0,4.4056,15885,Makeup,Budget ($0-25),Top Rated (4.5-5)
+1062,,Brush #14,Anastasia Beverly Hills,18.0,4.3528,326,Makeup,Budget ($0-25),Good (4-4.4)
+1063,,Brush #14,Anastasia Beverly Hills,18.0,4.3528,326,Makeup,Budget ($0-25),Good (4-4.4)
+1064,,Brush #14,Anastasia Beverly Hills,18.0,4.3528,326,Makeup,Budget ($0-25),Good (4-4.4)
+1065,,Norvina False Lashes,Anastasia Beverly Hills,12.0,4.259,749,Makeup,Budget ($0-25),Good (4-4.4)
+1066,,Norvina False Lashes,Anastasia Beverly Hills,12.0,4.259,749,Makeup,Budget ($0-25),Good (4-4.4)
+1067,,Norvina False Lashes,Anastasia Beverly Hills,12.0,4.259,749,Makeup,Budget ($0-25),Good (4-4.4)
+1068,,Brow Freeze Applicator,Anastasia Beverly Hills,17.0,4.2,290,Makeup,Budget ($0-25),Good (4-4.4)
+1069,,Brow Freeze Applicator,Anastasia Beverly Hills,17.0,4.2,290,Makeup,Budget ($0-25),Good (4-4.4)
+1070,,Brow Freeze Applicator,Anastasia Beverly Hills,17.0,4.2,290,Makeup,Budget ($0-25),Good (4-4.4)
+1071,,Mini Strong Hold Clear Brow Gel,Anastasia Beverly Hills,9.0,4.1889,90,Makeup,Budget ($0-25),Good (4-4.4)
+1072,,Mini Strong Hold Clear Brow Gel,Anastasia Beverly Hills,9.0,4.1889,90,Makeup,Budget ($0-25),Good (4-4.4)
+1073,,Mini Strong Hold Clear Brow Gel,Anastasia Beverly Hills,9.0,4.1889,90,Makeup,Budget ($0-25),Good (4-4.4)
+1074,,Tinted Brow Gel,Anastasia Beverly Hills,22.0,4.1864,2640,Makeup,Budget ($0-25),Good (4-4.4)
+1075,,Tinted Brow Gel,Anastasia Beverly Hills,22.0,4.1864,2640,Makeup,Budget ($0-25),Good (4-4.4)
+1076,,Tinted Brow Gel,Anastasia Beverly Hills,22.0,4.1864,2640,Makeup,Budget ($0-25),Good (4-4.4)
+1077,,Lip Primer,Anastasia Beverly Hills,16.0,4.1481,270,Makeup,Budget ($0-25),Good (4-4.4)
+1078,,Lip Primer,Anastasia Beverly Hills,16.0,4.1481,270,Makeup,Budget ($0-25),Good (4-4.4)
+1079,,Lip Primer,Anastasia Beverly Hills,16.0,4.1481,270,Makeup,Budget ($0-25),Good (4-4.4)
+1080,,Pro Pencil,Anastasia Beverly Hills,18.0,4.0611,360,Makeup,Budget ($0-25),Good (4-4.4)
+1081,,Pro Pencil,Anastasia Beverly Hills,18.0,4.0611,360,Makeup,Budget ($0-25),Good (4-4.4)
+1082,,Pro Pencil,Anastasia Beverly Hills,18.0,4.0611,360,Makeup,Budget ($0-25),Good (4-4.4)
+1083,,A23 Pro Brush – Large Tapered Blending Brush,Anastasia Beverly Hills,25.0,4.0303,330,Makeup,Budget ($0-25),Good (4-4.4)
+1084,,A23 Pro Brush – Large Tapered Blending Brush,Anastasia Beverly Hills,25.0,4.0303,330,Makeup,Budget ($0-25),Good (4-4.4)
+1085,,A23 Pro Brush – Large Tapered Blending Brush,Anastasia Beverly Hills,25.0,4.0303,330,Makeup,Budget ($0-25),Good (4-4.4)
+1086,,Superfine Micro-Stroking Detail Brow Pen,Anastasia Beverly Hills,22.0,3.9654,866,Makeup,Budget ($0-25),Good (4-4.4)
+1087,,Superfine Micro-Stroking Detail Brow Pen,Anastasia Beverly Hills,22.0,3.9654,866,Makeup,Budget ($0-25),Good (4-4.4)
+1088,,Superfine Micro-Stroking Detail Brow Pen,Anastasia Beverly Hills,22.0,3.9654,866,Makeup,Budget ($0-25),Good (4-4.4)
+1089,,Brow Freeze Extreme Hold Laminated-Look Sculpting Wax,Anastasia Beverly Hills,23.0,3.9071,2293,Makeup,Budget ($0-25),Good (4-4.4)
+1090,,Brow Freeze Extreme Hold Laminated-Look Sculpting Wax,Anastasia Beverly Hills,23.0,3.9071,2293,Makeup,Budget ($0-25),Good (4-4.4)
+1091,,Brow Freeze Extreme Hold Laminated-Look Sculpting Wax,Anastasia Beverly Hills,23.0,3.9071,2293,Makeup,Budget ($0-25),Good (4-4.4)
+1092,,Insta Brow Set,Anastasia Beverly Hills,25.0,3.8846,26,Makeup,Budget ($0-25),Average (3-3.9)
+1093,,Insta Brow Set,Anastasia Beverly Hills,25.0,3.8846,26,Makeup,Budget ($0-25),Average (3-3.9)
+1094,,Insta Brow Set,Anastasia Beverly Hills,25.0,3.8846,26,Makeup,Budget ($0-25),Average (3-3.9)
+1095,,Liquid Lipstick,Anastasia Beverly Hills,20.0,3.8268,4238,Makeup,Budget ($0-25),Average (3-3.9)
+1096,,Liquid Lipstick,Anastasia Beverly Hills,20.0,3.8268,4238,Makeup,Budget ($0-25),Average (3-3.9)
+1097,,Liquid Lipstick,Anastasia Beverly Hills,20.0,3.8268,4238,Makeup,Budget ($0-25),Average (3-3.9)
+1098,,Contour & Highlight Stick,Anastasia Beverly Hills,25.0,3.8262,351,Makeup,Budget ($0-25),Average (3-3.9)
+1099,,Contour & Highlight Stick,Anastasia Beverly Hills,25.0,3.8262,351,Makeup,Budget ($0-25),Average (3-3.9)
+1100,,Contour & Highlight Stick,Anastasia Beverly Hills,25.0,3.8262,351,Makeup,Budget ($0-25),Average (3-3.9)
+1101,,DIPBROW Gel,Anastasia Beverly Hills,20.0,3.7853,1076,Makeup,Budget ($0-25),Average (3-3.9)
+1102,,DIPBROW Gel,Anastasia Beverly Hills,20.0,3.7853,1076,Makeup,Budget ($0-25),Average (3-3.9)
+1103,,DIPBROW Gel,Anastasia Beverly Hills,20.0,3.7853,1076,Makeup,Budget ($0-25),Average (3-3.9)
+1104,,Stick Foundation,Anastasia Beverly Hills,25.0,3.4315,1868,Makeup,Budget ($0-25),Average (3-3.9)
+1105,,Stick Foundation,Anastasia Beverly Hills,25.0,3.4315,1868,Makeup,Budget ($0-25),Average (3-3.9)
+1106,,Stick Foundation,Anastasia Beverly Hills,25.0,3.4315,1868,Makeup,Budget ($0-25),Average (3-3.9)
+1107,,Waterproof Crème Color,Anastasia Beverly Hills,18.0,3.4277,346,Makeup,Budget ($0-25),Average (3-3.9)
+1108,,Waterproof Crème Color,Anastasia Beverly Hills,18.0,3.4277,346,Makeup,Budget ($0-25),Average (3-3.9)
+1109,,Waterproof Crème Color,Anastasia Beverly Hills,18.0,3.4277,346,Makeup,Budget ($0-25),Average (3-3.9)
+1110,,DIPBROW Gel - Mini,Anastasia Beverly Hills,9.0,3.3403,573,Makeup,Budget ($0-25),Average (3-3.9)
+1111,,DIPBROW Gel - Mini,Anastasia Beverly Hills,9.0,3.3403,573,Makeup,Budget ($0-25),Average (3-3.9)
+1112,,DIPBROW Gel - Mini,Anastasia Beverly Hills,9.0,3.3403,573,Makeup,Budget ($0-25),Average (3-3.9)
+1113,,Modern Renaissance Eye Shadow Palette,Anastasia Beverly Hills,45.0,4.7931,9133,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1114,,Modern Renaissance Eye Shadow Palette,Anastasia Beverly Hills,45.0,4.7931,9133,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1115,,Modern Renaissance Eye Shadow Palette,Anastasia Beverly Hills,45.0,4.7931,9133,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1116,,Sun Dipped Glow Kit,Anastasia Beverly Hills,40.0,4.7197,2176,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1117,,Sun Dipped Glow Kit,Anastasia Beverly Hills,40.0,4.7197,2176,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1118,,Sun Dipped Glow Kit,Anastasia Beverly Hills,40.0,4.7197,2176,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1119,,Soft Glam Eyeshadow Palette,Anastasia Beverly Hills,45.0,4.7068,2858,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1120,,Soft Glam Eyeshadow Palette,Anastasia Beverly Hills,45.0,4.7068,2858,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1121,,Soft Glam Eyeshadow Palette,Anastasia Beverly Hills,45.0,4.7068,2858,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1122,,Blush Trio,Anastasia Beverly Hills,30.0,4.6617,470,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1123,,Blush Trio,Anastasia Beverly Hills,30.0,4.6617,470,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1124,,Blush Trio,Anastasia Beverly Hills,30.0,4.6617,470,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1125,,Sugar Glow Kit,Anastasia Beverly Hills,40.0,4.6467,917,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1126,,Sugar Glow Kit,Anastasia Beverly Hills,40.0,4.6467,917,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1127,,Sugar Glow Kit,Anastasia Beverly Hills,40.0,4.6467,917,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1128,,Stick Cream Blush,Anastasia Beverly Hills,32.0,4.6228,729,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1129,,Stick Cream Blush,Anastasia Beverly Hills,32.0,4.6228,729,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1130,,Stick Cream Blush,Anastasia Beverly Hills,32.0,4.6228,729,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1131,,Magic Touch Concealer,Anastasia Beverly Hills,29.0,4.551,2717,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1132,,Magic Touch Concealer,Anastasia Beverly Hills,29.0,4.551,2717,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1133,,Magic Touch Concealer,Anastasia Beverly Hills,29.0,4.551,2717,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1134,,Cream Bronzer,Anastasia Beverly Hills,35.0,4.5417,707,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1135,,Cream Bronzer,Anastasia Beverly Hills,35.0,4.5417,707,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1136,,Cream Bronzer,Anastasia Beverly Hills,35.0,4.5417,707,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1137,,Loose Setting Powder,Anastasia Beverly Hills,38.0,4.534,824,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1138,,Loose Setting Powder,Anastasia Beverly Hills,38.0,4.534,824,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1139,,Loose Setting Powder,Anastasia Beverly Hills,38.0,4.534,824,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1140,,Powder Bronzer,Anastasia Beverly Hills,28.0,4.5012,433,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1141,,Powder Bronzer,Anastasia Beverly Hills,28.0,4.5012,433,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1142,,Powder Bronzer,Anastasia Beverly Hills,28.0,4.5012,433,Makeup,Mid ($26-50),Top Rated (4.5-5)
+1143,,Mini Soft Glam II Eye Shadow Palette,Anastasia Beverly Hills,29.0,4.3553,76,Makeup,Mid ($26-50),Good (4-4.4)
+1144,,Mini Soft Glam II Eye Shadow Palette,Anastasia Beverly Hills,29.0,4.3553,76,Makeup,Mid ($26-50),Good (4-4.4)
+1145,,Mini Soft Glam II Eye Shadow Palette,Anastasia Beverly Hills,29.0,4.3553,76,Makeup,Mid ($26-50),Good (4-4.4)
+1146,,Norvina Mini Pro Pigment Palette Vol. 2 for Face & Body,Anastasia Beverly Hills,29.0,4.3269,364,Makeup,Mid ($26-50),Good (4-4.4)
+1147,,Norvina Mini Pro Pigment Palette Vol. 2 for Face & Body,Anastasia Beverly Hills,29.0,4.3269,364,Makeup,Mid ($26-50),Good (4-4.4)
+1148,,Norvina Mini Pro Pigment Palette Vol. 2 for Face & Body,Anastasia Beverly Hills,29.0,4.3269,364,Makeup,Mid ($26-50),Good (4-4.4)
+1149,,Dewy Set Setting Spray,Anastasia Beverly Hills,26.0,4.2373,316,Makeup,Mid ($26-50),Good (4-4.4)
+1150,,Dewy Set Setting Spray,Anastasia Beverly Hills,26.0,4.2373,316,Makeup,Mid ($26-50),Good (4-4.4)
+1151,,Dewy Set Setting Spray,Anastasia Beverly Hills,26.0,4.2373,316,Makeup,Mid ($26-50),Good (4-4.4)
+1152,,Luminous Foundation,Anastasia Beverly Hills,38.0,4.1304,1902,Makeup,Mid ($26-50),Good (4-4.4)
+1153,,Luminous Foundation,Anastasia Beverly Hills,38.0,4.1304,1902,Makeup,Mid ($26-50),Good (4-4.4)
+1154,,Luminous Foundation,Anastasia Beverly Hills,38.0,4.1304,1902,Makeup,Mid ($26-50),Good (4-4.4)
+1155,,Contour Kit,Anastasia Beverly Hills,40.0,4.0975,2399,Makeup,Mid ($26-50),Good (4-4.4)
+1156,,Contour Kit,Anastasia Beverly Hills,40.0,4.0975,2399,Makeup,Mid ($26-50),Good (4-4.4)
+1157,,Contour Kit,Anastasia Beverly Hills,40.0,4.0975,2399,Makeup,Mid ($26-50),Good (4-4.4)
+1158,,Brow Definer 3-in-1 Triangle Tip,Anastasia Beverly Hills,26.0,4.0746,4127,Makeup,Mid ($26-50),Good (4-4.4)
+1159,,Brow Definer 3-in-1 Triangle Tip,Anastasia Beverly Hills,26.0,4.0746,4127,Makeup,Mid ($26-50),Good (4-4.4)
+1160,,Brow Definer 3-in-1 Triangle Tip,Anastasia Beverly Hills,26.0,4.0746,4127,Makeup,Mid ($26-50),Good (4-4.4)
+1161,,Norvina Pro Pigment Palette Vol. 5 for Face & Body,Anastasia Beverly Hills,60.0,4.8206,457,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1162,,Norvina Pro Pigment Palette Vol. 5 for Face & Body,Anastasia Beverly Hills,60.0,4.8206,457,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1163,,Norvina Pro Pigment Palette Vol. 5 for Face & Body,Anastasia Beverly Hills,60.0,4.8206,457,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1164,,Norvina Pro Pigment Palette Vol. 1 for Face & Body,Anastasia Beverly Hills,60.0,4.7151,179,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1165,,Norvina Pro Pigment Palette Vol. 1 for Face & Body,Anastasia Beverly Hills,60.0,4.7151,179,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1166,,Norvina Pro Pigment Palette Vol. 1 for Face & Body,Anastasia Beverly Hills,60.0,4.7151,179,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1167,,Norvina Pro Pigment Palette Vol. 3 for Face & Body,Anastasia Beverly Hills,60.0,4.601,193,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1168,,Norvina Pro Pigment Palette Vol. 3 for Face & Body,Anastasia Beverly Hills,60.0,4.601,193,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1169,,Norvina Pro Pigment Palette Vol. 3 for Face & Body,Anastasia Beverly Hills,60.0,4.601,193,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1170,,Norvina Pro Pigment Palette Vol. 4 for Face & Body,Anastasia Beverly Hills,60.0,4.5069,144,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1171,,Norvina Pro Pigment Palette Vol. 4 for Face & Body,Anastasia Beverly Hills,60.0,4.5069,144,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1172,,Norvina Pro Pigment Palette Vol. 4 for Face & Body,Anastasia Beverly Hills,60.0,4.5069,144,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1173,,Norvina Pro Pigment Palette Vol. 2 for Face & Body,Anastasia Beverly Hills,60.0,4.5,116,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1174,,Norvina Pro Pigment Palette Vol. 2 for Face & Body,Anastasia Beverly Hills,60.0,4.5,116,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1175,,Norvina Pro Pigment Palette Vol. 2 for Face & Body,Anastasia Beverly Hills,60.0,4.5,116,Makeup,Premium ($51-100),Top Rated (4.5-5)
+1176,,Norvina Mini Pro Pigment Palette Vol. 3 for Face & Body,Anastasia Beverly Hills,29.0,4.4737,114,Mini Size,Mid ($26-50),Top Rated (4.5-5)
+1177,,Norvina Mini Pro Pigment Palette Vol. 3 for Face & Body,Anastasia Beverly Hills,29.0,4.4737,114,Mini Size,Mid ($26-50),Top Rated (4.5-5)
+1178,,Norvina Mini Pro Pigment Palette Vol. 3 for Face & Body,Anastasia Beverly Hills,29.0,4.4737,114,Mini Size,Mid ($26-50),Top Rated (4.5-5)
+1179,,Classic Stencils,Anastasia Beverly Hills,20.0,3.4681,658,Tools & Brushes,Budget ($0-25),Average (3-3.9)
+1180,,Classic Stencils,Anastasia Beverly Hills,20.0,3.4681,658,Tools & Brushes,Budget ($0-25),Average (3-3.9)
+1181,,Classic Stencils,Anastasia Beverly Hills,20.0,3.4681,658,Tools & Brushes,Budget ($0-25),Average (3-3.9)
+1182,,Tweezers,Anastasia Beverly Hills,28.0,4.4991,527,Tools & Brushes,Mid ($26-50),Top Rated (4.5-5)
+1183,,Tweezers,Anastasia Beverly Hills,28.0,4.4991,527,Tools & Brushes,Mid ($26-50),Top Rated (4.5-5)
+1184,,Tweezers,Anastasia Beverly Hills,28.0,4.4991,527,Tools & Brushes,Mid ($26-50),Top Rated (4.5-5)
+1185,,Baomint Protect + Shine Oil Blend,adwoa beauty,24.0,4.5359,237,Hair,Budget ($0-25),Top Rated (4.5-5)
+1186,,Baomint Protect + Shine Oil Blend,adwoa beauty,24.0,4.5359,237,Hair,Budget ($0-25),Top Rated (4.5-5)
+1187,,Baomint Protect + Shine Oil Blend,adwoa beauty,24.0,4.5359,237,Hair,Budget ($0-25),Top Rated (4.5-5)
+1188,,Melonberry Hair Milk Leave-In Conditioner,adwoa beauty,24.0,4.3826,1265,Hair,Budget ($0-25),Good (4-4.4)
+1189,,Melonberry Hair Milk Leave-In Conditioner,adwoa beauty,24.0,4.3826,1265,Hair,Budget ($0-25),Good (4-4.4)
+1190,,Melonberry Hair Milk Leave-In Conditioner,adwoa beauty,24.0,4.3826,1265,Hair,Budget ($0-25),Good (4-4.4)
+1191,,Blue Tansy Reparative Conditioner,adwoa beauty,25.0,4.3495,186,Hair,Budget ($0-25),Good (4-4.4)
+1192,,Blue Tansy Reparative Conditioner,adwoa beauty,25.0,4.3495,186,Hair,Budget ($0-25),Good (4-4.4)
+1193,,Blue Tansy Reparative Conditioner,adwoa beauty,25.0,4.3495,186,Hair,Budget ($0-25),Good (4-4.4)
+1194,,Blue Tansy Clarifying Gel Shampoo,adwoa beauty,25.0,4.3109,193,Hair,Budget ($0-25),Good (4-4.4)
+1195,,Blue Tansy Clarifying Gel Shampoo,adwoa beauty,25.0,4.3109,193,Hair,Budget ($0-25),Good (4-4.4)
+1196,,Blue Tansy Clarifying Gel Shampoo,adwoa beauty,25.0,4.3109,193,Hair,Budget ($0-25),Good (4-4.4)
+1197,,Mini Baomint Deep Conditioning Treatment,adwoa beauty,15.0,4.2,5,Hair,Budget ($0-25),Good (4-4.4)
+1198,,Mini Baomint Deep Conditioning Treatment,adwoa beauty,15.0,4.2,5,Hair,Budget ($0-25),Good (4-4.4)
+1199,,Mini Baomint Deep Conditioning Treatment,adwoa beauty,15.0,4.2,5,Hair,Budget ($0-25),Good (4-4.4)
+1200,,Baomint Moisturizing Shampoo,adwoa beauty,24.0,4.1324,136,Hair,Budget ($0-25),Good (4-4.4)
+1201,,Baomint Moisturizing Shampoo,adwoa beauty,24.0,4.1324,136,Hair,Budget ($0-25),Good (4-4.4)
+1202,,Baomint Moisturizing Shampoo,adwoa beauty,24.0,4.1324,136,Hair,Budget ($0-25),Good (4-4.4)
+1203,,Blue Tansy Reparative Mask,adwoa beauty,40.0,4.7581,492,Hair,Mid ($26-50),Top Rated (4.5-5)
+1204,,Blue Tansy Reparative Mask,adwoa beauty,40.0,4.7581,492,Hair,Mid ($26-50),Top Rated (4.5-5)
+1205,,Blue Tansy Reparative Mask,adwoa beauty,40.0,4.7581,492,Hair,Mid ($26-50),Top Rated (4.5-5)
+1206,,Blue Tansy Treatment Serum,adwoa beauty,36.0,4.6465,215,Hair,Mid ($26-50),Top Rated (4.5-5)
+1207,,Blue Tansy Treatment Serum,adwoa beauty,36.0,4.6465,215,Hair,Mid ($26-50),Top Rated (4.5-5)
+1208,,Blue Tansy Treatment Serum,adwoa beauty,36.0,4.6465,215,Hair,Mid ($26-50),Top Rated (4.5-5)
+1209,,Blue Tansy Leave in Conditioning Styler,adwoa beauty,26.0,4.5762,210,Hair,Mid ($26-50),Top Rated (4.5-5)
+1210,,Blue Tansy Leave in Conditioning Styler,adwoa beauty,26.0,4.5762,210,Hair,Mid ($26-50),Top Rated (4.5-5)
+1211,,Blue Tansy Leave in Conditioning Styler,adwoa beauty,26.0,4.5762,210,Hair,Mid ($26-50),Top Rated (4.5-5)
+1212,,Baomint Moisturizing Curl Defining Cream,adwoa beauty,32.0,4.5635,252,Hair,Mid ($26-50),Top Rated (4.5-5)
+1213,,Baomint Moisturizing Curl Defining Cream,adwoa beauty,32.0,4.5635,252,Hair,Mid ($26-50),Top Rated (4.5-5)
+1214,,Baomint Moisturizing Curl Defining Cream,adwoa beauty,32.0,4.5635,252,Hair,Mid ($26-50),Top Rated (4.5-5)
+1215,,Baomint Deep Conditioning Treatment,adwoa beauty,39.0,4.5273,311,Hair,Mid ($26-50),Top Rated (4.5-5)
+1216,,Baomint Deep Conditioning Treatment,adwoa beauty,39.0,4.5273,311,Hair,Mid ($26-50),Top Rated (4.5-5)
+1217,,Baomint Deep Conditioning Treatment,adwoa beauty,39.0,4.5273,311,Hair,Mid ($26-50),Top Rated (4.5-5)
+1218,,Baomint Moisturizing Curl Defining Gel,adwoa beauty,32.0,4.4188,234,Hair,Mid ($26-50),Top Rated (4.5-5)
+1219,,Baomint Moisturizing Curl Defining Gel,adwoa beauty,32.0,4.4188,234,Hair,Mid ($26-50),Top Rated (4.5-5)
+1220,,Baomint Moisturizing Curl Defining Gel,adwoa beauty,32.0,4.4188,234,Hair,Mid ($26-50),Top Rated (4.5-5)
+1221,,Baomint Leave In Conditioning Styler,adwoa beauty,26.0,4.3472,144,Hair,Mid ($26-50),Good (4-4.4)
+1222,,Baomint Leave In Conditioning Styler,adwoa beauty,26.0,4.3472,144,Hair,Mid ($26-50),Good (4-4.4)
+1223,,Baomint Leave In Conditioning Styler,adwoa beauty,26.0,4.3472,144,Hair,Mid ($26-50),Good (4-4.4)
+1224,,Mini Baomint Deluxe Travel Kit,adwoa beauty,56.0,4.7283,173,Hair,Premium ($51-100),Top Rated (4.5-5)
+1225,,Mini Baomint Deluxe Travel Kit,adwoa beauty,56.0,4.7283,173,Hair,Premium ($51-100),Top Rated (4.5-5)
+1226,,Mini Baomint Deluxe Travel Kit,adwoa beauty,56.0,4.7283,173,Hair,Premium ($51-100),Top Rated (4.5-5)
+1227,,Mini Wild Huckleberry 8-Acid Polishing Peel Mask,alpyn beauty,23.0,4.85,20,Mini Size,Budget ($0-25),Top Rated (4.5-5)
+1228,,Mini Wild Huckleberry 8-Acid Polishing Peel Mask,alpyn beauty,23.0,4.85,20,Mini Size,Budget ($0-25),Top Rated (4.5-5)
+1229,,Mini Wild Huckleberry 8-Acid Polishing Peel Mask,alpyn beauty,23.0,4.85,20,Mini Size,Budget ($0-25),Top Rated (4.5-5)
+1230,,Mini Melt Moisturizer with Bakuchiol and Squalane,alpyn beauty,25.0,4.5806,31,Skincare,Budget ($0-25),Top Rated (4.5-5)
+1231,,Mini Melt Moisturizer with Bakuchiol and Squalane,alpyn beauty,25.0,4.5806,31,Skincare,Budget ($0-25),Top Rated (4.5-5)
+1232,,Mini Melt Moisturizer with Bakuchiol and Squalane,alpyn beauty,25.0,4.5806,31,Skincare,Budget ($0-25),Top Rated (4.5-5)
+1233,,Pore Perfecting Liquid Exfoliator with 2% BHA + Borage,alpyn beauty,39.0,4.9231,91,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1234,,Pore Perfecting Liquid Exfoliator with 2% BHA + Borage,alpyn beauty,39.0,4.9231,91,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1235,,Pore Perfecting Liquid Exfoliator with 2% BHA + Borage,alpyn beauty,39.0,4.9231,91,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1236,,Juneberry & Collagen Hydrating Cold Cream Cleanser,alpyn beauty,39.0,4.895,238,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1237,,Juneberry & Collagen Hydrating Cold Cream Cleanser,alpyn beauty,39.0,4.895,238,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1238,,Juneberry & Collagen Hydrating Cold Cream Cleanser,alpyn beauty,39.0,4.895,238,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1239,,Peel and Plump Skin-Smoothing Duo,alpyn beauty,49.0,4.8889,18,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1240,,Peel and Plump Skin-Smoothing Duo,alpyn beauty,49.0,4.8889,18,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1241,,Peel and Plump Skin-Smoothing Duo,alpyn beauty,49.0,4.8889,18,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1242,,Triple Vitamin C Brightening Bounce Cream Moisturizer,alpyn beauty,49.0,4.5422,225,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1243,,Triple Vitamin C Brightening Bounce Cream Moisturizer,alpyn beauty,49.0,4.5422,225,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1244,,Triple Vitamin C Brightening Bounce Cream Moisturizer,alpyn beauty,49.0,4.5422,225,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1245,,Willow & Sweet Agave Plumping Lip Mask,alpyn beauty,28.0,4.5405,148,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1246,,Willow & Sweet Agave Plumping Lip Mask,alpyn beauty,28.0,4.5405,148,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1247,,Willow & Sweet Agave Plumping Lip Mask,alpyn beauty,28.0,4.5405,148,Skincare,Mid ($26-50),Top Rated (4.5-5)
+1248,,Creamy Bubbling Cleanser with Vitamin C & AHAs,alpyn beauty,36.0,4.3832,167,Skincare,Mid ($26-50),Good (4-4.4)
+1249,,Creamy Bubbling Cleanser with Vitamin C & AHAs,alpyn beauty,36.0,4.3832,167,Skincare,Mid ($26-50),Good (4-4.4)
+1250,,Creamy Bubbling Cleanser with Vitamin C & AHAs,alpyn beauty,36.0,4.3832,167,Skincare,Mid ($26-50),Good (4-4.4)
+1251,,Wild Nettle & Niacinamide Instant Firming Serum,alpyn beauty,58.0,4.7631,287,Skincare,Premium ($51-100),Top Rated (4.5-5)
+1252,,Wild Nettle & Niacinamide Instant Firming Serum,alpyn beauty,58.0,4.7631,287,Skincare,Premium ($51-100),Top Rated (4.5-5)
+1253,,Wild Nettle & Niacinamide Instant Firming Serum,alpyn beauty,58.0,4.7631,287,Skincare,Premium ($51-100),Top Rated (4.5-5)
+1254,,Wild Huckleberry 8-Acid Polishing Peel Mask,alpyn beauty,56.0,4.6801,347,Skincare,Premium ($51-100),Top Rated (4.5-5)
+1255,,Wild Huckleberry 8-Acid Polishing Peel Mask,alpyn beauty,56.0,4.6801,347,Skincare,Premium ($51-100),Top Rated (4.5-5)
+1256,,Wild Huckleberry 8-Acid Polishing Peel Mask,alpyn beauty,56.0,4.6801,347,Skincare,Premium ($51-100),Top Rated (4.5-5)
+1257,,Melt Moisturizer with Bakuchiol and Squalane,alpyn beauty,60.0,4.514,465,Skincare,Premium ($51-100),Top Rated (4.5-5)
+1258,,Melt Moisturizer with Bakuchiol and Squalane,alpyn beauty,60.0,4.514,465,Skincare,Premium ($51-100),Top Rated (4.5-5)
+1259,,Melt Moisturizer with Bakuchiol and Squalane,alpyn beauty,60.0,4.514,465,Skincare,Premium ($51-100),Top Rated (4.5-5)
+1260,,Vitamin C & Bearberry Instant Glow Serum,alpyn beauty,59.0,4.503,167,Skincare,Premium ($51-100),Top Rated (4.5-5)
+1261,,Vitamin C & Bearberry Instant Glow Serum,alpyn beauty,59.0,4.503,167,Skincare,Premium ($51-100),Top Rated (4.5-5)
+1262,,Vitamin C & Bearberry Instant Glow Serum,alpyn beauty,59.0,4.503,167,Skincare,Premium ($51-100),Top Rated (4.5-5)
+1263,,Line-Filling Eye Cream with Bakuchiol and Caffeine,alpyn beauty,62.0,4.3206,262,Skincare,Premium ($51-100),Good (4-4.4)
+1264,,Line-Filling Eye Cream with Bakuchiol and Caffeine,alpyn beauty,62.0,4.3206,262,Skincare,Premium ($51-100),Good (4-4.4)
+1265,,Line-Filling Eye Cream with Bakuchiol and Caffeine,alpyn beauty,62.0,4.3206,262,Skincare,Premium ($51-100),Good (4-4.4)
+1266,,Mini Perk Up Plus Extended Clean Dry Shampoo,amika,16.0,4.375,8,Hair,Budget ($0-25),Good (4-4.4)
+1267,,Mini Perk Up Plus Extended Clean Dry Shampoo,amika,16.0,4.375,8,Hair,Budget ($0-25),Good (4-4.4)
+1268,,Mini Perk Up Plus Extended Clean Dry Shampoo,amika,16.0,4.375,8,Hair,Budget ($0-25),Good (4-4.4)
+1269,,Normcore Hydrating Conditioner,amika,23.0,3.6875,64,Hair,Budget ($0-25),Average (3-3.9)
+1270,,Normcore Hydrating Conditioner,amika,23.0,3.6875,64,Hair,Budget ($0-25),Average (3-3.9)
+1271,,Normcore Hydrating Conditioner,amika,23.0,3.6875,64,Hair,Budget ($0-25),Average (3-3.9)
+1272,,Vault Conditioner for Color-Treated Hair,amika,23.0,3.6429,42,Hair,Budget ($0-25),Average (3-3.9)
+1273,,Vault Conditioner for Color-Treated Hair,amika,23.0,3.6429,42,Hair,Budget ($0-25),Average (3-3.9)
+1274,,Vault Conditioner for Color-Treated Hair,amika,23.0,3.6429,42,Hair,Budget ($0-25),Average (3-3.9)
+1275,,Vault Sulfate Free Shampoo for Color-Treated Hair,amika,23.0,3.5507,69,Hair,Budget ($0-25),Average (3-3.9)
+1276,,Vault Sulfate Free Shampoo for Color-Treated Hair,amika,23.0,3.5507,69,Hair,Budget ($0-25),Average (3-3.9)
+1277,,Vault Sulfate Free Shampoo for Color-Treated Hair,amika,23.0,3.5507,69,Hair,Budget ($0-25),Average (3-3.9)
+1278,,Mini Perk Up Talc-Free Dry Shampoo,amika,15.0,3.4286,7,Hair,Budget ($0-25),Average (3-3.9)
+1279,,Mini Perk Up Talc-Free Dry Shampoo,amika,15.0,3.4286,7,Hair,Budget ($0-25),Average (3-3.9)
+1280,,Mini Perk Up Talc-Free Dry Shampoo,amika,15.0,3.4286,7,Hair,Budget ($0-25),Average (3-3.9)
+1281,,Normcore Sulfate Free Shampoo,amika,23.0,3.3309,139,Hair,Budget ($0-25),Average (3-3.9)
+1282,,Normcore Sulfate Free Shampoo,amika,23.0,3.3309,139,Hair,Budget ($0-25),Average (3-3.9)
+1283,,Normcore Sulfate Free Shampoo,amika,23.0,3.3309,139,Hair,Budget ($0-25),Average (3-3.9)
+1284,,High Tide Deep Waver Jumbo,amika,120.0,4.4318,44,Hair,Luxury ($101-250),Top Rated (4.5-5)
+1285,,High Tide Deep Waver Jumbo,amika,120.0,4.4318,44,Hair,Luxury ($101-250),Top Rated (4.5-5)
+1286,,High Tide Deep Waver Jumbo,amika,120.0,4.4318,44,Hair,Luxury ($101-250),Top Rated (4.5-5)
+1287,,The CEO 360° Lightweight Powerhouse Hair Dryer,amika,200.0,4.3214,28,Hair,Luxury ($101-250),Good (4-4.4)
+1288,,The CEO 360° Lightweight Powerhouse Hair Dryer,amika,200.0,4.3214,28,Hair,Luxury ($101-250),Good (4-4.4)
+1289,,The CEO 360° Lightweight Powerhouse Hair Dryer,amika,200.0,4.3214,28,Hair,Luxury ($101-250),Good (4-4.4)
+1290,,Double Agent 2-in-1 Straightening Blow Dryer Brush,amika,120.0,4.3103,116,Hair,Luxury ($101-250),Good (4-4.4)
+1291,,Double Agent 2-in-1 Straightening Blow Dryer Brush,amika,120.0,4.3103,116,Hair,Luxury ($101-250),Good (4-4.4)
+1292,,Double Agent 2-in-1 Straightening Blow Dryer Brush,amika,120.0,4.3103,116,Hair,Luxury ($101-250),Good (4-4.4)
+1293,,High Tide Deep Wave Hair Crimper,amika,120.0,4.0,176,Hair,Luxury ($101-250),Good (4-4.4)
+1294,,High Tide Deep Wave Hair Crimper,amika,120.0,4.0,176,Hair,Luxury ($101-250),Good (4-4.4)
+1295,,High Tide Deep Wave Hair Crimper,amika,120.0,4.0,176,Hair,Luxury ($101-250),Good (4-4.4)
+1296,,Illuminati Diamond Ceramic Flat Iron,amika,120.0,3.5172,29,Hair,Luxury ($101-250),Average (3-3.9)
+1297,,Illuminati Diamond Ceramic Flat Iron,amika,120.0,3.5172,29,Hair,Luxury ($101-250),Average (3-3.9)
+1298,,Illuminati Diamond Ceramic Flat Iron,amika,120.0,3.5172,29,Hair,Luxury ($101-250),Average (3-3.9)
+1299,,The Conductor 1 Inch Precision Germanium Flat Iron,amika,150.0,3.0526,38,Hair,Luxury ($101-250),Average (3-3.9)
+1300,,The Conductor 1 Inch Precision Germanium Flat Iron,amika,150.0,3.0526,38,Hair,Luxury ($101-250),Average (3-3.9)
+1301,,The Conductor 1 Inch Precision Germanium Flat Iron,amika,150.0,3.0526,38,Hair,Luxury ($101-250),Average (3-3.9)
+1302,,Good Vibes Only + Hydration + Repair Hair Mask Set,amika,39.0,5.0,17,Hair,Mid ($26-50),Top Rated (4.5-5)
+1303,,Good Vibes Only + Hydration + Repair Hair Mask Set,amika,39.0,5.0,17,Hair,Mid ($26-50),Top Rated (4.5-5)
+1304,,Good Vibes Only + Hydration + Repair Hair Mask Set,amika,39.0,5.0,17,Hair,Mid ($26-50),Top Rated (4.5-5)
+1305,,The Kure Multi-Task Repair Treatment,amika,30.0,4.6923,52,Hair,Mid ($26-50),Top Rated (4.5-5)
+1306,,The Kure Multi-Task Repair Treatment,amika,30.0,4.6923,52,Hair,Mid ($26-50),Top Rated (4.5-5)
+1307,,The Kure Multi-Task Repair Treatment,amika,30.0,4.6923,52,Hair,Mid ($26-50),Top Rated (4.5-5)
+1308,,3D Daily Leave-In Hair Thickening Treatment,amika,38.0,4.6667,3,Hair,Mid ($26-50),Top Rated (4.5-5)
+1309,,3D Daily Leave-In Hair Thickening Treatment,amika,38.0,4.6667,3,Hair,Mid ($26-50),Top Rated (4.5-5)
+1310,,3D Daily Leave-In Hair Thickening Treatment,amika,38.0,4.6667,3,Hair,Mid ($26-50),Top Rated (4.5-5)
+1311,,Hydro Rush Intense Moisture Leave-In Conditioner with Hyaluronic Acid,amika,28.0,4.6388,335,Hair,Mid ($26-50),Top Rated (4.5-5)
+1312,,Hydro Rush Intense Moisture Leave-In Conditioner with Hyaluronic Acid,amika,28.0,4.6388,335,Hair,Mid ($26-50),Top Rated (4.5-5)
+1313,,Hydro Rush Intense Moisture Leave-In Conditioner with Hyaluronic Acid,amika,28.0,4.6388,335,Hair,Mid ($26-50),Top Rated (4.5-5)
+1314,,Bust Your Brass Cool Blonde Purple Intense Repair Hair Mask,amika,40.0,4.5556,144,Hair,Mid ($26-50),Top Rated (4.5-5)
+1315,,Bust Your Brass Cool Blonde Purple Intense Repair Hair Mask,amika,40.0,4.5556,144,Hair,Mid ($26-50),Top Rated (4.5-5)
+1316,,Bust Your Brass Cool Blonde Purple Intense Repair Hair Mask,amika,40.0,4.5556,144,Hair,Mid ($26-50),Top Rated (4.5-5)
+1317,,The Kure Intense Bond Repair Hair Mask,amika,40.0,4.5346,159,Hair,Mid ($26-50),Top Rated (4.5-5)
+1318,,The Kure Intense Bond Repair Hair Mask,amika,40.0,4.5346,159,Hair,Mid ($26-50),Top Rated (4.5-5)
+1319,,The Kure Intense Bond Repair Hair Mask,amika,40.0,4.5346,159,Hair,Mid ($26-50),Top Rated (4.5-5)
+1320,,Dream Routine Overnight Hydrating Hair Mask,amika,32.0,4.5027,561,Hair,Mid ($26-50),Top Rated (4.5-5)
+1321,,Dream Routine Overnight Hydrating Hair Mask,amika,32.0,4.5027,561,Hair,Mid ($26-50),Top Rated (4.5-5)
+1322,,Dream Routine Overnight Hydrating Hair Mask,amika,32.0,4.5027,561,Hair,Mid ($26-50),Top Rated (4.5-5)
+1323,,Flash Instant Shine Hair Gloss Mask,amika,28.0,4.4352,108,Hair,Mid ($26-50),Top Rated (4.5-5)
+1324,,Flash Instant Shine Hair Gloss Mask,amika,28.0,4.4352,108,Hair,Mid ($26-50),Top Rated (4.5-5)
+1325,,Flash Instant Shine Hair Gloss Mask,amika,28.0,4.4352,108,Hair,Mid ($26-50),Top Rated (4.5-5)
+1326,,Perk Up Talc-Free Dry Shampoo,amika,28.0,4.4057,2179,Hair,Mid ($26-50),Top Rated (4.5-5)
+1327,,Perk Up Talc-Free Dry Shampoo,amika,28.0,4.4057,2179,Hair,Mid ($26-50),Top Rated (4.5-5)
+1328,,Perk Up Talc-Free Dry Shampoo,amika,28.0,4.4057,2179,Hair,Mid ($26-50),Top Rated (4.5-5)
+1329,,Soulfood Nourishing Hair Mask,amika,32.0,4.4028,1621,Hair,Mid ($26-50),Top Rated (4.5-5)
+1330,,Soulfood Nourishing Hair Mask,amika,32.0,4.4028,1621,Hair,Mid ($26-50),Top Rated (4.5-5)
+1331,,Soulfood Nourishing Hair Mask,amika,32.0,4.4028,1621,Hair,Mid ($26-50),Top Rated (4.5-5)
+1332,,Reset Exfoliating Jelly Scalp Scrub,amika,28.0,4.4,10,Hair,Mid ($26-50),Good (4-4.4)
+1333,,Reset Exfoliating Jelly Scalp Scrub,amika,28.0,4.4,10,Hair,Mid ($26-50),Good (4-4.4)
+1334,,Reset Exfoliating Jelly Scalp Scrub,amika,28.0,4.4,10,Hair,Mid ($26-50),Good (4-4.4)
+1335,,The Closer Instant Split-end Hair Repair Cream,amika,28.0,4.3739,115,Hair,Mid ($26-50),Good (4-4.4)
+1336,,The Closer Instant Split-end Hair Repair Cream,amika,28.0,4.3739,115,Hair,Mid ($26-50),Good (4-4.4)
+1337,,The Closer Instant Split-end Hair Repair Cream,amika,28.0,4.3739,115,Hair,Mid ($26-50),Good (4-4.4)
+1338,,The Wizard Detangling Hair Primer,amika,29.0,4.3538,65,Hair,Mid ($26-50),Good (4-4.4)
+1339,,The Wizard Detangling Hair Primer,amika,29.0,4.3538,65,Hair,Mid ($26-50),Good (4-4.4)
+1340,,The Wizard Detangling Hair Primer,amika,29.0,4.3538,65,Hair,Mid ($26-50),Good (4-4.4)
+1341,,The Kure Bond Repair Conditioner for Damaged Hair,amika,28.0,4.3292,161,Hair,Mid ($26-50),Good (4-4.4)
+1342,,The Kure Bond Repair Conditioner for Damaged Hair,amika,28.0,4.3292,161,Hair,Mid ($26-50),Good (4-4.4)
+1343,,The Kure Bond Repair Conditioner for Damaged Hair,amika,28.0,4.3292,161,Hair,Mid ($26-50),Good (4-4.4)
+1344,,Fadeblock Pre-Shampoo Color Seal,amika,26.0,4.3033,122,Hair,Mid ($26-50),Good (4-4.4)
+1345,,Fadeblock Pre-Shampoo Color Seal,amika,26.0,4.3033,122,Hair,Mid ($26-50),Good (4-4.4)
+1346,,Fadeblock Pre-Shampoo Color Seal,amika,26.0,4.3033,122,Hair,Mid ($26-50),Good (4-4.4)
+1347,,The Kure Bond Repair Shampoo for Damaged Hair,amika,28.0,4.2951,61,Hair,Mid ($26-50),Good (4-4.4)
+1348,,The Kure Bond Repair Shampoo for Damaged Hair,amika,28.0,4.2951,61,Hair,Mid ($26-50),Good (4-4.4)
+1349,,The Kure Bond Repair Shampoo for Damaged Hair,amika,28.0,4.2951,61,Hair,Mid ($26-50),Good (4-4.4)
+1350,,Bust Your Brass Blonde Purple Conditioner,amika,28.0,4.2941,51,Hair,Mid ($26-50),Good (4-4.4)
+1351,,Bust Your Brass Blonde Purple Conditioner,amika,28.0,4.2941,51,Hair,Mid ($26-50),Good (4-4.4)
+1352,,Bust Your Brass Blonde Purple Conditioner,amika,28.0,4.2941,51,Hair,Mid ($26-50),Good (4-4.4)
+1353,,Plus Size Volume & Body Mousse,amika,30.0,4.2588,85,Hair,Mid ($26-50),Good (4-4.4)
+1354,,Plus Size Volume & Body Mousse,amika,30.0,4.2588,85,Hair,Mid ($26-50),Good (4-4.4)
+1355,,Plus Size Volume & Body Mousse,amika,30.0,4.2588,85,Hair,Mid ($26-50),Good (4-4.4)
+1356,,Un.Done Volume and Matte Texture Spray,amika,29.0,4.2243,749,Hair,Mid ($26-50),Good (4-4.4)
+1357,,Un.Done Volume and Matte Texture Spray,amika,29.0,4.2243,749,Hair,Mid ($26-50),Good (4-4.4)
+1358,,Un.Done Volume and Matte Texture Spray,amika,29.0,4.2243,749,Hair,Mid ($26-50),Good (4-4.4)
+1359,,Curl Corps Curl Enhancing Hair Gel,amika,28.0,4.2192,73,Hair,Mid ($26-50),Good (4-4.4)
+1360,,Curl Corps Curl Enhancing Hair Gel,amika,28.0,4.2192,73,Hair,Mid ($26-50),Good (4-4.4)
+1361,,Curl Corps Curl Enhancing Hair Gel,amika,28.0,4.2192,73,Hair,Mid ($26-50),Good (4-4.4)
+1362,,Curl Corps Curl Defining Cream,amika,28.0,4.1951,82,Hair,Mid ($26-50),Good (4-4.4)
+1363,,Curl Corps Curl Defining Cream,amika,28.0,4.1951,82,Hair,Mid ($26-50),Good (4-4.4)
+1364,,Curl Corps Curl Defining Cream,amika,28.0,4.1951,82,Hair,Mid ($26-50),Good (4-4.4)
+1365,,Top Gloss Hair Shine Spray,amika,29.0,4.16,25,Hair,Mid ($26-50),Good (4-4.4)
+1366,,Top Gloss Hair Shine Spray,amika,29.0,4.16,25,Hair,Mid ($26-50),Good (4-4.4)
+1367,,Top Gloss Hair Shine Spray,amika,29.0,4.16,25,Hair,Mid ($26-50),Good (4-4.4)
+1368,,Bust Your Brass Blonde Purple Shampoo,amika,28.0,4.1053,19,Hair,Mid ($26-50),Good (4-4.4)
+1369,,Bust Your Brass Blonde Purple Shampoo,amika,28.0,4.1053,19,Hair,Mid ($26-50),Good (4-4.4)
+1370,,Bust Your Brass Blonde Purple Shampoo,amika,28.0,4.1053,19,Hair,Mid ($26-50),Good (4-4.4)
+1371,,Hydro Rush Intense Moisture Conditioner with Hyaluronic Acid,amika,26.0,3.9158,190,Hair,Mid ($26-50),Good (4-4.4)
+1372,,Hydro Rush Intense Moisture Conditioner with Hyaluronic Acid,amika,26.0,3.9158,190,Hair,Mid ($26-50),Good (4-4.4)
+1373,,Hydro Rush Intense Moisture Conditioner with Hyaluronic Acid,amika,26.0,3.9158,190,Hair,Mid ($26-50),Good (4-4.4)
+1374,,Hydro Rush Intense Moisture Shampoo with Hyaluronic Acid,amika,26.0,3.8838,198,Hair,Mid ($26-50),Average (3-3.9)
+1375,,Hydro Rush Intense Moisture Shampoo with Hyaluronic Acid,amika,26.0,3.8838,198,Hair,Mid ($26-50),Average (3-3.9)
+1376,,Hydro Rush Intense Moisture Shampoo with Hyaluronic Acid,amika,26.0,3.8838,198,Hair,Mid ($26-50),Average (3-3.9)
+1377,,Perk Up Plus Extended Clean Dry Shampoo,amika,30.0,3.8358,67,Hair,Mid ($26-50),Average (3-3.9)
+1378,,Perk Up Plus Extended Clean Dry Shampoo,amika,30.0,3.8358,67,Hair,Mid ($26-50),Average (3-3.9)
+1379,,Perk Up Plus Extended Clean Dry Shampoo,amika,30.0,3.8358,67,Hair,Mid ($26-50),Average (3-3.9)
+1380,,Brooklyn Bombshell Blowout Spray,amika,28.0,3.8214,28,Hair,Mid ($26-50),Average (3-3.9)
+1381,,Brooklyn Bombshell Blowout Spray,amika,28.0,3.8214,28,Hair,Mid ($26-50),Average (3-3.9)
+1382,,Brooklyn Bombshell Blowout Spray,amika,28.0,3.8214,28,Hair,Mid ($26-50),Average (3-3.9)
+1383,,Water Sign Hydrating Hair Oil with Hyaluronic Acid,amika,32.0,3.8,45,Hair,Mid ($26-50),Average (3-3.9)
+1384,,Water Sign Hydrating Hair Oil with Hyaluronic Acid,amika,32.0,3.8,45,Hair,Mid ($26-50),Average (3-3.9)
+1385,,Water Sign Hydrating Hair Oil with Hyaluronic Acid,amika,32.0,3.8,45,Hair,Mid ($26-50),Average (3-3.9)
+1386,,Velveteen Dream Anti-Frizz Smoothing Conditioner,amika,28.0,3.62,50,Hair,Mid ($26-50),Average (3-3.9)
+1387,,Velveteen Dream Anti-Frizz Smoothing Conditioner,amika,28.0,3.62,50,Hair,Mid ($26-50),Average (3-3.9)
+1388,,Velveteen Dream Anti-Frizz Smoothing Conditioner,amika,28.0,3.62,50,Hair,Mid ($26-50),Average (3-3.9)
+1389,,3D Volume and Thickening Shampoo,amika,26.0,3.4615,13,Hair,Mid ($26-50),Average (3-3.9)
+1390,,3D Volume and Thickening Shampoo,amika,26.0,3.4615,13,Hair,Mid ($26-50),Average (3-3.9)
+1391,,3D Volume and Thickening Shampoo,amika,26.0,3.4615,13,Hair,Mid ($26-50),Average (3-3.9)
+1392,,Power Hour Curl Refreshing Spray,amika,28.0,3.4,10,Hair,Mid ($26-50),Average (3-3.9)
+1393,,Power Hour Curl Refreshing Spray,amika,28.0,3.4,10,Hair,Mid ($26-50),Average (3-3.9)
+1394,,Power Hour Curl Refreshing Spray,amika,28.0,3.4,10,Hair,Mid ($26-50),Average (3-3.9)
+1395,,3D Volume and Thickening Conditioner,amika,40.0,2.3333,9,Hair,Mid ($26-50),Low (1-2.9)
+1396,,3D Volume and Thickening Conditioner,amika,40.0,2.3333,9,Hair,Mid ($26-50),Low (1-2.9)
+1397,,3D Volume and Thickening Conditioner,amika,40.0,2.3333,9,Hair,Mid ($26-50),Low (1-2.9)
+1398,,Polished Perfection Thermal Straightening Brush 2.0,amika,98.0,3.9502,201,Hair,Premium ($51-100),Good (4-4.4)
+1399,,Polished Perfection Thermal Straightening Brush 2.0,amika,98.0,3.9502,201,Hair,Premium ($51-100),Good (4-4.4)
+1400,,Polished Perfection Thermal Straightening Brush 2.0,amika,98.0,3.9502,201,Hair,Premium ($51-100),Good (4-4.4)
+1401,,Hydro Rush and Dream Routine Hair Hydration Set,amika,58.0,3.625,16,Hair,Premium ($51-100),Average (3-3.9)
+1402,,Hydro Rush and Dream Routine Hair Hydration Set,amika,58.0,3.625,16,Hair,Premium ($51-100),Average (3-3.9)
+1403,,Hydro Rush and Dream Routine Hair Hydration Set,amika,58.0,3.625,16,Hair,Premium ($51-100),Average (3-3.9)
+1404,,Hair Blow Dryer Brush 2.0,amika,100.0,3.28,125,Hair,Premium ($51-100),Average (3-3.9)
+1405,,Hair Blow Dryer Brush 2.0,amika,100.0,3.28,125,Hair,Premium ($51-100),Average (3-3.9)
+1406,,Hair Blow Dryer Brush 2.0,amika,100.0,3.28,125,Hair,Premium ($51-100),Average (3-3.9)
+1407,,Mini Soulfood Nourishing Mask,amika,18.0,4.0766,235,Mini Size,Budget ($0-25),Good (4-4.4)
+1408,,Mini Soulfood Nourishing Mask,amika,18.0,4.0766,235,Mini Size,Budget ($0-25),Good (4-4.4)
+1409,,Mini Soulfood Nourishing Mask,amika,18.0,4.0766,235,Mini Size,Budget ($0-25),Good (4-4.4)
+1410,,Mini Un.Done Volume and Matte Texture Spray,amika,10.0,3.9412,17,Mini Size,Budget ($0-25),Good (4-4.4)
+1411,,Mini Un.Done Volume and Matte Texture Spray,amika,10.0,3.9412,17,Mini Size,Budget ($0-25),Good (4-4.4)
+1412,,Mini Un.Done Volume and Matte Texture Spray,amika,10.0,3.9412,17,Mini Size,Budget ($0-25),Good (4-4.4)
