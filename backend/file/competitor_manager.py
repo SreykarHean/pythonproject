@@ -110,21 +110,78 @@ class CompetitorManager:
             self._add_from_csv()
         else:
             print("  Invalid option.")
-    #NYSA PART
-    # def _add_manual(self):
+    # NYSA.S  PART
+    def _add_manual(self):
+        print("\n ==== Add New Competetor (Manaul) ====")
+
+        # Ask for input
+        name = input("Product Name: ")
+        industry = input("Industry: ")
+        catagory = input("Catagory: ")
+        price = input("Price: ")
+        rating = input("Rating: ")
+        reviews = input("Reviews: ")
+
+        new_row = self._build_row(name, industry, catagory, price, rating, reviews)
+
+        # Add to list and Save
+        self._df = pd.concat([self._df, pd.DataFrame([new_row])], ignore_index=True)
+        self._save_competitors()
+        print(f"Product: {name} added!")
     # def _add_from_csv(self):
    
     # ── Update competitor NYSA PART─────────────────────────────────────────────────────
-
-    # def update_competitor(self):
+    
+    def update_competitor(self):
+        print("\n==== Update Competitor ====")
+        name = input("Enter the Product Name to update: ").strip()
+        
+        if(name in self._df['name'].values):
+            print(f"Updating details for: {name}")
+            new_price = input("Enter New Price (leave blank to keep current): ")
+            new_rating = input("Enter New Rating (leave blank to keep current): ")
+            
+            # Find the row index for this product
+            idx = self._df[self._df['name'] == name].index[0]
+            
+            if(new_price):
+                self._df.at[idx, 'price'] = float(new_price)
+                # Re-calculate the price band based on the new price
+                self._df.at[idx, 'price_band'] = self._assign_price_band(new_price)
+            
+            if(new_rating):
+                self._df.at[idx, 'user_rating'] = float(new_rating)
+                # Re calculate the rating tier
+                self._df.at[idx, 'rating_tier'] = self._assign_rating_tier(new_rating)
+                
+            self._save_competitors()
+            print(f"product: {name} updated successfully.")
+        else:
+            print("Product not found.")
         
     # ── Delete competitor NYSA PART ─────────────────────────────────────────────────────
+    def delete_competitor(self):
+        print("\n==== Delete Competitor ====")
+        name_to_delete = input(" Enter Product Name to remove: ").strip()
+        # Check if the name exist
+        if(name_to_delete in self._df['name'].values):
+            # Keep only the rows that do NOT match the name
+            self._df = self._df[self._df['name'] != name_to_delete]
+            self._save_competitors() # Save the change to CSV
+            print(f"Product: {name_to_delete} has been removed successfully.")
+        else:
+            print(f"Product: '{name_to_delete}' not found in the list.")
 
-    # def delete_competitor(self):
-      
     # ── View competitors NYSA PART ──────────────────────────────────────────────────────
 
-    # def view_competitors(self): 
+    def view_competitors(self):
+        print("\n── Current Competitor List ──")
+        if self._df.empty:
+            print("The list is currently empty.")
+        else:
+            # Displaying specific columns 
+            columns_to_show = ['name', 'industry', 'price', 'user_rating']
+            print(self._df[columns_to_show].to_string(index = False))
 
 
     # ── Analytics SREYKAR YOU may design how ever you want with the menu─────────────────────────────────────────────────────────────
