@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
@@ -57,3 +58,7 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false
 }
+=======
+    "python.defaultInterpreterPath": "C:\\Users\\U-ser\\AppData\\Local\\Programs\\Python\\Python314\\python.exe"
+}
+>>>>>>> 637737936a3b7c7e68e08572dd75089196786f43
