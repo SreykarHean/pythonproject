@@ -95,43 +95,67 @@ class CompetitorManager:
         else:
             print("  Invalid option.")
             return None, None
+        
+    # CRUD Operation
 
     # ── Add competitor ────────────────────────────────────────────────────────
-    #NYSA PA
+    #NYSA.S PART
     def add_competitor(self):
         print("\nHow would you like to add a competitor?")
         print("  1. Manual input")
         print("  2. Import from CSV file")
-        choice = input("  Choose option: ").strip()
+        choice = input("Choose option: ").strip()
 
-        if choice == "1":
+        if(choice == "1"):
             self._add_manual()
-        elif choice == "2":
+        elif(choice == "2"):
             self._add_from_csv()
         else:
-            print("  Invalid option.")
+            print("Invalid option.")
+
     # NYSA.S  PART
     def _add_manual(self):
         print("\n ==== Add New Competetor (Manaul) ====")
 
-        # Ask for input
-        name = input("Product Name: ")
-        industry = input("Industry: ")
-        catagory = input("Catagory: ")
-        price = input("Price: ")
-        rating = input("Rating: ")
-        reviews = input("Reviews: ")
+        try:
+            name = input("Product Name: ")
+            industry = input("Industry: ")
+            category = input("Category: ")
+            price = float(input("Price: "))
+            rating = float(input("Rating: "))
+            reviews = int(input("Reviews: "))
 
-        new_row = self._build_row(name, industry, catagory, price, rating, reviews)
+            new_row = self._build_row(name, industry, category, price, rating, reviews)
 
-        # Add to list and Save
-        self._df = pd.concat([self._df, pd.DataFrame([new_row])], ignore_index=True)
-        self._save_competitors()
-        print(f"Product: {name} added!")
-    # def _add_from_csv(self):
-   
+            # Add to list and Save
+            self._df = pd.concat([self._df, pd.DataFrame([new_row])], ignore_index=True)
+            self._save_competitors()
+            print(f"Product: {name} added!")
+
+        except ValueError:
+            print("Error: Price, Rating, and Review must be numeric.")
+
+    def _add_from_csv(self):
+        path, filename = self._get_csv_file()
+        if (not path): return
+        try:
+            new_data = pd.read_csv(path)
+            required = ['name', 'industry', 'category', 'price', 'user_rating', 'user_reviews']
+            
+            if (all(col in new_data.columns for col in required)):
+                # Ensure price  rating tiers are calculated for the new data
+                new_data['price_band'] = new_data['price'].apply(self._assign_price_band)
+                new_data['rating_tier'] = new_data['user_rating'].apply(self._assign_rating_tier)
+                
+                self._df = pd.concat([self._df, new_data[COMPETITOR_COLUMNS]], ignore_index=True)
+                self._save_competitors()
+                print(f"Successfully imported {len(new_data)} records from {filename}")
+            else:
+                print(f"CSV missing required columns: {required}")
+        except Exception as e:
+            print(f"Error reading CSV: {e}")
+
     # ── Update competitor NYSA PART─────────────────────────────────────────────────────
-    
     def update_competitor(self):
         print("\n==== Update Competitor ====")
         name = input("Enter the Product Name to update: ").strip()
