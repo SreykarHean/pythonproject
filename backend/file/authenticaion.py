@@ -131,11 +131,62 @@ class AuthSystem:
 
     # ── Select Industry  NYSA PART  with Industry filtering Logic───────────────────────────────────────────────────────
 
-    # def _select_industry(self)
+   # ── Select Industry NYSA PART ───────────────────────────────────────────────────────
 
-    # def _view_brand_products(): # Nysa 
-      
+    def _select_industry(self):
+        """ Loads the organized dataset, displays unique industries, and allows the user to pick one to view."""
+        if(not os.path.exists(DATASET_PATH)):
+            print("Error: Organized dataset not found at path.")
+            return
 
+        import pandas as pd
+        # Load the dataset to get the most current industry list
+        df = pd.read_csv(DATASET_PATH)
+        
+        # get unique industries and sort them for the menu
+        industries = sorted(df['industry'].unique().tolist())
+
+        print("\n==== Select Industry ====")
+        for i, ind in enumerate(industries, 1): 
+            print(f"{i}.{ind}")
+        print(f"{len(industries) + 1}. Back")
+
+        choice = input("\n  Choose industry number: ").strip()
+
+        try:
+            choice_idx = int(choice) - 1
+            if(0 <= choice_idx < len(industries)):
+                selected = industries[choice_idx]
+                self._view_brand_products(df, selected)
+            elif(choice_idx == len(industries)):
+                return
+            else:
+                print("  Invalid selection.")
+        except ValueError:
+            print("  Please enter a valid number.")
+
+    def _view_brand_products(self, df, industry_name):
+        """Displays products belonging to a specific industry."""
+
+        # Filter the dataframe for the selected industry
+        filtered_df = df[df['industry'] == industry_name]
+
+        print(f"\n==== {industry_name.upper()} Products ====")
+        
+        if(filtered_df.empty):
+            print(f"  No products found for the {industry_name} industry.")
+        else:
+            # Displaying specific columns for clarity
+            cols_to_show = ['product_name', 'brand', 'price', 'user_rating']
+            
+            # Use .head(15) to prevent terminal flooding
+            print(filtered_df[cols_to_show].head(15).to_string(index = False))
+            
+            total_count = len(filtered_df)
+            if(total_count > 15):
+                print(f"\n  ...... and {total_count - 15} more products.")
+        
+        input("\n  Press Enter to return.........")
     # ── Compare Products  SREYKAR──────────────────────────────────────────────────────
 
     # def _compare_products(self):
