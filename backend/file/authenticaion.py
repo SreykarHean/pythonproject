@@ -189,7 +189,48 @@ class AuthSystem:
         input("\n  Press Enter to return.........")
     # ── Compare Products  SREYKAR──────────────────────────────────────────────────────
 
-    # def _compare_products(self):
+     # ── Compare Products  SREYKAR──────────────────────────────────────────────────────
+
+    def _compare_products(self):
+
+        import pandas as pd
+
+        if not os.path.exists(DATASET_PATH):
+            print("Dataset not found.")
+            return
+
+        df = pd.read_csv(DATASET_PATH)
+
+        print("\nProduct Comparison")
+        print("────────────────────")
+
+        brand = input("Enter brand name to analyze: ").strip()
+
+        filtered = df[df['brand'].str.contains(brand, case=False, na=False)]
+
+        if filtered.empty:
+            print("No products found for this brand.")
+            return
+
+        avg_price = filtered['price'].mean()
+        avg_rating = filtered['user_rating'].mean()
+        total_reviews = filtered['user_reviews'].sum()
+
+        print("\nBrand Analysis")
+        print("──────────────")
+        print(f"Products found: {len(filtered)}")
+        print(f"Average price: ${avg_price:.2f}")
+        print(f"Average rating: {avg_rating:.2f}")
+        print(f"Total reviews: {total_reviews}")
+
+        top = filtered.sort_values(by="user_rating", ascending=False).head(5)
+
+        print("\nTop Products")
+        print("──────────────")
+
+        for _, row in top.iterrows():
+            print(f"{row['product_name']} | ${row['price']} | ⭐️ {row['user_rating']}")
+
 
     # ── Sessions  Management Kimheng──────────────────────────────────────────────────────────────
     #

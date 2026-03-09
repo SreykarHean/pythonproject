@@ -208,7 +208,7 @@ class CompetitorManager:
             print(self._df[columns_to_show].to_string(index = False))
 
 
-    # ── Analytics SREYKAR YOU may design how ever you want with the menu─────────────────────────────────────────────────────────────
+     # ── Analytics SREYKAR YOU may design how ever you want with the menu─────────────────────────────────────────────────────────────
 
     def analytics(self):
         while True:
@@ -217,7 +217,7 @@ class CompetitorManager:
             print("  1. Compare with dataset")
             print("  2. Top rated competitors")
             print("  3. Price breakdown by industry")
-            print("  4. .............")
+            print("  4. Recommendation")
             print("  5. Back")
             choice = input("  Choose option: ").strip()
 
@@ -227,13 +227,98 @@ class CompetitorManager:
                 self._top_rated()
             elif choice == "3":
                 self._price_breakdown()
+            elif choice == "4":
+                self.recommend_products()
             elif choice == "5":
                 break
             else:
                 print("  Invalid option.")
 
-    # def _compare_with_dataset(self):
-    # def _top_rated(self):
-    # def _price_breakdown(self):
+    def _compare_with_dataset(self):
+        if self._df.empty:
+            print("No competitor data.")
+            return
+
+        dataset = pd.read_csv(DATASET_PATH)
+
+        print("\nMarket Comparison")
+        print("────────────────────")
+
+        avg_comp_price = self._df['price'].mean()
+        avg_market_price = dataset['price'].mean()
+
+        avg_comp_rating = self._df['user_rating'].mean()
+        avg_market_rating = dataset['user_rating'].mean()
+
+        print(f"Competitor avg price: ${avg_comp_price:.2f}")
+        print(f"Market avg price: ${avg_market_price:.2f}")
+
+        print(f"\nCompetitor avg rating: {avg_comp_rating:.2f}")
+        print(f"Market avg rating: {avg_market_rating:.2f}")
+
+        if avg_comp_rating > avg_market_rating:
+            print("\nCompetitors perform ABOVE market average")
+        else:
+            print("\nCompetitors perform BELOW market average")
+
+
+    def _top_rated(self):
+        if self._df.empty:
+            print("No competitor data.")
+            return
+
+        top = self._df.sort_values(by="user_rating", ascending=False).head(10)
+
+        print("\nTop Rated Competitors")
+        print("────────────────────────")
+
+        for _, row in top.iterrows():
+            print(f"{row['name']} | ⭐️ {row['user_rating']} | ${row['price']}")
+  
+  
+    def _price_breakdown(self):
+        if self._df.empty:
+            print("No competitor data.")
+            return
+
+        breakdown = self._df.groupby("industry")["price"].mean()
+
+        print("\nAverage Price by Industry")
+        print("────────────────────────")
+
+        for industry, price in breakdown.items():
+            print(f"{industry}: ${price:.2f}")
 
     #____________RECOMMENDATION SYSTEM_____SREYKAR
+
+    def recommend_products(self):
+        dataset = pd.read_csv(DATASET_PATH)
+
+        print("\nRecommendation System")
+        print("────────────────────")
+
+        industry = input("Choose industry (Coffee/Shoes/Foods/Skincare): ").strip()
+
+        filtered = dataset[dataset['source'].str.contains(industry, case=False, na=False)]
+
+        if filtered.empty:
+            print("No products found.")
+            return
+
+        # scoring formula
+        filtered['score'] = (
+            filtered['user_rating'] * 0.6 +
+            (filtered['user_reviews'] / filtered['user_reviews'].max()) * 0.3 +
+            (1 / filtered['price']) * 0.1
+        )
+
+        top = filtered.sort_values(by="score", ascending=False).head(5)
+
+        print("\nRecommended Products")
+        print("────────────────────")
+
+        for _, row in top.iterrows():
+            print(
+                f"{row['product_name']} | {row['brand']} | "
+                f"${row['price']} | ⭐️{row['user_rating']}"
+            )
