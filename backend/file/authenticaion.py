@@ -187,7 +187,6 @@ class AuthSystem:
                 print(f"\n  ...... and {total_count - 15} more products.")
         
         input("\n  Press Enter to return.........")
-    # ── Compare Products  SREYKAR──────────────────────────────────────────────────────
 
      # ── Compare Products  SREYKAR──────────────────────────────────────────────────────
 
@@ -229,7 +228,7 @@ class AuthSystem:
         print("──────────────")
 
         for _, row in top.iterrows():
-            print(f"{row['product_name']} | ${row['price']} | ⭐️ {row['user_rating']}")
+            print(f"{row['product_name']} | ${row['price']} | {row['user_rating']}")
 
 
     # ── Sessions  Management Kimheng──────────────────────────────────────────────────────────────

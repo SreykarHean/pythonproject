@@ -273,7 +273,7 @@ class CompetitorManager:
         print("────────────────────────")
 
         for _, row in top.iterrows():
-            print(f"{row['name']} | ⭐️ {row['user_rating']} | ${row['price']}")
+            print(f"{row['name']} | {row['user_rating']} | ${row['price']}")
   
   
     def _price_breakdown(self):
@@ -320,5 +320,5 @@ class CompetitorManager:
         for _, row in top.iterrows():
             print(
                 f"{row['product_name']} | {row['brand']} | "
-                f"${row['price']} | ⭐️{row['user_rating']}"
+                f"${row['price']} | {row['user_rating']}"
             )
