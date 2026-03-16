@@ -1,4 +1,4 @@
-rank,source,product_name,brand,price,user_rating,user_reviews,category,price_band,rating_tier
+rank,industry,product_name,brand,price,user_rating,user_reviews,category,price_band,rating_tier
 1,Coffee,Vanilla Latte (Or Other Flavoured Latte),Classic Espresso Drinks,250.0,150.0,35,2% Milk,Luxury ($101-250),
 2,Coffee,Caffè Latte,Classic Espresso Drinks,240.0,150.0,22,2% Milk,Luxury ($101-250),
 3,Coffee,Caffè Latte,Classic Espresso Drinks,190.0,150.0,17,2% Milk,Luxury ($101-250),
