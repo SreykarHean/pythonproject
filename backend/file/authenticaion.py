@@ -141,10 +141,21 @@ class AuthSystem:
 
         import pandas as pd
         # Load the dataset to get the most current industry list
-        df = pd.read_csv(DATASET_PATH)
+        df = pd.read_csv(DATASET_PATH) # read CSV file into dataframe
         
         # get unique industries and sort them for the menu
-        industries = sorted(df['industry'].unique().tolist())
+        if ('industry' in df.columns):
+            industries = (
+                df['industry']
+                .dropna()          # remove NaN values
+                .astype(str)       # convert everything to string
+                .str.strip()       # remove extra spaces
+                .unique().tolist()
+            )
+            industries.sort()      # sort after cleaning
+        else:
+            print(f"Error: Column 'industry' not found. Available columns: {df.columns.tolist()}")
+            return
 
         print("\n==== Select Industry ====")
         for i, ind in enumerate(industries, 1): 
@@ -162,6 +173,7 @@ class AuthSystem:
                 return
             else:
                 print("  Invalid selection.")
+
         except ValueError:
             print("  Please enter a valid number.")
 
