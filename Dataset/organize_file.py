@@ -10,30 +10,30 @@ starbucks  = pd.read_csv(os.path.join(BASE, "starbucks_drinks.csv"))
 skincare   = pd.read_csv(os.path.join(BASE, "trimmed_skincare.csv"))
 skincare   = skincare.drop_duplicates(subset=['product_id']).reset_index(drop=True)
 
-nike['source']       = 'Shoes'
-restaurant['source'] = 'Foods'
-starbucks['source']  = 'Coffee'
-skincare['source']   = 'Skincare'
+nike['industry']       = 'Shoes'
+restaurant['industry'] = 'Foods'
+starbucks['industry']  = 'Coffee'
+skincare['industry']   = 'Skincare'
 
 # ── Keep only needed columns ─────────────────────────────────────────────────
 # Shoes : brand = Nike (only 1 brand in dataset; new CSVs with Adidas/Puma etc. will add variety)
-nike = nike[['source', 'name', 'brand', 'price', 'avg_rating', 'review_count', 'sub_title']].copy()
-nike.columns = ['source', 'product_name', 'brand', 'price', 'user_rating', 'user_reviews', 'category']
+nike = nike[['industry', 'name', 'brand', 'price', 'avg_rating', 'review_count', 'sub_title']].copy()
+nike.columns = ['industry', 'product_name', 'brand', 'price', 'user_rating', 'user_reviews', 'category']
 
 # Foods : brand = restaurant_type (Casual Dining, Fine Dining, Street Food, Food Court, Fast Food)
-restaurant = restaurant[['source', 'menu_item_name', 'restaurant_type', 'actual_selling_price',
+restaurant = restaurant[['industry', 'menu_item_name', 'restaurant_type', 'actual_selling_price',
                           'quantity_sold', 'category', 'cuisine_type']].copy()
-restaurant.columns = ['source', 'product_name', 'brand', 'price', 'user_rating', 'user_reviews', 'category']
+restaurant.columns = ['industry', 'product_name', 'brand', 'price', 'user_rating', 'user_reviews', 'category']
 
 # Coffee : brand = Beverage_category (Classic Espresso, Signature Espresso, Frappuccino, Smoothies etc.)
-starbucks = starbucks[['source', 'Beverage', 'Beverage_category', 'Calories',
+starbucks = starbucks[['industry', 'Beverage', 'Beverage_category', 'Calories',
                         'Caffeine (mg)', 'Sugars (g)', 'Beverage_prep']].copy()
-starbucks.columns = ['source', 'product_name', 'brand', 'price', 'user_rating', 'user_reviews', 'category']
+starbucks.columns = ['industry', 'product_name', 'brand', 'price', 'user_rating', 'user_reviews', 'category']
 
 # Skincare : brand = brand_name (54 Thrones, Algenist, AERIN, Alpha-H, alpyn beauty etc.)
-skincare = skincare[['source', 'product_name', 'brand_name', 'price_usd',
+skincare = skincare[['industry', 'product_name', 'brand_name', 'price_usd',
                       'rating', 'reviews', 'primary_category']].copy()
-skincare.columns = ['source', 'product_name', 'brand', 'price', 'user_rating', 'user_reviews', 'category']
+skincare.columns = ['industry', 'product_name', 'brand', 'price', 'user_rating', 'user_reviews', 'category']
 
 # ── Fix user_reviews per source BEFORE combining (avoids mixed-type errors) ──
 nike['user_reviews']       = pd.to_numeric(nike['user_reviews'],       errors='coerce').fillna(0).astype(int)
@@ -69,7 +69,7 @@ df['rating_tier'] = pd.cut(
 
 # ── Sort by source → brand → category → price band → rating ──────────────────
 df = df.sort_values(
-    ['source', 'brand', 'category', 'price_band', 'user_rating', 'user_reviews'],
+    ['industry', 'brand', 'category', 'price_band', 'user_rating', 'user_reviews'],
     ascending=[True, True, True, True, False, False]
 ).reset_index(drop=True)
 
@@ -84,6 +84,6 @@ print(f"\nSaved: {out_path}")
 print(f"   Total rows  : {len(df)}")
 print(f"   Columns     : {df.columns.tolist()}")
 print(f"\n   Brand breakdown per industry:")
-for source, group in df.groupby('source'):
+for industry, group in df.groupby('industry'):
     brands = group['brand'].unique()
-    print(f"   {source} ({len(brands)} brands): {', '.join(brands[:6])}{'...' if len(brands) > 6 else ''}")
+    print(f"   {industry} ({len(brands)} brands): {', '.join(brands[:6])}{'...' if len(brands) > 6 else ''}")

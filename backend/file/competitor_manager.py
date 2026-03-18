@@ -289,36 +289,54 @@ class CompetitorManager:
         for industry, price in breakdown.items():
             print(f"{industry}: ${price:.2f}")
 
-    #____________RECOMMENDATION SYSTEM_____SREYKAR
-
+    #____________RECOMENDATION SYSTEM_____SREYKAR
     def recommend_products(self):
+
+        if(not os.path.exists(DATASET_PATH)):
+            print("Dataset not found. Please import data first.")
+            return
+        
         dataset = pd.read_csv(DATASET_PATH)
 
+        if ( dataset.empty):
+            print("Dataset is empty. Please import data first")
+            return
+        
         print("\nRecommendation System")
         print("────────────────────")
 
+        # Show available industries from the dataset
+        available = dataset['source'].dropna().unique().tolist()
+        print("  Available industries: " + ", ".join(available))
+
         industry = input("Choose industry (Coffee/Shoes/Foods/Skincare): ").strip()
 
-        filtered = dataset[dataset['source'].str.contains(industry, case=False, na=False)]
+        filtered = dataset[dataset['source'].str.contains(industry, case=False, na=False)].copy()
+
+        # Drops rows with missing price or ratting before scoring
+        filtered = filtered.dropna(subset=['price', 'user_rating'])
 
         if filtered.empty:
-            print("No products found.")
+            print(f"No products found for '{industry}'")
             return
 
-        # scoring formula
+        # Scoring formula — safe division, handle zero reviews
+        max_reviews = filtered['user_reviews'].max()
+        review_score = (filtered['user_reviews'] / max_reviews) if max_reviews > 0 else 0
+ 
         filtered['score'] = (
             filtered['user_rating'] * 0.6 +
-            (filtered['user_reviews'] / filtered['user_reviews'].max()) * 0.3 +
-            (1 / filtered['price']) * 0.1
+            review_score * 0.3 +
+            (1 / filtered['price'].replace(0, float('nan'))) * 0.1
         )
-
+ 
         top = filtered.sort_values(by="score", ascending=False).head(5)
-
-        print("\nRecommended Products")
-        print("────────────────────")
-
+ 
+        print("\n  Recommended Products")
+        print("  ────────────────────")
+ 
         for _, row in top.iterrows():
             print(
-                f"{row['product_name']} | {row['brand']} | "
-                f"${row['price']} | {row['user_rating']}"
+                f" {row['product_name']} | {row['brand']} | "
+                f"${row['price']:.2f} | Rating: {row['user_rating']:.2f}"
             )
