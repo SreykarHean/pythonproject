@@ -44,9 +44,11 @@ class AuthSystem:
     def _user_menu(self, username):
         print(f"\n  Welcome, {username}!")
         print("─"*35)
-        print("  1. Select Industry")
-        print("  2. Compare Products")
-        print("  3. Logout")
+        print("  1. Enter My Product")
+        print("  2. Select Industry")
+        print("  3. Compare Products")
+        print("  4. Recommendation")
+        print("  5. Logout")
         print("─"*35)
 
     def _admin_menu(self):
@@ -200,11 +202,40 @@ class AuthSystem:
         
         input("\n  Press Enter to return.........")
 
+     # ── Enter My Product ──────────────────────────────────────────────────────
+
+    def _enter_my_product(self):
+        print("\n── Enter My Product ──")
+        try:
+            name     = input("  Product Name: ").strip()
+            industry = input("  Industry (Coffee/Foods/Shoes/Skincare): ").strip()
+            category = input("  Category: ").strip()
+            price    = float(input("  Price: $").strip())
+            rating   = float(input("  Your Rating (1-5): ").strip())
+            reviews  = int(input("  Number of Reviews: ").strip())
+
+            self._my_product = {
+                'product_name': name,
+                'industry':     industry,
+                'category':     category,
+                'price':        price,
+                'user_rating':  rating,
+                'user_reviews': reviews,
+            }
+            print(f"\n  ✓ Product '{name}' saved! You can now Compare or get a Recommendation.")
+
+        except ValueError:
+            print("  ✗ Price, Rating, and Reviews must be numbers.")
+
      # ── Compare Products  SREYKAR──────────────────────────────────────────────────────
 
     def _compare_products(self):
 
         import pandas as pd
+
+        if not hasattr(self, '_my_product') or not self._my_product:
+            print("\n  ✗ Please enter your product first (Option 1).")
+            return
 
         if not os.path.exists(DATASET_PATH):
             print("Dataset not found.")
@@ -212,49 +243,142 @@ class AuthSystem:
 
         df = pd.read_csv(DATASET_PATH)
 
-        print("\nProduct Comparison")
-        print("────────────────────")
+        my = self._my_product
+        industry = my['industry']
 
-        brand = input("Enter brand name to analyze: ").strip()
-
-        filtered = df[df['brand'].str.contains(brand, case=False, na=False)]
+        filtered = df[df['industry'].str.contains(industry, case=False, na=False)]
 
         if filtered.empty:
-            print("No products found for this brand.")
+            print(f"\n  No competitor data found for industry: {industry}")
             return
 
-        avg_price = filtered['price'].mean()
+        avg_price  = filtered['price'].mean()
         avg_rating = filtered['user_rating'].mean()
-        total_reviews = filtered['user_reviews'].sum()
 
-        print("\nBrand Analysis")
-        print("──────────────")
-        print(f"Products found: {len(filtered)}")
-        print(f"Average price: ${avg_price:.2f}")
-        print(f"Average rating: {avg_rating:.2f}")
-        print(f"Total reviews: {total_reviews}")
+        print(f"\n── Comparison: {my['product_name']} vs {industry} Market ──")
+        print("─"*50)
+        print(f"{'':25} {'Your Product':>12}  {'Market Avg':>10}")
+        print(f"  {'Price':<23} ${my['price']:>11.2f}  ${avg_price:>9.2f}")
+        print(f"  {'Rating':<23} {my['user_rating']:>12.2f}  {avg_rating:>10.2f}")
+        print("─"*50)
 
-        top = filtered.sort_values(by="user_rating", ascending=False).head(5)
+        if my['price'] < avg_price:
+            print(f"  ✓ Your price is LOWER than market average by ${avg_price - my['price']:.2f}")
+        else:
+            print(f"  ✗ Your price is HIGHER than market average by ${my['price'] - avg_price:.2f}")
 
-        print("\nTop Products")
-        print("──────────────")
+        if my['user_rating'] >= avg_rating:
+            print(f"  ✓ Your rating is ABOVE market average by {my['user_rating'] - avg_rating:.2f}")
+        else:
+            print(f"  ✗ Your rating is BELOW market average by {avg_rating - my['user_rating']:.2f}")
 
+        print("\n  Top 5 Competitors in your industry:")
+        print("  ─"*25)
+        top = filtered.sort_values('user_rating', ascending=False).head(5)
         for _, row in top.iterrows():
-            print(f"{row['product_name']} | ${row['price']} | {row['user_rating']}")
+            print(f"  {row['product_name']} | {row['brand']} | ${row['price']:.2f} | {row['user_rating']:.2f}")
 
 
     # ── Sessions  Management Kimheng──────────────────────────────────────────────────────────────
     #
+    def _user_recommendation(self):
+        import pandas as pd
+
+        if not hasattr(self, '_my_product') or not self._my_product:
+            print("\n  ✗ Please enter your product first (Option 1).")
+            return
+
+        if not os.path.exists(DATASET_PATH):
+            print("  Dataset not found.")
+            return
+
+        df = pd.read_csv(DATASET_PATH)
+        my       = self._my_product
+        industry = my['industry']
+
+        filtered = df[df['industry'].str.contains(industry, case=False, na=False)].copy()
+        filtered = filtered.dropna(subset=['price', 'user_rating'])
+
+        if filtered.empty:
+            print(f"  No products found for '{industry}'")
+            return
+
+        avg_price   = filtered['price'].mean()
+        avg_rating  = filtered['user_rating'].mean()
+        avg_reviews = filtered['user_reviews'].mean()
+        top_rating  = filtered['user_rating'].max()
+        top_price   = filtered.sort_values('user_rating', ascending=False).iloc[0]['price']
+
+        print(f"\n  ── Recommendation for '{my['product_name']}' ──")
+        print("  " + "─"*45)
+
+        tips = []
+
+        # Price feedback
+        price_diff = my['price'] - avg_price
+        if price_diff > avg_price * 0.3:
+            tips.append(f"Price: Your price (${my['price']:.2f}) is much HIGHER than the market average (${avg_price:.2f}).\n"
+                        f"→ Consider lowering your price to attract more customers.")
+        elif price_diff > 0:
+            tips.append(f"Price: Your price (${my['price']:.2f}) is slightly above market average (${avg_price:.2f}).\n"
+                        f"→ You may want to justify this with better quality or branding.")
+        else:
+            tips.append(f"Price: Your price (${my['price']:.2f}) is competitive vs market average (${avg_price:.2f}).\n"
+                        f"→ Good! Keep your price at this range to stay competitive.")
+
+        # Rating feedback
+        rating_diff = avg_rating - my['user_rating']
+        if my['user_rating'] >= top_rating * 0.95:
+            tips.append(f"Rating: Excellent! Your rating ({my['user_rating']:.2f}) is among the top in the market.\n"
+                        f"→ Keep maintaining your product quality.")
+        elif rating_diff > 0.5:
+            tips.append(f"Rating: Your rating ({my['user_rating']:.2f}) is BELOW market average ({avg_rating:.2f}).\n"
+                        f"→ Focus on improving product quality and customer experience.\n"
+                        f"→ Top competitors reach ratings up to {top_rating:.2f}.")
+        elif rating_diff > 0:
+            tips.append(f"Rating: Your rating ({my['user_rating']:.2f}) is close to market average ({avg_rating:.2f}).\n"
+                        f"→ Small improvements in quality could push you above average.")
+        else:
+            tips.append(f"Rating: Your rating ({my['user_rating']:.2f}) is ABOVE market average ({avg_rating:.2f}).\n"
+                        f"→ Great! Use this as a selling point in your marketing.")
+
+        # Reviews feedback
+        if my['user_reviews'] < avg_reviews * 0.5:
+            tips.append(f"Reviews: You only have {my['user_reviews']} reviews vs market average of {avg_reviews:.0f}.\n"
+                        f"→ Encourage customers to leave reviews to build trust and visibility.")
+        elif my['user_reviews'] >= avg_reviews:
+            tips.append(f"Reviews: Good review count ({my['user_reviews']}) vs market average ({avg_reviews:.0f}).\n"
+                        f"→ Keep engaging customers for more feedback.")
+
+        # Overall summary
+        print()
+        for tip in tips:
+            print(tip)
+
+        print()
+        print("  ── Top 3 competitors to learn from ──")
+        print("  " + "─"*45)
+        top3 = filtered.sort_values('user_rating', ascending=False).head(3)
+        for _, row in top3.iterrows():
+            print(f"  {row['product_name']} | {row['brand']} | ${row['price']:.2f} | {row['user_rating']:.2f}")
+
+        input("\n  Press Enter to return.........")
+
     def _user_session(self, username):
+        self._my_product = None
         while True:
             self._user_menu(username)
             choice = input("  Choose option: ").strip()
 
             if choice == "1":
-                self._select_industry()
+                self._enter_my_product()
             elif choice == "2":
-                self._compare_products()
+                self._select_industry()
             elif choice == "3":
+                self._compare_products()
+            elif choice == "4":
+                self._user_recommendation()
+            elif choice == "5":
                 print(f"\n  Goodbye, {username}!")
                 break
             else:
