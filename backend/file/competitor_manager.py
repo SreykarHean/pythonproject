@@ -288,38 +288,39 @@ class CompetitorManager:
 
         for industry, price in breakdown.items():
             print(f"{industry}: ${price:.2f}")
+            
 
     #____________RECOMENDATION SYSTEM_____SREYKAR
     def recommend_products(self):
-
+ 
         if(not os.path.exists(DATASET_PATH)):
             print("Dataset not found. Please import data first.")
             return
         
         dataset = pd.read_csv(DATASET_PATH)
-
+ 
         if ( dataset.empty):
             print("Dataset is empty. Please import data first")
             return
         
         print("\nRecommendation System")
         print("────────────────────")
-
+ 
         # Show available industries from the dataset
-        available = dataset['source'].dropna().unique().tolist()
+        available = dataset['industry'].dropna().unique().tolist()
         print("  Available industries: " + ", ".join(available))
-
+ 
         industry = input("Choose industry (Coffee/Shoes/Foods/Skincare): ").strip()
-
-        filtered = dataset[dataset['source'].str.contains(industry, case=False, na=False)].copy()
-
+ 
+        filtered = dataset[dataset['industry'].str.contains(industry, case=False, na=False)].copy()
+ 
         # Drops rows with missing price or ratting before scoring
         filtered = filtered.dropna(subset=['price', 'user_rating'])
-
+ 
         if filtered.empty:
             print(f"No products found for '{industry}'")
             return
-
+ 
         # Scoring formula — safe division, handle zero reviews
         max_reviews = filtered['user_reviews'].max()
         review_score = (filtered['user_reviews'] / max_reviews) if max_reviews > 0 else 0

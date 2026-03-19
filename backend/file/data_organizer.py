@@ -159,7 +159,7 @@ class DataOrganizer:
 
     def _organize(self, df, mapping, industry):
         organized = pd.DataFrame()
-        organized['source'] = industry
+        organized['industry'] = industry
 
         for field, col in mapping.items():
             organized[field] = df[col].values if col else (0 if field == 'user_reviews' else None)
@@ -185,23 +185,23 @@ class DataOrganizer:
     def _merge(self, organized, industry):
         if os.path.exists(DATASET_PATH):
             existing       = pd.read_csv(DATASET_PATH)
-            existing_count = len(existing[existing['source'] == industry])
+            existing_count = len(existing[existing['industry'] == industry])
             if existing_count > 0:
                 print(f"\n  ⚠  Dataset already has {existing_count} rows for '{industry}'.")
                 choice = input("  Replace existing? (y/n): ").strip().lower()
                 if choice == 'y':
-                    existing = existing[existing['source'] != industry]
+                    existing = existing[existing['industry'] != industry]
             combined = pd.concat([existing, organized], ignore_index=True)
         else:
             combined = organized
 
         combined = combined.sort_values(
-            ['source', 'brand', 'category', 'price_band', 'user_rating', 'user_reviews'],
+            ['industry', 'brand', 'category', 'price_band', 'user_rating', 'user_reviews'],
             ascending=[True, True, True, True, False, False]
         ).reset_index(drop=True)
 
         combined['rank'] = range(1, len(combined) + 1)
-        cols     = ['rank', 'source', 'product_name', 'brand', 'price',
+        cols     = ['rank', 'industry', 'product_name', 'brand', 'price',
                     'user_rating', 'user_reviews', 'category', 'price_band', 'rating_tier']
         combined = combined[[c for c in cols if c in combined.columns]]
         combined.to_csv(DATASET_PATH, index=False)
